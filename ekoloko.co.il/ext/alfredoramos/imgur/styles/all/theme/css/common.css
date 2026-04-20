@@ -1,0 +1,33 @@
+/**
+ * Imgur extension for phpBB.
+ * @author Alfredo Ramos <alfredo.ramos@yandex.com>
+ * @copyright 2017 Alfredo Ramos
+ * @license GPL-2.0-only
+ */
+
+#imgur-image,
+#imgur-progress-wrapper {
+	display: none;
+}
+
+#imgur-progress-wrapper {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#imgur-progress-wrapper.uploading {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#imgur-progress,
+#imgur-progress-label {
+	width: 100%;
+}
+
+#imgur-progress-label {
+	text-align: center;
+	position: absolute;
+}

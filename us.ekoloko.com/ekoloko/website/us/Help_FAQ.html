@@ -1,0 +1,775 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+function passHrefParam(link, anchor) {
+	if(( anchor == undefined || anchor == "undefined" || anchor == null || anchor == "null") ) {
+		anchor = "";
+	}
+	location.href = addUrlParam("hideNavigation", link)+ anchor;
+}
+
+var menuSwf = "subPage_menu?page=4&language=us"//+getParameter('language');
+menuSwf = addUrlParam("hideNavigation", menuSwf); 
+var sideMenuSwf = "sideMenu_help?page=2&language=us"//+getParameter('language');
+sideMenuSwf = addUrlParam("hideNavigation", sideMenuSwf); 
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function openQuestions(id) {
+	var div = document.getElementById(id)
+	if(div.style.display == "block") {
+		div.style.display = "none"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_open.png";
+	} else {
+		div.style.display = "block"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_close.png";
+	}
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="820" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '410',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:17px">
+				<p><span class="Title">Basic FAQs</span>
+                  <br>
+                  <br>
+                  <p><span class="FAQTitle"><a onClick="openQuestions('qa')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqa"> Quests, Games and Activities</a></span>
+                  <div id="qa" style="display:none;">
+                  <ul>
+                   <li><a href="#a1" class="faqQuestions">Who are the residents of ekoloko, and what do they do?</a></li>
+			       <li><a href="#a2" class="faqQuestions">How do I advance in ekoloko?</a></li>
+			       <li><a href="#a3" class="faqQuestions">How do I solve quests?</a></li>
+			       <li><a href="#a4" class="faqQuestions">I have no quests available, what should I do?</a></li>
+                   <li><a href="#a5" class="faqQuestions">Where can I find games?</a></li>
+	               <li><a href="#a6" class="faqQuestions">What are 1-on-1 games?</a></li>
+                   <li><a href="#a7" class="faqQuestions">What are street games and how do I play them?</a></li>
+                   <li><a href="#a8" class="faqQuestions">What is the meaning of the different icons in my personal menu <img src="../common/images/handIcon.png" alt="" width="26" height="25" border="0" align="absmiddle">?</a></li>
+                   <li><a href="#a9" class="faqQuestions">What are Leadership Points and how do I get them?</a></li>
+                   <li><a href="#a10" class="faqQuestions">What is the meaning of the transparent Pioneer Badge <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> icon in my personal menu? </a></li>
+                   <li><a href="#a11" class="faqQuestions">How is my generation level calculated?</a></li>
+                   <li><a href="#a12" class="faqQuestions">What is the meaning of all the different icons in the other Ekos’ menu <img src="../common/images/handIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> ?</a></li>
+                   <li><a href="#a13" class="faqQuestions">What is storage used for?</a></li>
+                   <li><a href="#a14" class="faqQuestions">What is a Community Event, and how can I participate?</a></li>
+                  </ul>
+                  </div></p>
+                   <p><span class="FAQTitle"><a onClick="openQuestions('qb')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqb"> Items, Clothes & Stores</a></span>
+                  <div id="qb" style="display:none;">
+                  <ul>
+                   <li><a href="#b1" class="faqQuestions">How do I buy things in stores?</a></li>
+			       <li><a href="#b2" class="faqQuestions">Some of the items have words, symbols or numbers near them. What do they mean?</a></li>
+			       <li><a href="#b3" class="faqQuestions">Why can’t I wear an item that I have in my inventory?</a></li>
+			       <li><a href="#b4" class="faqQuestions">I've noticed kids giving gifts on ekoloko. How do I do that?</a></li>
+                   <li><a href="#b5" class="faqQuestions">What is the Trade Zone?</a></li>
+	               <li><a href="#b6" class="faqQuestions">I have an item which I can't trade or give away. Why is that?</a></li>
+                   <li><a href="#b7" class="faqQuestions">What is the meaning of the little clock <img src="../common/images/clockIcon.png" border="0" align="absmiddle"> stamp on some of the items in ekoloko?</a></li>
+                   <li><a href="#b8" class="faqQuestions">What are ‘RareItes’ and how can I get them?</a></li>
+                   <li><a href="#b9" class="faqQuestions">What are Potions and how can I buy and use them?</a></li>
+                   <li><a href="#b10" class="faqQuestions">I see Ekos walking around with space helmets. How can I get one? </a></li>
+                  </ul>
+                  </div></p>
+                  
+                   <p><span class="FAQTitle"><a onClick="openQuestions('qc')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqc"> ekoloko Rangers</a></span>
+                  <div id="qc" style="display:none;">
+                  <ul>
+                   <li><a href="#c1" class="faqQuestions">Who are the ekoloko Rangers?</a></li>
+			       <li><a href="#c2" class="faqQuestions">How can I become a Green Ranger?</a></li>
+			       <li><a href="#c3" class="faqQuestions">How can I become an Advanced Ranger?</a></li>
+			       <li><a href="#c4" class="faqQuestions">How can I become a Senior Ranger?</a></li>
+                   <li><a href="#c5" class="faqQuestions">Do I need to be a Pioneer to be a Ranger?</a></li>
+                  </ul>
+                  </div></p>
+                  
+          		 <br>
+<p align="center"><img src="../common/images/parents_about_1.jpg" width="520" height="150" class="images"><br>
+          		 </p>
+                 
+                 <br><span class="Title">Quests, Games and Activities</span><br>
+					 
+				  <p><span class="FAQTitle"><a name="a1"></a>Who are the residents of ekoloko and what do they do?</span><br>
+                    <span class="BodyText">The ekoloko residents are part of the first delegation to arrive on ekoloko, along with some new additions, who were the original settlers. Unlike Ekos, who will come online and go offline, the residents are always there – they live on ekoloko.<br>
+<br>
+The residents can give you tips about how to use ekoloko, information about themselves, and most importantly, they provide you with your quests, and reward you with prizes when you succeed.<br>
+<br>
+By clicking a resident, and choosing this icon <img src="../common/images/npcInfoIcon.png" width="29" height="31" align="absmiddle"> you can read a little about the background and history of this character, about their life, their friends and their hobbies.<br>
+Learning more about the residents of ekoloko will help you understand more about the ekoloko community.<br>
+<br>
+The  icon <img src="../common/images/npcQuestIcon.png" width="29" height="30" align="absmiddle"> will show you all the quests this character has for you.<br>
+<br>
+Click this icon <img src="../common/images/npcGamesIcon.png" width="29" height="30" align="absmiddle"> to see what games this resident has for you. These are special games you sometimes need to play to complete quests, or sometimes for fun. Once you’ve earned a game, it will be yours to play whenever you want, but in order to reach the game, you’ll need to return to the resident who gave it to you. For more info, <a href="#a5">click here</a>.<br>
+<br>
+If you see a question mark above the head of a resident in ekoloko, this means there’s a quest or mission waiting for you. Click the resident to get your mission. Once you’ve performed the task you were given, the resident who is supposed to give you your reward will have an exclamation mark above their head. Don’t forget to click the resident and accept your reward by clicking the checkmarks. Please note, in certain (mysterious) cases, even though you successfully completed the quest, the exclamation mark may purposely not appear above the head of the resident you need to click. However, if you click the right resident anyway, you will be rewarded. <a href="#a3">Click here</a> to get more details.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+					<p><span class="FAQTitle"><a name="a2"></a>How do I advance in ekoloko?</span><br>
+                    <span class="BodyText">The best way to advance in ekoloko is to complete quests and play games. For each quest you complete and game you play, you are awarded Activity Points. Any resident in the world that has a question mark over its head has a new quest for you. Click on the characters, get the quests, complete them and then remember to come back for your rewards. In addition, check your personal menu to see how many Activity Points you need in order to level up, and earn them by playing the different games in the world. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a3"></a>How do I solve quests?</span><br>
+                    <span class="BodyText">Around ekoloko you will see residents with question marks above their heads. These residents are the ones who will give you your missions each time. Simply click a resident with a question mark and follow the instructions they give you to complete the quest. Sometimes you will need to collect items to bring to another resident, and sometimes you will need to achieve a certain score in a particular game. Some quests are intended just for fun, when you have some free time, but most of the quests are priority missions that will help protect ekoloko from Smog and his helpers. When you have successfully completed a quest, you will be awarded prizes and earn points – just look for the resident with the exclamation mark who is waiting to give you your rewards.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                     <p><span class="FAQTitle"><a name="a4"></a>I have no quests available, what should I do?</span><br>
+                    <span class="BodyText">Quests are given to you by the residents of ekoloko. To see what quests you need to do, first check your quest button <img src="../common/images/missionIcon.png" width="27" height="25" align="absmiddle">. The quests that are available to you are in the left side. There are two kinds of quests:  Top Priority Missions and Fun & Games in Your Spare Time. Click each one of them to see which resident can assign them to you. In the middle section you’ll  find the individual tasks that make up each quest, and you’ll see the ones that you have not yet completed. What should you do if both areas are empty? Play games and earn enough Activity Points to enable you to advance to the next level! Each time you advance, new quests will be offered to you.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a5"></a>Where can I find games?</span><br>
+                    <span class="BodyText">Games in ekoloko are divided into three groups: 1-on-1 games that you can play with other Ekos, street games that can be played on the world screens (Koko Hoops, Basketball, and Darts), and personal games that are given to you by the ekoloko residents and which can be reached by completing quests. Some games are open to you as early as Level 1 (with Heathcliff, for example) and some will be made available to you as you level up. Any game that you’ve already earned the right to play will remain available to you to play at any time by finding the ekoloko resident who gave you the game. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a6"></a>What are 1-on-1 games?</span><br>
+                    <span class="BodyText">1-on-1 games are games you can play with and against your friends. 1-on-1 games can be earned by completing quests. Each game you earn will be added to your personal menu. If you earn a 1-on-1 game, click a friend you want to play with and then click the games icon in the menu that opens <img src="../common/images/1on1Icon.png" align="absmiddle">. An invitation to play will appear in the left-hand corner of the screen. Wait to see if your friend accepts the invitation. If you still haven’t earned a game, you’ll need to wait for an invitation from someone else.                    
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a7"></a>What are street games and how do I play them?</span><br>
+                    <span class="BodyText">There are three different kinds of street games you can play on ekoloko:<br>
+<br>
+Basketball, Koko Hoops and Darts.<br>
+<br>
+These games appear in various screens throughout ekoloko. To start playing one of these games, click the game in the screen (for example, click the basketball hoop in Didier’s Playground, or the dart board in Jenny’s Bar). You can play Koko Hoops anywhere you see a recycling bin. Koko Hoops is a fun way to recycle some of the items you’ve collected while walking around ekoloko, and earn Activity Points at the same time.<br>
+<br>
+<strong>How to play Basketball</strong> – click the basket, quickly move your Eko to the beam of light that appears, then click the basket again, and try to click with your mouse while the the ball is within the marked square above the basket.<br>
+<br>
+<strong>How to play Koko Hoops</strong> – click the recycle bin and choose the game option <img src="../common/images/kokoHoopsIcon.png" align="absmiddle">. Then choose the item you want to recycle, and how many. Then click the green arrow to begin playing. Quickly move your Eko to the beam of light that appears, click the recycle bin again, and then click once more when the coconut appears within the green area.<br>
+<br>
+<strong>How to play Darts</strong> – click the dartboard, quickly move your Eko to the beam of light that appears, then click the dartboard again. Use your mouse to aim the circle at the center of the board, and then click again to throw the dart.
+           </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a8"></a>What is the meaning of the different icons in my personal menu <img src="../common/images/handIcon.png" align="absmiddle">?</span><br>
+                    <span class="BodyText">All your personal stats are displayed in your personal menu. Read here for more details about the main options in your menu: Your level <img src="../common/images/levelIcon.png" width="26" height="25" align="absmiddle">, your ekoloko Generation <img src="../common/images/generationIcon.png" width="26" height="25" align="absmiddle">, your Leadership Points <img src="../common/images/leaderIcon.png" width="26" height="25" align="absmiddle"> and your PioPoints <img src="../common/images/pioneerPointsIcon.png" width="25" height="26" align="absmiddle">. <br>
+<br>
+Level <img src="../common/images/levelIcon.png" width="26" height="25" align="absmiddle">: Indicates your current level. If you want to advance and move up in levels you’ll need to complete quests and accumulate activity points. The higher the level you reach, the more activities, items and accessories you will have available to you. <br>
+<br>
+Leadership Points <img src="../common/images/leaderIcon.png" width="26" height="25" align="absmiddle">: Indicates the number of Leadership Points you’ve accumulated. Leadership Points can be awarded to you by your fellow Ekos for actions of friendship and leadership. <br>
+<br>
+ekoloko Generation <img src="../common/images/generationIcon.png" width="26" height="25" align="absmiddle">: Indicates how senior you are in ekoloko. For each day you log in to ekoloko, you get 1 seniority point. The higher your Generation, the more fun stuff that’s available to you in ekoloko. <br>
+<br>
+PioPoints <img src="../common/images/pioneerPointsIcon.png" width="25" height="26" align="absmiddle">: Ekos who join the Pioneers receive PioPoints, which allow them to do certain things in ekoloko. PioPoints accumulate automatically as long as your Pioneer membership is active. When your membership expires, you will have a few grace days to renew it before your PioPoints disappear.           </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a9"></a>What are Leadership Points and how do I get them?</span><br>
+                    <span class="BodyText"><strong>Leadership Points</strong> are points that are awarded to you in ekoloko by your friends and other Ekos because they feel you have been helpful or contributed to the community. Every Eko over Level 2 has the ability to award and receive <strong>Leadership Points</strong>. Ekos may award one <strong>Leadership Point</strong> only every 48 hours. Pioneers are able to do so once every 24 hours. Ekos with lots of <strong>Leadership Points</strong> can use cool clothes and objects. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a10"></a>What’s the meaning of the transparent Pioneer Badge <img src="../common/images/pioneerPointsIcon.png" width="25" height="26" align="absmiddle"> icon in my personal menu?</span><br>
+                    <span class="BodyText">The transparent Pioneer Badge <img src="../common/images/pioneerPointsIcon.png" width="25" height="26" align="absmiddle"> in your personal menu indicates the number of PioPoints (Pioneer Points) you have accumulated so far. The more PioPoints you have, the more items and  clothes you can get and use. PioPoints are accumulated automatically as long as your membership is active. When your membership expires, you will have a few days grace before your PioPoints disappear. Don’t worry. We will be sure to remind you the time has come to renew the membership. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a11"></a>How is my generation level calculated?</span><br>
+                  <span class="BodyText">The scroll icon <img src="../common/images/generationIcon.png" width="26" height="25" align="absmiddle"> in your personal menu shows you what generation you are in ekoloko. Your generation level indicates how senior you are in ekoloko. Higher generation levels will open up new options for you. You’ll be able to wear cooler clothes, get better accessories, and even go through secret passages. You get 1 seniority point for each day you log in to ekoloko. Every day you log in is counted, and every few days you’ll advance to the next generation and receive a new title: <br>
+					<table width="400" border="1" cellpadding="2" cellspacing="0">
+                      <tr>
+                        <td width="50" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>ekoloko Generation</strong></td>
+                        <td align="center" bgcolor="#DBDCCD" class="BodyText"><strong>Title</strong></td>
+                        <td width="150" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>How many days till next generation?</strong></td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>1</strong></td>
+                        <td align="center" class="BodyText">Jungle Newbie</td>
+                        <td width="150" align="center" class="BodyText">1</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>2</strong></td>
+                        <td align="center" class="BodyText">Eko Newbie</td>
+                        <td width="150" align="center" class="BodyText">5</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>3</strong></td>
+                        <td align="center" class="BodyText">Luna Newbie</td>
+                        <td width="150" align="center" class="BodyText">9</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>4</strong></td>
+                        <td align="center" class="BodyText">Time Newbie</td>
+                        <td width="150" align="center" class="BodyText">10</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>5</strong></td>
+                        <td align="center" class="BodyText">Jungle Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>6</strong></td>
+                        <td align="center" class="BodyText">Eko Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>7</strong></td>
+                        <td align="center" class="BodyText">Luna Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>8</strong></td>
+                        <td align="center" class="BodyText">Time Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>9</strong></td>
+                        <td align="center" class="BodyText">Jungle Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>10</strong></td>
+                        <td align="center" class="BodyText">Eko Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>11</strong></td>
+                        <td align="center" class="BodyText">Luna Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>12</strong></td>
+                        <td align="center" class="BodyText">Time Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>13</strong></td>
+                        <td align="center" class="BodyText">Jungle Jumper</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>14</strong></td>
+                        <td align="center" class="BodyText">Eko Jumper</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>15</strong></td>
+                        <td align="center" class="BodyText">Luna Jumper</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>16</strong></td>
+                        <td align="center" class="BodyText">Time Jumper</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>17</strong></td>
+                        <td align="center" class="BodyText">Jungle Ace</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>18</strong></td>
+                        <td align="center" class="BodyText">Eko Ace</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>19</strong></td>
+                        <td align="center" class="BodyText">Luna Ace</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>20</strong></td>
+                        <td align="center" class="BodyText">Time Ace</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>21</strong></td>
+                        <td align="center" class="BodyText">Jungle Master</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>22</strong></td>
+                        <td align="center" class="BodyText">Eko Master</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>23</strong></td>
+                        <td align="center" class="BodyText">Luna Master</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>24</strong></td>
+                        <td align="center" class="BodyText">Time Master</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                    </table>
+                  </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a12"></a>What is the meaning of all the different icons in the other Eko’s menu?</span><br>
+                  <span class="BodyText">When you click on another Eko, a small menu opens that will give you some information about this user, and offer you a number of actions you can perform:<br>
+                    <br>
+                    In the top row, you can learn about the achievements of this Eko:<br><br>
+                    <table width="100%" border="0" cellspacing="5" class="BodyText">
+                      <tr>
+                        <td><img src="../common/images/levelIcon2.png" width="59" height="58"></td>
+                        <td>Will   show you what level this user has achieved. For additional info, <a href="#a2">click here</a>.</td>
+                      </tr>
+                      <tr>
+                        <td><img src="../common/images/animalLevelIcon.png" width="59" height="58"></td>
+                        <td>Shows   you what level of cubs this user has cared for. For more details, <a href="#" onClick="passHrefParam('Help_FAQ2.html', '#a1')" target="_self">click here</a>.</td>
+                      </tr>
+                      <tr>
+                        <td><img src="../common/images/generationIcon2.png" width="58" height="58"></td>
+                        <td>Shows you what Generation this user has reached. <a href="#a11">Click here</a> to read more.</td>
+                      </tr>
+                    </table><br>
+					In the center row, you’ll find some of the different actions you can take on this user:<br><br>
+                    
+					<table width="100%" border="0" cellspacing="5" class="BodyText">
+                      <tr>
+                        <td align="center"><img src="../common/images/muteIcon.png" width="44" height="43"></td>
+                        <td>This icon is available only to Advanced Rangers and Senior Rangers, and allows them to turn off the chat of an Eko who is abusing their chat privileges. This user will not be able to chat for half an hour.</td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/addLeadershipIcon.png" width="78" height="53"></td>
+                        <td>Using this icon, you can award a Leadership Point to a user you think has been particularly friendly or helpful to the community. You can see how many points the user already has, and then using the arrows, add a point. You are only able to award Leadership Points from Level 2 and up, and only once every 48 hours (Pioneers can award points every 24 hours).</td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/whistleIcon2.png" width="44" height="44"></td>
+                        <td>Using the whistle icon, you can report users you’ve seen breaking the Rules of Conduct. <a href="#" onClick="passHrefParam('Help_Started.html', '#c1')" target="_self">Click here</a> to read more.</td>
+                      </tr>
+                    </table><br>
+					
+                    In the bottom row, you’ll find icons representing other things you can do with this Eko:<br><br>
+					
+					<table width="100%" border="0" cellspacing="5" class="BodyText">
+                      <tr>
+                        <td><img src="../common/images/playerHouseIcon.png" width="45" height="52"></td>
+                        <td>Using this icon you can transport yourself to the Eko’s moon house, provided it isn’t locked. <a href="#" onClick="passHrefParam('Help_FAQ2.html', '#b1')" target="_self">Click here</a> to read more.</td>
+                      </tr>
+                      <tr>
+                        <td><img src="../common/images/tradeIcon3.png" width="44" height="44"></td>
+                        <td>Click here to go to the trading zone and start a trade with this user. For more details, <a href="#b5">click here</a>.</td>
+                      </tr>
+                      <tr>
+                        <td><img src="../common/images/1on1Icon2.png" width="44" height="43"></td>
+                        <td>Use this icon to invite this Eko to a 1-on-1 game. <a href="#a6">Click here</a> to read more.</td>
+                      </tr>
+                      <tr>
+                        <td><img src="../common/images/pokeIcon.png" width="44" height="43"></td>
+                        <td>Using this icon you can send private messages to this Eko from a menu of pre-written texts. It is not possible to write your own messages. For more information, <a href="#" onClick="passHrefParam('Help_Started.html', '#a4')" target="_self">click here</a>.</td>
+                      </tr>
+                    </table>
+                  </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a13"></a>What is storage used for?</span><br>
+                    <span class="BodyText">Your storage space is accessible from a tab on the right side of your inventory, on your personal menu  <img src="../common/images/storageIcon.png" width="27" height="45" align="absmiddle">.You can use this area to store items you don’t use often, so that you can make room for new items you may receive, earn or purchase. To move an item to your storage, click the tab to open the storage space, and then click the item you want to move there. The item will automatically move to storage. To retrieve the item later on and return it to your inventory, simply open your storage space and click the item again.<br>
+<br>
+Stored items cannot be worn, traded, sold or gifted.<br>
+<br>
+<strong>Please note: this feature is restricted to Pioneers only.</strong> If your Pioneer membership should end while you have items in storage, you’ll be able to remove the items from storage at any time, but you won’t be able to put anything in storage.<br>
+<br>
+You can get additional storage space as needed in the ekoloko Mall.                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a14"></a>What is a Community Event, and how can I participate?</span><br>
+                    <span class="BodyText">A community event is a quest in which the entire ekolokian community participates towards a common goal. To complete this quest it is essential that every Eko in the community helps out. Community events take place regularly in ekoloko, and each one lasts about two weeks. At the end of each successful community event, unique prizes are awarded to the Ekos who participated. When a community event is in progress, a button with a diamond icon <img src="../common/images/communityEventIcon.png" width="44" height="44" align="absmiddle"> will appear on the top right-hand side of the screen. Click it and you will immediately be able to take part in the event. Community events are open to all Ekos, at every level, Pioneers and non-Pioneers.                   </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <br>
+                  <span class="Title">Items, Clothes & Stores</span><br>
+                  
+                  <p><span class="FAQTitle"><a name="b1"></a>How do I buy things in stores?</span><br>
+                    <span class="BodyText">You can find lots of stores throughout ekoloko: In the Jungle, in the Eko Eko Desert, on Ekoluna and in the future in other places. In order to buy and sell items in stores, you first need to earn Kokos (ekoloko money) by completing quests and playing games; then find a store or screen that features a glowing item or a sign with money on it and click it. (For example, a pile of clothes, a hairdresser's chair, a counter, or even a street sign). Once you've clicked the glowing item, an easy-to-use Buy/Sell menu will open. 
+                   </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b2"></a>Some of the items have words, symbols or numbers near them. What do they mean?</span><br>
+                    <span class="BodyText">Some of the clothes and accessories on ekoloko are restricted to certain <strong>Levels</strong> <img src="../common/images/levelIcon.png" align="absmiddle">, or <strong>Generations</strong> <img src="../common/images/generationIcon.png" width="26" height="25" align="absmiddle">, may be restricted to Pioneers only and/or require a minimum number of <strong>Leadership</strong> <img src="../common/images/leaderIcon.png" width="26" height="25" align="absmiddle"> or <strong>PioPoints</strong> <img src="../common/images/pioneerPointsIcon.png" width="25" height="26" align="absmiddle">.  Some items are also meant either for boys or girls. When shopping at one of the stores, pay attention to the icons to see which items you can get.     
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b3"></a>Why can’t I wear an item that I have in my inventory?</span><br>
+                    <span class="BodyText">If you received an item of clothing and can’t wear it, it means you haven’t yet reached the minimum requirements needed to use this item. It will remain disabled in your inventory until you’ve achieved the necessary requirements. Keep playing – you’ll get there.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b4"></a>I've noticed kids giving gifts on ekoloko. How do I do that?</span><br>
+                    <span class="BodyText">To give gifts on ekoloko open your personal items menu, pick an item of any kind (clothing, accessory, or recyclable) and click on it <strong>while holding</strong> the CTRL key down on your keyboard. This will open an easy-to-use gift menu for you. Select the items you want to give as gifts, confirm your choice and then your gift will be dropped into the world. If you want to be sure a particular Eko gets your gift, make sure to drop the gift in a screen that isn’t crowded.                
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b5"></a>What is the Trade Zone?</span><br>
+                    <span class="BodyText">Generosity and cooperation are important values on ekoloko. The best way to give or trade an item with a friend is through the Trade Zone. You may invite a friend to the Trade Zone by clicking their character, and then clicking the <img src="../common/images/tradeIcon3.png" width="30" align="absmiddle"> button. If your friend is interested in trading, he or she will accept the invitation and you will both enter the trading zone. Here you can click on the items you are willing to give and check out what your friend is willing to give in exchange. Remember! Approve the trade only if you are happy with what you are getting in exchange. The trade will be performed only if both parties click the Approve button <img src="../common/images/tradeIcon2.png" align="absmiddle">. Once you've clicked this button, you will not be able to add or take items out of the trading zone. After the first approval you will be asked to confirm the deal. Take a good look at the trading area. If you are happy with the trade, click the Approve button again. If you are not happy, cancel the deal and find another Eko to trade with.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b6"></a>I have an item which I can't trade or give away. Why is that?</span><br>
+                    <span class="BodyText">Some of the items in ekoloko, and especially the rarer ones, are personal and non-tradable. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b7"></a>What is the meaning of the little clock <img src="../common/images/clockIcon.png"> stamp on some of the items in ekoloko?</span><br>
+                    <span class="BodyText">Some items in ekoloko have a Time Stamp <img src="../common/images/clockIcon.png"> on them. This means you only get to keep them for a limited amount of time. The clock on the Time Stamp <img src="../common/images/clockIcon.png"> counts back, indicating how much time is left for you to use the item. When the time is up, the item will disappear from your inventory.  
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b8"></a>What are ‘RareItes’ and how can I get them?</span><br>
+                    <span class="BodyText">‘RareItes’ are rare items that were given out at special times in the past, like at community events or holiday quests, and which are no longer available. The only way to get these items is by trading them with other Ekos who have them. <br>
+<br>
+There are also some really cool ‘RareItes’ available for purchase in the ekoloko Mall.
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b9"></a>What are Potions and how can I buy and use them?</span><br>
+                    <span class="BodyText">On ekoloko you can find very special potions, all of which were whipped up by our own Massiamara. The potions enable you to perform all kinds of crazy cool actions (like turning into a frog, floating in the air, growing big, and so much more), on both your own Eko and on others.<br>
+<br>
+You can buy potions in the Potion Shop by Massiamara, or in the ekoloko Mall, under the “Potions” tab. Each potion you buy is good for a limited number of uses, which is indicated near the potion, so pay attention when you buy it.<br>
+<br>
+In order to use potions you have purchased, click the <img src="../common/images/emoticonsIcon.png" width="26" height="25" align="absmiddle"> icon on the bottom left-side of your chat bar, choose the Potions tab, and click the potion you want to use. <br>
+<br>
+Potions that look like this <img src="../common/images/potionIcon1.png" width="27" height="26" align="absmiddle"> can only be used on your own Eko. Potions that look like this <img src="../common/images/potionIcon2.png" align="absmiddle"> can be used on yourself or on other Ekos. Simply choose the potion and then click the Eko you want to transform.<br>
+<br>
+You can choose not to allow other users to put you under the spell of a potion, by unclicking the option that appears on the potions menu.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b10"></a>I see Ekos walking around with space helmets. How can I get one?</span><br>
+                    <span class="BodyText">Space helmets are not available for sale in any shop. You can win one by completing the Gas Pressure Quest (Pioneers only) or by completing series of quests offered at Level 15. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+                     <br><span class="Title">ekoloko Rangers</span><br>
+                   
+					  <p><span class="FAQTitle"><a name="c1"></a>Who are the ekoloko Rangers?</span><br>
+                    <span class="BodyText">ekoloko Rangers are users that meet the Ranger criteria and have taken a pledge to help new kids in ekoloko and make sure that the Rules of Conduct are observed. You can identify most of them by the halo above their heads (some Rangers remove the halo). To become a Ranger you must be a Pioneer and have reached Level 8 or higher, and you must demonstrate a willingness to help newcomers. All Pioneers can apply through the help icon <img src="../common/images/helpIcon.png" width="25" height="26" align="absmiddle"> on the top-right hand side of the screen. If you meet the criteria, you will be invited to a Rangers training meeting.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="c2"></a>How can I become a Green Ranger?</span><br>
+                    <span class="BodyText">Users reaching Level 6 will receive a quest message inviting them to become Green Rangers. If you want to become a Green Ranger you need to have or done the following:</span>
+				<ul class="BodyText">
+                	<li>Have a Pioneer membership</li>
+                    <li>Reached Level 8</li>
+                    <li>You weren’t  banned even once in the last 30 days you played on ekoloko</li>
+                    <li>Accumulated 10 PioPoints</li>
+                    <li>Be Generation 6</li>
+                </ul>
+               <span class="BodyText"> Then you need to submit a request on the site (look for the link in the Help menu); once you are accepted as a candidate, a special Green Ranger quest will open. You will need to successfully complete this quest to achieve your Green Ranger status and get your Green Ranger badge.
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="c3"></a>How can I become an Advanced Ranger?</span><br>
+                    <span class="BodyText">Users who want to be more involved in the community, help other users and have special features available only to them can apply to become Advanced Rangers.<br>
+<br>
+Requirements:<br></span>
+				<ul class="BodyText">
+                	<li>Need to be a Pioneer when you apply (however if your membership ends you can continue to be a Ranger)</li>
+                    <li>You weren’t banned even once in the last 60 days</li>
+                    <li>Reached Level 12</li>
+                    <li>Accumulated 100 PioPoints</li>
+                    <li>Generation 10</li>
+                    <li>At least 2 months have gone by since becoming a Green Ranger</li>
+                </ul>
+                 <span class="BodyText">What you need to do:<br></span>
+				<ul class="BodyText">
+                	<li>Send in a request (via Help link)</li>
+                    <li>You will receive an e-mail with instructions for sending a fax signed by your parents</li>
+                    <li>Once we receive your fax, we will check your chat records: the purpose is to distinguish between ‘GOOD’ users and ‘NOT BAD’ users. ‘GOOD’ users not only play safely and talk appropriately, they also HELP other users and are a positive influence in the community. ‘NOT BAD’ users talk appropriately but don’t help other users and aren’t as active.</li>
+                </ul>
+                <span class="BodyText"> The benefits of being an Advanced Ranger:<br>
+				<ul class="BodyText">
+                	<li>Halo – this will show everyone you are a Ranger</li>
+                    <li>You will always remain a Ranger even if your Pioneer membership expires or is cancelled</li>
+                    <li>You will be able to send messages reminding users to behave appropriately to the entire community</li>
+                    <li>You will have access to a special Forum just for Advanced Rangers where you can interact and communicate with the other Rangers and with the community Managers</li>
+                    <li>You will have access to a special Rangers game – a special room where Rangers can meet separately from the rest of the community with games that are only for them</li>
+                </ul>
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c4"></a>How can I become a Senior Ranger?</span><br>
+                    <span class="BodyText">Advanced Rangers who performed well may be selected to become Senior Rangers and get additional privileges. This selection is done by our community Managers, and every couple of months a special link from the Help Menu will offer this option. Suitable candidates who click this link will be able to submit their request and be considered for Senior Ranger status.<br>
+<br>
+Requirements:<br></span>
+				<ul class="BodyText">
+                	<li>Must have a valid Pioneer membership (if your membership expires or is cancelled after becoming a Senior Ranger, you will be moved back to Advanced Ranger status)</li>
+                    <li>You weren’t banned even once in the last 60 days</li>
+                    <li>Reached Level 16</li>
+                    <li>Generation 13</li>
+                    <li>Accumulated 100 PioPoints</li>
+                    <li>At least 2 months have gone by since becoming an Advanced Ranger</li>
+                </ul>
+                <span class="BodyText"> The benefits of being a Senior Ranger:<br>
+				<ul class="BodyText">
+                	<li>Senior Rangers have special chat bubbles with yellow backgrounds and red text, to distinguish their texts from the other users</li>
+                    <li>You will be able to send large messages to the entire community and organize games</li>
+                    <li>You will have access to a special Forum just for Senior Rangers where you can interact and communicate with the other Rangers and with the community Managers</li>
+                    <li>The ability to mute chatters who are behaving inappropriately for 30 minutes</li>
+                </ul>
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                      <p><span class="FAQTitle"><a name="c5"></a>Do I need to be a Pioneer to become a Ranger?</span><br>
+                    <span class="BodyText">Only Pioneers can request to become Rangers, but Advanced Rangers whose Pioneer membership has ended, will be allowed to continue being Rangers. Green Rangers will be able to complete the quest missions and become Green Rangers, but if they are not Pioneers when they get their badge, they will not be able to wear it. Senior Rangers will be moved back to Advanced Ranger status if their membership ends. If they renew their Pioneer membership, they will automatically be reinstated as a Senior Ranger.
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p><br>
+<br>
+
+                  
+                  </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="#" onClick="passHrefParam('Parents_About.html')" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="#" onClick="passHrefParam('Help_Contact.html')" class="footerLinks">Contact Us</a>  |   <a href="#" onClick="passHrefParam('Site_Map.html')" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 Virtual Tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

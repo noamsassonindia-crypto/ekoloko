@@ -1,0 +1,8 @@
+blockquote, .quotecontent {
+	max-height: 200px;
+	overflow: auto;
+}
+
+.content, blockquote:nth-child(2n), .quotecontent {
+	max-height: none !important;
+}

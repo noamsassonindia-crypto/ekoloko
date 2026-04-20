@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+function passHrefParam(link) {
+	location.href = addUrlParam("hideNavigation", link);
+}
+
+var menuSwf = "subPage_menu?page=1&language=us"//+getParameter('language');
+menuSwf = addUrlParam("hideNavigation", menuSwf); 
+var sideMenuSwf = "sideMenu_parents?page=4&language=us"//+getParameter('language');
+sideMenuSwf = addUrlParam("hideNavigation", sideMenuSwf); 
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'direct',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '310',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                          <a href="http://www.kidsafeseal.com/certifiedproducts/ekoloko_english.html" target="_blank"><img src="http://www.kidsafeseal.com/sealimage/1765053835760055718/ekoloko_medium_whitetm.png" border="0" style="position:relative; left:35px"></a>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:2px;">
+                 <p align="right" style="position:relative; float:right; right:20px;"><img src="../common/images/parent_faq_1.png" width="216" height="252"></p>
+                <p><span class="Title">Frequently Asked Questions</span>
+                  <br>
+                  </p>
+             	 <ul>
+				   <li><a href="#q1" class="faqQuestions">What is a virtual world?</a></li>
+			       <li><a href="#q2" class="faqQuestions">What is so different about ekoloko?</a></li>
+			       <li><a href="#q3" class="faqQuestions">How do kids communicate with each other?</a></li>
+			       <li><a href="#q4" class="faqQuestions">What exactly do kids do there?</a></li>
+                   <li><a href="#q5" class="faqQuestions">Is it dangerous?</a></li>
+                   <li><a href="#q6" class="faqQuestions">Does ekoloko cost money?</a></li>
+                   <li><a href="#q8" class="faqQuestions">Who are the ekoloko Rangers?</a></li>
+                   <li><a href="#q9" class="faqQuestions">What happens if my child finishes all the quests?</a></li>
+                  </ul>
+                   <br><p align="center"><img src="../common/images/parents_about_1.jpg" width="520" height="150" class="images"><br>
+          		 </p>
+             	 <br>
+                  <p><span class="FAQTitle"><a name="q1"></a>What is a virtual world?</span><br>
+                    <span class="BodyText">A virtual world is an online community providing an interactive simulated environment.  Users create visual representations for themselves (an Avatar) and meet other users who enter the site at the same time. <br>
+<br>
+In ekoloko’s virtual world, kids choose how active or passive they want to be: they can interact with other users and play games and solve quests and design their moon house and work their farm – or just do part of these things. Every kid can find his or her place on ekoloko.
+
+ </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					
+                  <p><span class="FAQTitle"><a name="q2"></a>What is so different about ekoloko?</span><br>
+                    <span class="BodyText">The main thing that makes ekoloko different is its content. Every word, game or quest on ekoloko goes through an ecological, educational, social or community filter and was developed with kids in mind. ekoloko may be a virtual world but it deals with issues that are taken from real life. <br>
+<br>
+We also put the well-being of our users first. Because we are also parents, we know the importance of taking a break from the computer and having a well-rounded life – at ekoloko we send out reminders every so often encouraging users to take a break and do something else, and users are restricted to the number of hours they can play each day on the site.
+
+</span>
+                     <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+                    <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					
+                    <p><span class="FAQTitle"><a name="q3"></a>How do kids communicate with each other?</span><br>
+                    <span class="BodyText">ekoloko utilizes advanced white list chat technology to enable users to communicate safely and ensure that no personal information can be shared by only allowing them to choose from a dictionary of approved words. The chat mechanism blocks any rude or inappropriate language, and users attempting to use such language will temporarily lose their chatting rights. The chat is limited to public areas and kids cannot go into private chat rooms. If they want to say something to a friend that only the friend can see, they will be able to select a message from a pre-defined list of options. <br>
+<br>
+In addition, ekoloko employs highly trained and experienced staff (moderators) who move around the ekoloko community interacting with kids and reminding them of the rules of conduct and Internet safety.
+
+ </span>
+                     <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					
+                  <p><span class="FAQTitle"><a name="q4"></a>What exactly do kids do there?</span><br>
+                    <span class="BodyText">The first time your child enters ekoloko, they will create their Eko, the character (avatar) that will represent them in ekoloko. There is a wide variety of looks, fashions and accessories so that each Eko can be as different and unique as imagination allows.<br>
+Then, ekoloko offers a wide range of activities that your kids can choose from on any given day. These activities enable users to:
+<ol class="BodyText">
+	<li>Advance in levels –While moving around ekoloko, kids are presented with many different activities and challenging quests. Completing these quests will not only provide them with a sense of accomplishment and an understanding of the world of ekoloko, but will also reward them with activity points that allow them to level up, and with ‘Kokos’, the local currency on ekoloko. Using Kokos, kids can purchase additional items for their Eko.</li>
+    <li>Interact – ekoloko is a social experience and many kids are there so that they can interact with their friends and other Ekos in a supportive non-threatening environment. Some kids simply have fun hanging out and playing one-on-one games with other users, or enjoy sharing the adventures they discover while being on ekoloko.</li>
+    <li>Advance socially – While ekoloko has a place for every kind of user, like those who only want to design their moon homes and tend their gardens or those who only want to solve quests, we encourage users to become truly involved and active in the community. We offer users the ability to become ekoloko Rangers, users who have proven their reliability, responsibility and dedication to the principles of ekoloko. Rangers are users who have special abilities to help and guide other users, both in getting around ekoloko and solving quests as well as with reminding them of the rules of safety and good conduct while in our world. Becoming a Ranger motivates kids to be more responsible users, makes their experience on ekoloko more engaging and meaningful, and encourages them to become more involved in the real world.</li>
+</ol>
+
+ </span>
+                     <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+                    <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					
+                    <p><span class="FAQTitle"><a name="q5"></a>Is it dangerous?</span><br>
+                    <span class="BodyText">Our number one priority is your child’s privacy and safety. We work hard to make ekoloko  a pleasant, supportive and unintimidating environment. We implement a system that combines technology, live moderation and ongoing education to make sure our strict safety standards are met. 
+</span>
+                     <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+                    <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					
+                    <p><span class="FAQTitle"><a name="q6"></a>Does ekoloko cost money?</span><br>
+                    <span class="BodyText">Registration and entry to ekoloko is and will remain free of charge. However, your child will be offered to join the elite group of Pioneers who take upon themselves to discover the new frontiers of ekoloko and as such have access to certain areas not available to all users. Becoming a Pioneer requires the payment of membership fees.
+					</span><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+					
+					<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+								  
+                    <p><span class="FAQTitle"><a name="q8"></a>Who are the ekoloko Rangers?</span><br>
+                    <span class="BodyText">The ekoloko Rangers are kids who wished to become even more active in the ekolokian community and had proven themselves as devoted and helpful users. Kids that qualify to become Rangers receive in-world training and take on responsibilities like helping new users and making sure that the rules of conduct are observed. They can be identified by the angel's halo over their heads.  
+                     </span><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                    
+                     <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br><br></p>
+					  
+                    <p><span class="FAQTitle"><a name="q9"></a>What happens when my child finishes all the quests?</span><br>
+                    <span class="BodyText">New quests, games and activities are added to ekoloko on a regular basis. In addition, each day offers users new and different experiences and interactions – and kids can always find new adventures to engage in, whether it is meeting new friends, trading items or playing games, or accessing new features available to them once they reach a certain level.
+                     </span><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+
+                </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="#" onClick="passHrefParam('Parents_About.html')" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="#" onClick="passHrefParam('Help_Contact.html')" class="footerLinks">Contact Us</a>  |   <a href="#" onClick="passHrefParam('Site_Map.html')" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 Virtual Tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

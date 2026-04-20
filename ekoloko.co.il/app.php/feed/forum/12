@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="he">
+	<link rel="self" type="application/atom+xml" href="https://ekoloko.co.il/app.php/feed/forum/12" />
+
+	<title>אקולוקו - Ekoloko</title>
+	<subtitle>פורום אקולוקו הרישמי</subtitle>
+	<link href="https://ekoloko.co.il/index.php" />
+	<updated>2019-05-06T20:31:49+03:00</updated>
+
+	<author><name><![CDATA[אקולוקו - Ekoloko]]></name></author>
+	<id>https://ekoloko.co.il/app.php/feed/forum/12</id>
+
+		<entry>
+		<author><name><![CDATA[ItayToy]]></name></author>
+		<updated>2019-05-06T20:31:49+03:00</updated>
+
+		<published>2019-05-06T20:31:49+03:00</published>
+		<id>https://ekoloko.co.il/viewtopic.php?t=51&amp;p=621#p621</id>
+		<link href="https://ekoloko.co.il/viewtopic.php?t=51&amp;p=621#p621"/>
+		<title type="html"><![CDATA[פורום הצעות ורעיונות • Re: הצעה | צבע משתמשים אחר למשתמשים רשומים]]></title>
+
+					<category term="פורום הצעות ורעיונות" scheme="https://ekoloko.co.il/viewforum.php?f=12" label="פורום הצעות ורעיונות"/>
+		
+		<content type="html" xml:base="https://ekoloko.co.il/viewtopic.php?t=51&amp;p=621#p621"><![CDATA[
+<strong class="text-strong"><span style="color:#800000">תעשו אותנו בורדואיםם <img alt="😂" class="emoji smilies" draggable="false" src="//cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f602.png"></span></strong><p>סטטיסטיקות: נשלח על ידי <a href="https://ekoloko.co.il/memberlist.php?mode=viewprofile&amp;u=148">ItayToy</a> — 06 מאי 2019, 20:31</p><hr />
+]]></content>
+	</entry>
+	</feed>

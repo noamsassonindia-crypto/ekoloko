@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="he">
+	<link rel="self" type="application/atom+xml" href="https://ekoloko.co.il/app.php/feed/forum/14" />
+
+	<title>אקולוקו - Ekoloko</title>
+	<subtitle>פורום אקולוקו הרישמי</subtitle>
+	<link href="https://ekoloko.co.il/index.php" />
+	<updated>2019-07-06T20:54:25+03:00</updated>
+
+	<author><name><![CDATA[אקולוקו - Ekoloko]]></name></author>
+	<id>https://ekoloko.co.il/app.php/feed/forum/14</id>
+
+	</feed>

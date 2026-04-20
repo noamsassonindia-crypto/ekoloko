@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="MochaHost is a Full Service Online Firm providing Affordable Web Hosting, Web Design, E-commerce and Promotion Services - designed to answer your business and e-commerce requirements. Why deal with the hassle when we can help you with everything you need to build your successful online business? MochaHost - The Online Central">
+<meta name="keywords" content="web hosting, hosting, web site hosting, web page hosting, domain hosting, cheap web hosting, affordable web hosting, business web hosting, ecommerce web hosting, ecommerce, templates, ftp, email, email hosting, free domain name, web hosting services, web design, domain name registration, internet marketing, build a web site, web site hosting, unix hosting, linux hosting, frontpage extensions, php, mysql, database, web hosting provider, inexpensive web hosting, frontpage web hosting, frontpage extensions, ssl, cpanel">
+<title>MochaHost.com :: Web Hosting</title>
+<link href="http://www.mochahost.com/css_pp.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<table width="831" border="0" cellspacing="0" cellpadding="0" align="center" class="ContentTxt">
+  <tr>
+    <td>
+        <object width="831" vspace="0" hspace="0" height="119" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+        <param value="opaque" name="wmode"/>
+        <param value="http://www.mochahost.com/images/flash_host_webhosting.swf" name="movie"/>
+        <param value="high" name="quality"/>
+        <embed width="831" vspace="0" hspace="0" height="119" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" wmode="transparent" src="http://www.mochahost.com/images/flash_host_webhosting.swf"/>
+        </object>
+        </td>
+  </tr>
+  <tr>
+   <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><img src="http://www.mochahost.com/logo_full.gif"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+        <p><strong class="Subheaders">Welcome</strong> to <a href="http://www.mochahost.com" target="_blank">MochaHost web hosting</a> and your website's place holding page. Please refer to your Welcome email to start building your site. This place holder welcome page is named index.html and is located in your public_html folder accessible either from your control panel's File Manager or via FTP.</p>
+        <p class="Subheaders">Need help?</p>
+        <p>If you can't find the answer of your question inside our <a href="http://www.mochasupport.com/kayako/index.php?_m=knowledgebase&_a=view">knowledge base system</a> <u>(90% of our clients find the answers to their question in the first 5 minutes by searching this knowledge base area)</u> </p>
+        <p class="TahomaContOranje00">For additional support please refer to </p>
+        <p>1) Our Online Step-By-Step Flash Tutorials available at <a href="http://www.mochahost.com/tutorials" target="_blank">http://www.mochahost.com/tutorials</a></p>
+        <p>2) Open a Support Ticket by logging at <a href="https://www.mochasupport.com/sys/" target="_blank">https://www.mochasupport.com/sys/</a></p>
+        <p class="TahomaContOranje">* We recommend this option if you are experiencing specific technical problem or getting error messages with your site or applications which may require more time and further investigation by our support team</p>
+
+        <p>3) Use our Live Help available 24/7 at: <script src="http://livehelp.mochahost.com/livehelp_js.php?eo=1&allow_ip_host_sessions=0&serversession=1&pingtimes=60" type="text/javascript"><a onclick="javascript:csTimeout=0;" href="javascript:openLiveHelp(0)" name="chatRef"></a></p>
+        <p>4) Professional Services & Premium Support - available</p>
+        <p>For more info please, check<br>
+        <a href="http://www.mochasupport.com/kayako/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=336" target="_blank">http://www.mochasupport.com/kayako/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=336</a></p>
+        </td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Copyright 2002-2008 MochaHost.com. All Rights Reserved</strong></td>
+  </tr>
+</table>
+</body>
+</html>

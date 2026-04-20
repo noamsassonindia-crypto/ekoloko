@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>בלוג אקולוקו &#187; מבצעים חמים</title>
+	<atom:link href="http://blog.ekoloko.co.il/?feed=rss2&#038;cat=16" rel="self" type="application/rss+xml" />
+	<link>http://blog.ekoloko.co.il</link>
+	<description></description>
+	<lastBuildDate>Sun, 29 Sep 2013 08:00:49 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>מבצע חלוץ בשבועות!</title>
+		<link>http://blog.ekoloko.co.il/?p=185&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25d7%259e%25d7%2591%25d7%25a6%25d7%25a2-%25d7%2597%25d7%259c%25d7%2595%25d7%25a5-%25d7%2591%25d7%25a9%25d7%2591%25d7%2595%25d7%25a2%25d7%2595%25d7%25aa</link>
+		<comments>http://blog.ekoloko.co.il/?p=185#comments</comments>
+		<pubDate>Sun, 16 May 2010 08:22:43 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[מבצעים חמים]]></category>
+
+		<guid isPermaLink="false">http://blog.ekoloko.co.il/?p=185</guid>
+		<description><![CDATA[
+!תפרנו עבורכם מבצע מיוחד – לחג השבועות
+,קנו חלוץ חצי שנתי או שנתי עד לתאריך 21/5/10
+!ותקבלו 4 שבועות חלוץ נוספים – בחינם
+??שווה או לא שווה
+!אז למה אתם מחכים
+&#8230;נתראה בחנות החלוצים
+]]></description>
+			<content:encoded><![CDATA[<p style="text-align: right;"><a href="http://blog.ekoloko.co.il/wp-content/uploads/2010/05/ShavuotPioneer.png"><img class="alignnone size-full wp-image-186" title="ShavuotPioneer" src="http://blog.ekoloko.co.il/wp-content/uploads/2010/05/ShavuotPioneer.png" alt="" width="406" height="100" /></a></p>
+<p style="text-align: right;">!תפרנו עבורכם מבצע מיוחד – לחג השבועות</p>
+<p style="text-align: right;">,קנו חלוץ חצי שנתי או שנתי עד לתאריך 21/5/10</p>
+<p style="text-align: right;"><strong>!ותקבלו 4 שבועות חלוץ נוספים – בחינם</strong></p>
+<p style="text-align: right;">??שווה או לא שווה</p>
+<p style="text-align: right;">!אז למה אתם מחכים</p>
+<p style="text-align: right;">&#8230;נתראה בחנות החלוצים</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.ekoloko.co.il/?feed=rss2&amp;p=185</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<plimusTemplateId>690021</plimusTemplateId>
+	<!--<merchendise active="1" image="albumCards.swf"><![CDATA[<b>Book<br/>& Cards</b>]]></merchendise>-->
+	<accessories active="1" image="accessories.swf" image2="albumCards.swf"><![CDATA[<b>Get<br/>ekoCoins</b>]]></accessories>
+	<accessoriesSubTitle><![CDATA[<b>Dress up!</b>]]></accessoriesSubTitle>
+	<product id="111">
+		<title>Yearly</title>
+		<subTitle>12 Month Subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>0</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>0</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+	</product>
+	<product id="112">
+		<title>Half Year </title>
+		<subTitle>6 Month Subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>0</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>1</popularProduct>
+		<payByPhone>0</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+	</product>
+	<product id="113">
+		<title>1 Month </title>
+		<subTitle>Recurring Subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>0</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+	</product>
+	<product id="114">
+		<title>Weekly</title>
+		<subTitle>Trial Subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>1</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>0</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+	</product>
+</data>

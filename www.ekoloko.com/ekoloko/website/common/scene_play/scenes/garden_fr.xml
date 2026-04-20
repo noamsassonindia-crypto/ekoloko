@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<flow avatar="girl1">
+		<command name="add2stage" x="-100" y="390" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="430" y="400"  />
+		<command name="wait" seconds="32" />
+		<command name="walk" seconds="4" x="1050" y="390"  />
+	</flow>
+	<flow avatar="boy1">
+		<command name="add2stage" x="-150" y="430" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="angry" />
+		<command name="walk" seconds="4" x="370" y="430"  />
+		<command name="wait" seconds="6" />
+		<command name="talk" seconds="4" msg="gt au travail dans ma ferme" />
+		<command name="wait" seconds="8" />
+		<command name="mimic" face="normal" />
+		<command name="talk" seconds="4" msg=" tt le monde a une ferme sur sa lune" />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="g planté et récolté plein de fruits" />
+		<command name="wait" seconds="8" />
+		<command name="talk" seconds="3" msg="il suffit d'aller sur ta lune!" />
+		<command name="wait" seconds="3" />
+		<command name="talk" seconds="2" msg="c ouvert à tt le monde" />
+		<command name="wait" seconds="6" />
+		<command name="walk" seconds="2" x="480" y="480"  endScale="1.1" />
+		<command name="face" dir="S" />
+		<command name="talk" seconds="4" msg="Ferme d’ekoloko" />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="l’aventure continue" />
+		<command name="wait" seconds="4" />
+		<command name="walk" seconds="4" x="1020" y="400"  endScale="1" />
+	</flow>
+	<flow avatar="girl2_clean">
+		<command name="add2stage" x="1000" y="380" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="520" y="400"  />
+		<command name="wait" seconds="32" />
+		<command name="walk" seconds="4" x="1020" y="400"  />
+	</flow>
+	<flow avatar="boy3_clean">
+		<command name="add2stage" x="1050" y="410" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="550" y="440"  />
+		<command name="wait" seconds="2" />
+		<command name="talk" seconds="4" msg="pk t’as l’air si fatigué?" />
+		<command name="wait" seconds="8" />
+		<command name="mimic" face="shock" />
+		<command name="talk" seconds="4" msg="koi? Une ferme? Où ça?" />
+		<command name="wait" seconds="12" />
+		<command name="mimic" face="laugh" />
+		<command name="talk" seconds="4" msg="moi aussi je veux une ferme" />
+		<command name="wait" seconds="10" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="1050" y="440"  />
+	</flow>
+	
+</data>

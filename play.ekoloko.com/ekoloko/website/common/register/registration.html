@@ -1,0 +1,113 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ekoloko.com</title>
+<script type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+var swfUrl = 'registration?language='+getParameter('language')+'&username='+getParameter('username')+'&friend='+getParameter('friend')+'&refCode='+getParameter('refCode');
+
+var lang = getParameter('language');
+if (!lang || lang == "null") lang = "iw";
+		
+</script>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="../../iw/ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none">
+<div align="center">
+  <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'shell',
+    			'bgcolor', '#AAD93D',
+    			'name', 'registration',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', swfUrl,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+</div>
+<div id="footer_iw" align="center">
+<span  class="footerText" dir="rtl"><a href="../../iw/Parents_About.html" target="_blank" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('../../iw/Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('../../iw/Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="../../iw/Help_Contact.html" target="_blank" class="footerLinks">צור קשר</a>  |   <a href="../../iw/Site_Map.html" target="_blank" class="footerLinks">מפת האתר</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 virtual tweens inc.</span>
+</div>
+<div id="footer_en" align="center" style="position:relative; top:-40px">
+<span  class="footerText"><a href="../../en/Parents_About.html" target="_blank" class="footerLinks">Company</a>  |  <a href="javascript:popUp('../../en/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('../../en/Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="../../en/Help_Contact.html" target="_blank" class="footerLinks">Contact Us</a>  |   <a href="../../en/Site_Map.html" target="_blank" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 virtual tweens inc.</span>
+</div>
+<div id="footer_fr" align="center" style="position:relative; top:-75px">
+<span  class="footerText"><a href="../../fr/Parents_About.html" target="_blank" class="footerLinks">Société</a>  |  <a href="javascript:popUp('../../fr/Terms.html')" class="footerLinks">Conditions d'utilisation</a>  |  <a href="javascript:popUp('../../fr/Privacy.html')" class="footerLinks">Protection des données personnelles</a>  |  <a href="../../fr/Help_Contact.html" target="_blank" class="footerLinks">Contactez nous</a>  |   <a href="../../fr/Site_Map.html" target="_blank" class="footerLinks">Plan du site</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 virtual tweens inc.</span>
+</div>
+<script>
+  var languages = ["iw", "en", "fr"];
+	
+  function showFooter(language) {
+    for (var langIndex in languages) {
+      var currLang = languages[langIndex];
+      var image = document.getElementById('footer_'+currLang);
+      if(image != undefined) {
+        if(currLang == language) {
+  		    image.style.visibility = 'visible'; 
+  		  } else {
+    	    image.style.visibility = 'hidden'; 
+        }
+      }
+    }
+  }
+  
+  function hideFooter() {
+    showFooter("");
+  }
+  
+  showFooter(lang);
+   
+</script>
+</body>
+</html>

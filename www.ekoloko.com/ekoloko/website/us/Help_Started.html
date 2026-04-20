@@ -1,0 +1,516 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=4&language=us"//+getParameter('language');
+var sideMenuSwf = "sideMenu_help?page=1&language=us"//+getParameter('language');
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function openQuestions(id) {
+	var div = document.getElementById(id)
+	if(div.style.display == "block") {
+		div.style.display = "none"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_open.png";
+	} else {
+		div.style.display = "block"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_close.png";
+	}
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '410',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:17px">
+				<p><span class="Title">Getting Started</span>
+                  <br>
+                  <br>
+                  <p><span class="faqQuestions"><a onClick="openQuestions('qa')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqa"> Getting Started</a></span>
+                  <div id="qa" style="display:none;">
+                  <ul>
+                   <li><a href="#a1" class="faqQuestions">What is ekoloko?</a></li>
+			       <li><a href="#a2" class="faqQuestions">What is there to do in ekoloko?</a></li>
+			       <li><a href="#a3" class="faqQuestions">What do the icons at the bottom of the screen stand for?</a></li>
+			       <li><a href="#a4" class="faqQuestions">How do I chat on ekoloko and why are some of the things I write replaced with "--"?</a></li>
+                   <li><a href="#a5" class="faqQuestions">What are all the different places on ekoloko?</a></li>
+                   <li><a href="#a6" class="faqQuestions">How do I move around ekoloko?</a></li>
+                   <li><a href="#a7" class="faqQuestions">What are the signs with names you have to select before entering the world?</a></li>
+                   <li><a href="#a8" class="faqQuestions">Who are the residents of ekoloko and what do they do?</a></li>
+                   <li><a href="#a9" class="faqQuestions">How do I solve quests?</a></li>
+                  </ul>  
+                  </div></p>
+                  <p><span class="faqQuestions"><a onClick="openQuestions('qb')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqb"> Getting Help</a></span>
+                  <div id="qb" style="display:none;">
+                  <ul>
+                   <li><a href="#b1" class="faqQuestions">I don’t know what to do. Where can I go for help?</a></li>
+			       <li><a href="#b2" class="faqQuestions">With so many places in ekoloko, how can I make sure not to get lost?</a></li>
+			       <li><a href="#b3" class="faqQuestions">How can I get in contact with ekoloko?</a></li>
+			       <li><a href="#b4" class="faqQuestions">I opened an account on ekoloko and have been playing for a few days, but every so often a message pops up that tells me to “Confirm  your Registration”. What does this mean?</a></li>
+                  </ul>
+                  </div></p>
+                  <p><span class="faqQuestions"><a onClick="openQuestions('qc')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqc"> Rules of Conduct</a></span>
+                  <div id="qc" style="display:none;">
+                  <ul>
+                   <li><a href="#c1" class="faqQuestions">What are the Rules of Conduct on ekoloko?</a></li>
+			       <li><a href="#c2" class="faqQuestions">What happens to an Eko that breaks the rules?</a></li>
+			       <li><a href="#c3" class="faqQuestions">What do you do with any reports I send in about Ekos who have broken the rules?</a></li>
+			       <li><a href="#c4" class="faqQuestions">Can I chat privately with a friend?</a></li>
+                  </ul>  
+                  </div></p>
+                  <p><span class="faqQuestions"><a onClick="openQuestions('qd')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqd"> Ekoloko Managers</a></span>
+                  <div id="qd" style="display:none;">
+                  <ul>
+                   <li><a href="#d1" class="faqQuestions">Who are the ekoloko Managers and what do they do?</a></li>
+			       <li><a href="#d2" class="faqQuestions">How do I recognize a Manager in ekoloko?</a></li>
+			       <li><a href="#d3" class="faqQuestions">What are Manager Activities?</a></li>
+			       <li><a href="#d4" class="faqQuestions">Is it OK to give a Manager my password or personal information?</a></li>
+                  </ul>  
+                  </div></p>
+                  
+<br>
+          		 <p align="center"><img src="../common/images/parents_about_1.jpg" width="520" height="150" class="images"><br>
+          		 </p>
+
+					 <br><span class="Title">Getting Started</span><br>
+
+				  <p><span class="FAQTitle"><a name="a1"></a>What is ekoloko?</span><br>
+                    <span class="BodyText">ekoloko is a virtual world where you can create your own character (Eko) and with your Eko you can help save a world, talk with friends, complete missions, play games and more.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+					<p><span class="FAQTitle"><a name="a2"></a>What is there to do in ekoloko?</span><br>
+                    <span class="BodyText">When you enter ekoloko, you will discover a huge community with lots of friends. As part of that community, there is so much you can do. For example: 					<ul class="BodyText">
+                    	<li>You can meet new friends, chat with them, play games, and buy items and clothing that will make your Eko (your character in ekoloko) unique.</li>
+                        <li>Even more important, you can help us protect ekoloko, by completing quests. Every quest you successfully complete will earn you Activity Points and Kokos (the ekolokian currency). This will allow you to level up, improve your Eko and open up many new and exciting games, rooms and opportunities on the site.</li>
+                        <li>You can learn about living a green life, about the environment, and about society and being a considerate citizen.</li>
+                    </ul>
+					</span>
+                    
+                <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a3"></a>What do the icons at the bottom of the screen stand for?</span><br>
+                    <span class="BodyText">Once you’ve logged in to ekoloko, you will see a row of icons across the bottom of the screen. In the center is the chat bar, where you type in your chat texts. On either side of the bar are different icons:<br>
+<br>
+To the left of the chat bar you can find these icons:<br>
+<table width="100%" border="0" cellspacing="5" class="BodyText">
+  <tr>
+    <td valign="top"><img src="../common/images/toolsIcon.png"></td>
+    <td>- This opens the Settings menu, where you can see your account details and confirm your parent’s e-mail address. If you have a Pioneer membership, you can see how much time you have left.
+</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/moon-icon.png" width="27" height="27"></td>
+    <td>- Use this icon to go directly to your moon house and farm.</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/animalIcon.png" width="27" height="25"></td>
+    <td>- This icon opens your Cub Care menu. Click here to feed, play and wash your   cub. First time cub adoption can also be handled from here quickly and   easily.</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/emoticonsIcon.png" width="26" height="25"></td>
+    <td>- Click here to open the Emoticons and Potions menu.</td>
+  </tr>
+</table><br>
+
+To the right of the chat bar you’ll find these icons:
+<table width="100%" border="0" cellspacing="5" class="BodyText">
+  <tr>
+    <td valign="top"><img src="../common/images/handIcon.png" width="26" height="25"></td>
+    <td>- This icon opens your Personal Menu, where all your clothes, accessories,   recyclables, 1-on-1 games and other items are stored. You can also see all of   your stats here, such as the level you’ve achieved, your PioPoints, etc. For   more details about this menu, <A href="Help_FAQ.html#a8" target="_blank">click   here</A>.</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/missionIcon.png" width="27" height="25"></td>
+    <td>- This is your quest menu. Click here to see what quests are waiting for you,   and which resident you need to visit in order to get the   quest.</td>
+  </tr><!--
+  <tr>
+    <td valign="top"><img src="../common/images/album-icon.png" width="27" height="25"></td>
+    <td>- This icon opens your virtual card albums. Coming soon!</td>
+  </tr>-->
+  <tr>
+    <td valign="top"><img src="../common/images/compassIcon.png" width="27" height="25"></td>
+    <td>- Click here to open the Transporter Map. This map shows you where everything is   on ekoloko, and Pioneers can use the map to transport directly from place to   place. If you don’t have a membership, you will need to walk.</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/logoutIcon.png" width="27" height="25"></td>
+    <td>- Click here when you are finished playing on ekoloko and want to leave.   Everything you’ve done or acquired will be saved for you until you   return.</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../common/images/musicIcon.png" width="27" height="25"></td>
+    <td>- Click this icon to turn the sound effects and music off/on.</td>
+  </tr>
+</table>			</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a4"></a>How do I chat on ekoloko and why are some of the things I write replaced with "--"?</span><br>
+                    <span class="BodyText">To chat on ekoloko, simply click with your mouse in the chat bar and start typing. Click the ‘Enter’ button on your keyboard or this icon <img src="../common/images/chatIcon.png" align="absmiddle"> to post your text on the screen.<br>
+<br>
+It is very important to us that ALL our users will have fun and feel comfortable, safe and secure while playing and chatting on ekoloko. For that reason, while you chat, everything you write is checked using special lists of good words (white list) and bad words (black list). If what you wrote is on our white list of good words, it will appear on the screen, but if it appears on our black list of bad words, then it will be replaced with --, and you will receive a warning, and probably be punished. <br>
+<br>
+Please don’t ever share any personal information while chatting on ekoloko. For more details about our Rules of Conduct, <a href="#c1">click here</a>.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="a5"></a>What are all the different places on ekoloko?</span><br>
+                    <span class="BodyText">Just like on Earth (and probably other planets!) not all of the places on ekoloko are the same. Some areas are greener and some are dryer and more desert-like, for example.<br>
+<br>
+ekoloko has many areas, and right now only some of them are accessible to all Ekos:<br>
+<br>
+<strong>The Jungle:</strong> The Jungle of ekoloko is green and lush, and you’ll find many residents and Ekos there. Every new Eko begins their adventure in the Jungle.<br>
+<br>
+<strong>The Eko Eko Desert:</strong> The Desert is a hot dry place, but stunning in its wide open views. You can meet many residents there, and have fun shopping in one of the many shops.<br>
+<br>
+<strong>The Ekoluna Space Station:</strong> The sky’s no longer the limit! As a <strong>Pioneer</strong>, you can fly into space via one of the two space shuttles on ekoloko and visit Ekoluna, ekoloko’s space station. You can find the space shuttles in the desert and the jungle, or you can use the launch beams in Charles T. Pot’s and Edgar’s screens.<br>
+<br>
+<strong>The Misty Peaks:</strong> The Misty Peaks are a cloud-engulfed string of mountains that overlook ekoloko where residents will occasionally go for some much-needed R&R. Getting to the Misty Peaks is simply a matter of luck. Each day at a random time a random group of Ekos will suddenly find themselves transported to the Misty Peaks for special adventures and quests that will reward them with rare prizes. The time you spend on the Misty Peaks is limited, however, so if you are transported there, take advantage of every second you are there as best you can. The longer you are on ekoloko, the more chance you have of visiting the Misty Peaks.<br>
+<br>
+And many more to come!
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a6"></a>How do I move around ekoloko?</span><br>
+                    <span class="BodyText">In order to walk in ekoloko, all you need to do is click your mouse on the spot you want to reach and your Eko will walk there. If you want to RUN there quickly (this is especially useful in the street games when you need to run to the light beams), hold down the <strong>Ctrl</strong> button on your keyboard while you click with your mouse on the spot you need to get to in a hurry.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a7"></a>What are the signs with names you have to select before entering the world?</span><br>
+                    <span class="BodyText">The sign with the different names and numbers at the entrance to ekoloko after you’ve logged in are the names of the servers. Each server has exactly the same screens and games, but with different users online. If you want to meet your friends in ekoloko, make sure that you all choose the same server. <br>
+<br>
+The green checkmarks indicate how full each server is. A server with 5 checkmarks is almost completely full, and only Pioneers will be allowed to enter at that point. Signs with the word ‘Full’ on them are not accessible at that moment, but might empty out later on.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                     <p><span class="FAQTitle"><a name="a8"></a>Who are the residents of ekoloko and what do they do?</span><br>
+                    <span class="BodyText">The ekoloko residents are part of the first delegation to arrive on ekoloko, along with some new additions, who were the original settlers. Unlike Ekos, who will come online and go offline, the residents are always there – they live on ekoloko.<br>
+<br>
+The residents can give you tips about how to use ekoloko, information about themselves, and most importantly, they provide you with your quests, and reward you with prizes when you succeed.<br>
+<br>
+By clicking a resident, and choosing this icon <img src="../common/images/npcInfoIcon.png" width="29" height="31" align="absmiddle"> you can read a little about the background and history of this character, about their life, their friends and their hobbies.<br>
+Learning more about the residents of ekoloko will help you understand more about the ekoloko community.<br>
+<br>
+The  icon <img src="../common/images/npcQuestIcon.png" width="29" height="30" align="absmiddle"> will show you all the quests this character has for you.<br>
+<br>
+Click this icon <img src="../common/images/npcGamesIcon.png" width="29" height="30" align="absmiddle"> to see what games this resident has for you. These are special games you sometimes need to play to complete quests, or sometimes for fun. Once you’ve earned a game, it will be yours to play whenever you want, but in order to reach the game, you’ll need to return to the resident who gave it to you. For more info, <a href="Help_FAQ.html#a5" target="_blank">click here</a>.<br>
+<br>
+If you see a question mark above the head of a resident in ekoloko, this means there’s a quest or mission waiting for you. Click the resident to get your mission. Once you’ve performed the task you were given, the resident who is supposed to give you your reward will have an exclamation mark above their head. Don’t forget to click the resident and accept your reward by clicking the checkmarks. Please note, in certain (mysterious) cases, even though you successfully completed the quest, the exclamation mark may purposely not appear above the head of the resident you need to click. However, if you click the right resident anyway, you will be rewarded. Click here to get more details.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a9"></a>How do I solve quests?</span><br>
+                    <span class="BodyText">Around ekoloko you will see residents with question marks above their heads. These residents are the ones who will give you your missions each time. Simply click a resident with a question mark and follow the instructions they give you to complete the quest. Sometimes you will need to collect items to bring to another resident, and sometimes you will need to achieve a certain score in a particular game. Some quests are intended just for fun, when you have some free time, but most of the quests are priority missions that will help protect ekoloko from Smog and his helpers. When you have successfully completed a quest, you will be awarded prizes and earn points – just look for the resident with the exclamation mark who is waiting to give you your rewards.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <br><span class="Title">Getting Help</span><br>
+                  
+                  <p><span class="FAQTitle"><a name="b1"></a>Sometimes I don’t know what to do. Where can I go for help?</span><br>
+                    <span class="BodyText">There are several sources of help in ekoloko: <br>
+<br>
+Check out Heathcliff's Tutorial Clip and the Frequently Asked Questions – To reach them, click the question mark icon <img src="../common/images/helpIcon.png" align="absmiddle"> on the top right-hand side of the screen. <br>
+<br>
+ekoloko Rangers – if you encounter a problem, find an ekoloko Ranger (Rangers usually have an angel's halo above their heads). Every Ranger will be happy to help you. <br>
+<br>
+ekoloko Managers – There are ekoloko Managers patrolling ekoloko at all times. You can tell they're Managers by the yellow star under their feet. Every Manager will be happy to help. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b2"></a>With so many places in ekoloko, how can I make sure I don’t get lost?</span><br>
+                    <span class="BodyText">You will discover how quickly you learn where everything is on ekoloko, but just in case, you can always take a look at the maps, using the map button <img src="../common/images/compassIcon.png" align="absmiddle">.<br>
+<br>
+If you are a Pioneer, you can also use the maps to transport yourself quickly from place to place, without needing to walk all around. Be advised though that you will need to pay a certain amount of Kokos each time you want to be transported.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b3"></a>How can I contact ekoloko?</span><br>
+                    <span class="BodyText">If you don’t find an answer to your question in our FAQs, please <a href="ContactUsForm.html" target="_blank">click here</a> to send your question to our Customer Support Team. 					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b4"></a>I opened an account on ekoloko and have been playing for a few days, but every so often a message pops up reminding me to “Confirm  your Registration”. What does this mean?</span><br>
+                    <span class="BodyText">In the notification e-mail we sent to your parents when you registered there was a link to confirm the registration. This is important to us because this means the parent’s e-mail we have on record is valid and can be used by you for customer support inquiries or to reset your password. It also means that your parents know that you signed up for an account, and that they approve. <br>
+<br>
+If your parents did not click this link for whatever reason (the address you entered was incorrect, they did not receive the mail, etc.), then there are places on ekoloko where you can go to have your parents confirm the registration. If you get the “Confirm” message, there will be a link from there to re-enter your parents’ mailing address, in case the address you gave at the time of registration was invalid or had a typo. Please enter a valid and correct address in the form you get, and we will resend a confirmation mail to your parents. You can also access this form by clicking the Settings button <img src="../common/images/toolsIcon.png" align="absmiddle">.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <br><span class="Title">Rules of Conduct</span><br>
+                  
+                  <p><span class="FAQTitle"><a name="c1"></a>What are the Rules of Conduct on ekoloko?</span><br>
+                  <span class="BodyText">We all want to be in a fun safe environment that makes us feel secure. For that reason, we have created a number of very important rules, and we expect all users to abide by them while playing on ekoloko, and anywhere on the web:
+        			<ol class="BodyText">
+                    	<li><strong>No</strong> personal information allowed! Do not ask for, or share any information that will allow someone to contact you outside of ekoloko. Don’t use your full name as your user name either. You <strong>can</strong> give your age or first name, but do not give any of the following: your family name, your street address or city, a phone number, e-mail address, any online messenger account name, school name or address, or any other personally identifying information. </li>
+                        <li>Never use rude or offensive language or discuss inappropriate topics.</li>
+                        <li>Always respect other Ekos! Don't be a bully and don't tell anyone what to believe. </li>
+                        <li>Passwords are private! Don't share your password, or ask someone else for theirs! </li>
+                        <li>Don't look for shortcuts. Cheating, hacking or stealing is not tolerated! </li>
+                    </ol>
+				  </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c2"></a>What happens to an Eko that breaks the rules?</span><br>
+                    <span class="BodyText">Ekos that break the rules and ruin the experiences of other Ekos will be severely punished. They may be banned from ekoloko or lose their chat privileges. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c3"></a>What do you do with any reports I send in about Ekos who have broken the rules?</span><br>
+                    <span class="BodyText">It is extremely important to us that all our users will have a fun and enjoyable experience while playing on ekoloko and we take bad behavior very seriously. Reports about users are reviewed and those who break the rules may be banned or lose their chat privileges. We also review chat records on a regular basis to ensure every Eko's safety. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c4"></a>Can I chat privately with a friend?</span><br>
+                    <span class="BodyText">The safety and well-being of kids using ekoloko is one of our top priorities. We do not allow private chat but we do allow you to ‘poke’ each other using pre-defined texts. The regular chat uses a white list of approved words, so if you notice some of your texts are not appearing, or appear as '- -' this means you wrote something that was not allowed or is on our bad words list.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <br><span class="Title">Ekoloko Managers</span><br>
+                  
+                   <p><span class="FAQTitle"><a name="d1"></a>Who are the ekoloko Managers and what do they do?</span><br>
+                    <span class="BodyText">The ekoloko Managers are grownups (NOT kids) who work on ekoloko. Their job is to listen to you and help you, and also of course to make sure you’re having fun! They walk around the different rooms and screens of ekoloko, sometimes invisible but most of the time with their avatars and occasionally you’ll be able to see them or you’ll notice their invitations to join special Manager Activities. We recommend joining as many of them as you can!
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="d2"></a>How do I recognize a Manager in ekoloko?</span><br>
+                    <span class="BodyText">Managers move around ekoloko with Ekos, just like regular users. However, you can recognize a Manager by the <strong>yellow star</strong> that appears beneath their Eko’s name. <strong>Only</strong> Managers have this symbol under their avatar.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="d3"></a>What are Manager Activities?</span><br>
+                    <span class="BodyText">All Managers will hold special activities every so often during their daily visits to ekoloko – such as games, quizzes, and contests (sometimes with PRIZES!) that you can participate in. If you get an invitation to join such an activity, you should try and get to the location specified as quickly as you can!
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="d4"></a>Is it OK to give a Manager my password or other personal info?</span><br>
+                    <span class="BodyText">You can always trust Managers, but you still should <strong>NOT</strong> share any personal information with them. In fact, Managers will <strong>NEVER</strong> ask you for your password or any other personal information. If someone asks you for personal information, be certain this person is <strong>NOT</strong> a Manager, even if they claim to be one.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+				<br></p>
+                </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="Site_Map.html" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 Virtual Tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

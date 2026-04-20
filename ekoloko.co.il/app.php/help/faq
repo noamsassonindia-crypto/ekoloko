@@ -1,0 +1,1005 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>אקולוקו - Ekoloko - שאלות נפוצות</title>
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Ekoloko, אקולוקו, פורום אקולוקו, עולמות וירטואלים,אתרים וירטואלים,יוצאי אקולוקו,בלוג אקולוקו, ekoloko blog,ekoloko forum,פורום סיירים,חלוצים,סיירים,זכרונות מאקולוקו,אקולוקו נסגר">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="alternate" type="application/atom+xml" title="הזנות - אקולוקו - Ekoloko" href="/app.php/feed?sid=3ef24fe72af7a3f402dca82f654d228d">			<link rel="alternate" type="application/atom+xml" title="הזנות - נושאים חדשים" href="/app.php/feed/topics?sid=3ef24fe72af7a3f402dca82f654d228d">				
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="./../../assets/css/font-awesome.min.css?assets_version=93" rel="stylesheet">
+<link href="./../../styles/prosilver/theme/stylesheet.css?assets_version=93" rel="stylesheet">
+<link href="./../../styles/prosilver/theme/he/stylesheet.css?assets_version=93" rel="stylesheet">
+
+	<link href="./../../styles/prosilver/theme/bidi.css?assets_version=93" rel="stylesheet">
+
+
+
+<!--[if lte IE 9]>
+	<link href="./../../styles/prosilver/theme/tweaks.css?assets_version=93" rel="stylesheet">
+<![endif]-->
+
+
+
+<link href="./../../ext/alfredoramos/imgur/styles/all/theme/css/common.css?assets_version=93" rel="stylesheet" media="screen" />
+<link href="./../../ext/alfredoramos/imgur/styles/prosilver/theme/css/imgur.css?assets_version=93" rel="stylesheet" media="screen" />
+<link href="./../../ext/alfredoramos/simplespoiler/styles/all/theme/css/common.css?assets_version=93" rel="stylesheet" media="screen" />
+<link href="./../../ext/alfredoramos/simplespoiler/styles/prosilver/theme/css/style.css?assets_version=93" rel="stylesheet" media="screen" />
+<link href="./../../ext/alfredoramos/simplespoiler/styles/prosilver/theme/css/colors.css?assets_version=93" rel="stylesheet" media="screen" />
+<link href="./../../ext/paul999/mention/styles/all/theme/mention.css?assets_version=93" rel="stylesheet" media="screen" />
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124230799-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124230799-1');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4484202263168595",
+    enable_page_level_ads: true
+  });
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-4484202263168595", enable_page_level_ads: true }); </script>
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+</head>
+<body id="phpbb" class="nojs notouch section-app/help/faq rtl ">
+<h1 style="display:none">אקולוקו - Ekoloko</h1>
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="./../../index.php?sid=3ef24fe72af7a3f402dca82f654d228d" title="עמוד ראשי"><span class="site_logo"></span></a>
+				<p class="skiplink"><a href="#start_here">דילוג לתוכן</a></p>
+			</div>
+
+									
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu hidden" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>קישורים מהירים</span>
+			</a>
+			<div class="dropdown">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents" role="menu">
+					
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="/app.php/help/faq?sid=3ef24fe72af7a3f402dca82f654d228d" rel="help" title="שאלות נפוצות" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>שאלות נפוצות</span>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="./../../ucp.php?mode=login&amp;sid=3ef24fe72af7a3f402dca82f654d228d&amp;redirect=.%2Fapp.php%2Fhelp%2Ffaq%3Fsid%3D3ef24fe72af7a3f402dca82f654d228d" title="התחברות" accesskey="x" role="menuitem">
+				<i class="icon fa-power-off fa-fw" aria-hidden="true"></i><span>התחברות</span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="./../../ucp.php?mode=register&amp;sid=3ef24fe72af7a3f402dca82f654d228d" role="menuitem">
+					<i class="icon fa-pencil-square-o  fa-fw" aria-hidden="true"></i><span>הרשמה</span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="./../../index.php?sid=3ef24fe72af7a3f402dca82f654d228d" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">עמוד ראשי</span></a><meta itemprop="position" content="1" /></span>
+
+								</li>
+		
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+		<amp-auto-ads type="adsense"
+		data-ad-client="ca-pub-4484202263168595">
+		</amp-auto-ads>
+
+		<amp-ad width="100vw" height=320
+			type="adsense"
+			data-ad-client="ca-pub-4484202263168595"
+			data-ad-slot="8099737368"
+			data-auto-format="rspv"
+			data-full-width>
+		<div overflow></div>
+		</amp-ad>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+			 style="display:block"
+			 data-ad-client="ca-pub-4484202263168595"
+			 data-ad-slot="8099737368"
+			 data-ad-format="auto"
+			 data-full-width-responsive="true"></ins>
+		<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+<h2 class="faq-title">שאלות נפוצות</h2>
+
+
+<div class="panel bg1" id="faqlinks">
+	<div class="inner">
+		<div class="column1">
+					
+			<dl class="faq">
+				<dt><strong>התחברות והרשמה למערכת</strong></dt>
+									<dd><a href="#f0r0">מדוע אני צריך להירשם?</a></dd>
+									<dd><a href="#f0r1">מהו COPPA?</a></dd>
+									<dd><a href="#f0r2">מדוע אני לא יכול להרשם?</a></dd>
+									<dd><a href="#f0r3">נרשמתי אבל אני לא מצליח להתחבר!</a></dd>
+									<dd><a href="#f0r4">למה אני לא מצליח להתחבר?</a></dd>
+									<dd><a href="#f0r5">נרשמתי בעבר אבל אני לא מצליח להתחבר יותר?!</a></dd>
+									<dd><a href="#f0r6">איבדתי את הססמה שלי!</a></dd>
+									<dd><a href="#f0r7">מדוע אני מתנתק באופן אוטומטי?</a></dd>
+									<dd><a href="#f0r8">מה האפשרות “מחק את כל עוגיות המערכת” עושה?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>אפשרויות והגדרות משתמש</strong></dt>
+									<dd><a href="#f1r0">כיצד אני משנה את ההגדרות שלי?</a></dd>
+									<dd><a href="#f1r1">איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?</a></dd>
+									<dd><a href="#f1r2">הזמנים אינם נכונים!</a></dd>
+									<dd><a href="#f1r3">שינתי את אזור הזמן והוא עדין שונה מהזמן שלי!</a></dd>
+									<dd><a href="#f1r4">השפה שלי אינה ברשימה!</a></dd>
+									<dd><a href="#f1r5">מה הן התמונות לצד שם המשתמש שלי?</a></dd>
+									<dd><a href="#f1r6">איך אני יכול להציג סמל אישי?</a></dd>
+									<dd><a href="#f1r7">מהו הדירוג שלי וכיצד אני משנה אותו?</a></dd>
+									<dd><a href="#f1r8">כאשר אני לוחץ על קישור הדואר האלקטרוני של משתמש הוא מבקש ממני להתחבר?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>מערכת השליחה</strong></dt>
+									<dd><a href="#f2r0">איך אני יוצר נושא חדש או מפרסם תגובה?</a></dd>
+									<dd><a href="#f2r1">כיצד אני עורך או מוחק הודעה?</a></dd>
+									<dd><a href="#f2r2">כיצד אני מוסיף חתימה להודעות שלי?</a></dd>
+									<dd><a href="#f2r3">כיצד אני יוצר סקר?</a></dd>
+									<dd><a href="#f2r4">מדוע אני לא יכול להוסיף אפשרויות נוספות לסקר?</a></dd>
+									<dd><a href="#f2r5">כיצד אני ערוך או מוחק סקר?</a></dd>
+									<dd><a href="#f2r6">מדוע איני יכול להיכנס לפורום?</a></dd>
+									<dd><a href="#f2r7">מדוע אני לא יכול לצרף קבצים?</a></dd>
+									<dd><a href="#f2r8">מדוע קיבלתי אזהרה?</a></dd>
+									<dd><a href="#f2r9">כיצד ניתן לדווח למנהל על הודעות?</a></dd>
+									<dd><a href="#f2r10">מהו כפתור ה“שמור” בשליחת הנושא?</a></dd>
+									<dd><a href="#f2r11">מדוע הודעותיי צריכות לקבל אישור?</a></dd>
+									<dd><a href="#f2r12">כיצד אני יכול להקפיץ את הודעתי?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>עיצוב טקסט וסוגי נושאים</strong></dt>
+									<dd><a href="#f3r0">מה זה BBCode?</a></dd>
+									<dd><a href="#f3r1">האם אני יכול להשתמש ב־HTML?</a></dd>
+									<dd><a href="#f3r2">מה הם סמיילים?</a></dd>
+									<dd><a href="#f3r3">האם אני יכול לפרסם תמונות?</a></dd>
+									<dd><a href="#f3r4">מה הן הכרזות גלובליות?</a></dd>
+									<dd><a href="#f3r5">מה הן הכרזות?</a></dd>
+									<dd><a href="#f3r6">מה הם נושאים דביקים?</a></dd>
+									<dd><a href="#f3r7">מה הם נושאים נעולים?</a></dd>
+									<dd><a href="#f3r8">מה הם אייקונים לנושא?</a></dd>
+							</dl>
+									</div>
+
+				<div class="column2">
+			
+			<dl class="faq">
+				<dt><strong>רמות משתמשים וקבוצות</strong></dt>
+									<dd><a href="#f4r0">מה הם מנהלים ראשיים?</a></dd>
+									<dd><a href="#f4r1">מה הם מנהלים?</a></dd>
+									<dd><a href="#f4r2">מה הם קבוצות משתמשים?</a></dd>
+									<dd><a href="#f4r3">היכן נמצאות קבוצות המשתמשים וכיצד אני מצטרף לאחת?</a></dd>
+									<dd><a href="#f4r4">כיצד אני הופך לראש קבוצת משתמשים?</a></dd>
+									<dd><a href="#f4r5">למה קבוצות משתמשים מסוימות מופיעות בצבעים שונים?</a></dd>
+									<dd><a href="#f4r6">מה היא “קבוצת משתמשים כברירת מחדל”?</a></dd>
+									<dd><a href="#f4r7">מהו הקישור “הצוות”?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>הודעות פרטיות</strong></dt>
+									<dd><a href="#f5r0">אני לא יכול לשלוח הודעות פרטיות!</a></dd>
+									<dd><a href="#f5r1">אני ממשיך לקבל הודעות פרטיות לא רצויות!</a></dd>
+									<dd><a href="#f5r2">קיבלתי דואר אלקטרוני לא רצוי ממישהו מהפורום הזה!</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>חברים ונודניקים</strong></dt>
+									<dd><a href="#f6r0">מהם רשימת החברים והנודניקים שלי?</a></dd>
+									<dd><a href="#f6r1">כיצד אני יכול להוסיף / להסיר משתמשים אל/מתוך רשימת החברים או הנודניקים שלי?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>חיפוש בפורומים</strong></dt>
+									<dd><a href="#f7r0">כיצד אני יכול לחפש בפורום או בפורומים?</a></dd>
+									<dd><a href="#f7r1">מדוע החיפוש שלי לא מחזיר תוצאות?</a></dd>
+									<dd><a href="#f7r2">מדוע החיפוש שלי מחזיר עמוד ריק!?</a></dd>
+									<dd><a href="#f7r3">כיצד אני מחפש משתמשים?</a></dd>
+									<dd><a href="#f7r4">כיצד אני יכול למצוא את ההודעות והנושאים שלי?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>נושאים מועדפים והרשמות לקבלת עדכונים</strong></dt>
+									<dd><a href="#f8r0">מה ההבדל בין מועדפים והרשמות לקבלת עדכונים?</a></dd>
+									<dd><a href="#f8r1">כיצד אני יכול להוסיף למועדפים או להירשם לנושאים ספציפיים?</a></dd>
+									<dd><a href="#f8r2">כיצד אני נרשם לפורום מסוים?</a></dd>
+									<dd><a href="#f8r3">כיצד אני מסיר את ההרשמות שלי?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>קבצים מצורפים</strong></dt>
+									<dd><a href="#f9r0">אלו מין קבצים מצורפים ניתנים לצירוף במערכת זו?</a></dd>
+									<dd><a href="#f9r1">כיצד אני מוצא את כל הקבצים המצורפים שלי?</a></dd>
+							</dl>
+					
+			<dl class="faq">
+				<dt><strong>מערכת phpBB</strong></dt>
+									<dd><a href="#f10r0">מי תכנן וכתב את תוכנת הפורומים?</a></dd>
+									<dd><a href="#f10r1">מדוע אפשרות כזו או אחרת לא קיימת?</a></dd>
+									<dd><a href="#f10r2">למי אני פונה במקרים של חשד לעברה על החוק/ניצול לרעה של המערכת?</a></dd>
+									<dd><a href="#f10r3">איך אני יוצר קשר עם מנהל הפורומים?</a></dd>
+							</dl>
+				</div>
+	</div>
+</div>
+
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">התחברות והרשמה למערכת</h2>
+							<dl class="faq">
+					<dt id="f0r0"><strong>מדוע אני צריך להירשם?</strong></dt>
+					<dd>לא בטוח שאתה צריך. המנהל הראשי של המערכת יכול להחליט האם חובה להירשם כדי לפרסם הודעות. בכל אופן, הרשמה תפתח לך גישה לאפשרויות נוספות שלא זמינות לאורחים, כמו למשל הגדרת תמונת פרופיל, שליחת הודעות פרטיות או אימיילים למשתמשים אחרים ועוד. ההרשמה לוקחת כמה רגעים כך שמומלץ להירשם.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r1"><strong>מהו COPPA?</strong></dt>
+					<dd>COPPA, או החוק לפרטיות והגנה המקוונת של הילד של 1998, הוא חוק בארצות הברית הדורש מאתרים ברשת אשר יכולים לאסוף מידע מקטינים מתחת לגיל 13 לדרוש הסכמה מההורים בכתב או כל שיטה אחרת של אישור מאפוטרופוס חוקי, המאפשר את איסוף פרטי הזיהוי האישיים מקטין מתחת לגיל 14 13. אם אינך בטוח אם חוק זה חל לגביך בתור מישהו המנסה להירשם או לאתר אשר אליו אתה מנסה להירשם, צור קשר עם יועץ חוקי להתיעצות. שים לב שקבוצת phpBB אינה יכולה לספק יעוץ חוקי ואינה נקודה ליצירת קשר לענייני חוק מכל סוג, ובפרט הרשום להלן.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r2"><strong>מדוע אני לא יכול להרשם?</strong></dt>
+					<dd>יש אפשרות שמנהל ראשי סגר את ההרשמה כדי למנוע ממבקרים חדשים להירשם. לחילופין ייתכן שמנהל ראשי חסם את כתובת ה-IP שלך או את שם המשתמש שאתה מנסה לרשום. צור קשר עם מנהל ראשי לסיוע.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r3"><strong>נרשמתי אבל אני לא מצליח להתחבר!</strong></dt>
+					<dd>ראשית, בדוק את שם המשתמש והססמה שהזנת. אם הם נכונים, אז כנראה ואת מהדברים הבאים קרה. אם מערכת ה־COPPA פועלת במערכת ובהרשמה סימנת שאתה מתחת לגיל 13, תצטרך לעקוב אחר ההוראות שתקבל. בחלק ממערכות הפורומים דורשים את הפעלת החשבון, על ידי דואר אלקטרוני או מנהל המערכת; מידע זה מוצג במהלך ההרשמה. אם האישור להרשמה נשלח לדואר האלקטרוני, עקוב אחר ההוראות. אם לא קיבלת הודעה לדואר האלקטרוני, כנראה ונתת כתובת דואר אלקטרוני שגויה או שמערכת הדואר האלקטרוני העבירה את הודעת האישור בסינון הספאם. אם אתה בטוח שהפרטים שהזנת נכונים ודואר האלקטרוני אכן נכונה, צור קשר עם מנהל המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r4"><strong>למה אני לא מצליח להתחבר?</strong></dt>
+					<dd>Tיש כמה סיבות אפשריות לכך. קודם כל, ודא ששם המשתמש והססמה שלך נכונים. אם הם נכונים, צור קשר עם מנהל ראשי כדי לוודא שלא נחסמת. לחילופין, יכול להיות שיש שגיאה בהגדרות האתר שהמנהלים שלו יצטרכו לתקן.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r5"><strong>נרשמתי בעבר אבל אני לא מצליח להתחבר יותר?!</strong></dt>
+					<dd>קיימת אפשרות שמנהל ראשי כיבה או מחק את חשבונך מסיבה כלשהי. בנוסף, פורומים רבים מוחקים משתמשים אשר לא פירסמו הודעות זמן רב כדי לצמצם בגודל של בסיס הנתונים. אם זה קרה, נסה להירשם שוב ולהיות יותר פעיל בדיונים.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r6"><strong>איבדתי את הססמה שלי!</strong></dt>
+					<dd>בלי פאניקה! אי אפשר לשחזר את הססמה שלך, אבל כן אפשר לאפס אותה. בקר בדף ההתחברות ולחץ על <em>שכחתי את ססמתי</em>. עקוב אחר ההוראות ותוכל להתחבר שוב תוך זמן קצר.<br />אם בכל זאת לא תצליח לאפס את הססמה, צור קשר עם מנהל ראשי</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r7"><strong>מדוע אני מתנתק באופן אוטומטי?</strong></dt>
+					<dd>אם לא תסמן את לבדוק את תיבת הסימון <em>זכור אותי</em> בעת הכניסה, המערכת תשאיר אותך מחובר רק לזמן שנקבע מראש. הדבר מונע שימוש לרעה בחשבונך על ידי מישהו אחר. כדי להישאר מחובר, סמן את התיבה במהלך ההתחברות. הפעולה הזו לא מומלצת כאשר אתה מחובר לפורום במחשב משותף, למשל בספריה, קפה אינטרנט, מחשבי מעבדות באוניברסיטה וכו׳. אם אתה לא רואה את התיבה, כנראה שמנהל המערכת ביטל את האפשרות הזו.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f0r8"><strong>מה האפשרות “מחק את כל עוגיות המערכת” עושה?</strong></dt>
+					<dd>"מחק את כל עוגיות המערכת" מוחק את כל העוגיות (cookies) שנוצרו על ידי phpBB ושומרות עליך מחובר למערכת. עוגיות ממלאות תפקידים נוספים כמו מעקב קריאה של נושאים והודעות אם האפשרות הופעלה על ידי מנהל ראשי. אם נתקלת בבעיות של התחברות והתנתקות, מחיקת עוגיות המערכת יכולה לעזור.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg1">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">אפשרויות והגדרות משתמש</h2>
+							<dl class="faq">
+					<dt id="f1r0"><strong>כיצד אני משנה את ההגדרות שלי?</strong></dt>
+					<dd>אם אתה משתמש רשום, כל הגדרותיך שמורות במסד הנתונים. כדי לשנותם, בקר בלוח הבקרה למשתמש שלך; בדרך כלל ניתן למצוא קישור על ידי לחיצה על שם המשתמש שלך בחלק העליון של דפי מערכת הפורומים. מערכת זו תאפשר לך לשנות את ההגדרות וההעדפות שלך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r1"><strong>איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?</strong></dt>
+					<dd>בעזרת לוח הבקרה למשתמש, תחת הכותרת “אפשרויות מערכת”,אתה תמצא אפשרות <em>הסתר את מצבי כמחובר</em>. הפעל אפשרות זו <samp>כן</samp>ורק מנהלי המערכת, מנהלי פורומים ואתה עצמך תהיו אלה שיראו אותך מחובר. אתה תספר כמשתמש מוסתר.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r2"><strong>הזמנים אינם נכונים!</strong></dt>
+					<dd>יכול להיות שהזמן המוצג שונה מהזמנים באזורך. אם זאת הבעיה, בקר בלוח הבקרה למשתמש ושנה את הזמן על פי אזורך, לדוגמה לונדון, פאריס, ניו יורק, וכדומה. שים לב ששינוי אזור הזמן, כמו רוב ההגדרות, ניתן אך ורק למשתמשים רשומים. אם אינך רשום במערכת, זה הזמן הנכון להירשם.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r3"><strong>שינתי את אזור הזמן והוא עדין שונה מהזמן שלי!</strong></dt>
+					<dd>אם אתה בטוח שהגדרת את אזור הזמן נכון והזמן עדין אינו מכוון כראוי, אז כנראה והשעה המוגדרת בשרת אינה נכונה. אנא יידע מנהל ראשי כדי לתקן את הבעיה</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r4"><strong>השפה שלי אינה ברשימה!</strong></dt>
+					<dd>או שהמנהל הראשי לא התקין השפה או שאף אחד לא תרגם את המערכת לשפה שלך. נסה לשאול מנהל ראשי האם הוא יכול להתקין את חבילת השפה שאתה צריך. אם חבילת השפה אינה קיימת, תרגיש חופשי ליצור תרגום חדש. ניתן למצוא מידע נוסף באתר <a href="https://www.phpbb.com/">phpBB</a>&reg;.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r5"><strong>מה הן התמונות לצד שם המשתמש שלי?</strong></dt>
+					<dd>ישנם שני סוגי תמונות אשר עשויים להופיע יחד עם שם המשתמש כאשר צופים בהודעות. אחד מהם עשוי להיות תמונה הקשורה לדרגה שלך, בדרך כלל בצורה של כוכבים, ריבועים או נקודות, המציין כמה הודעות כתבת או את מעמדך בפורום. תמונה אחרת, בדרך כלל גדולה יותר, ידועה כסמל אישי ובדרך כלל ייחודית או אישית לכל משתמש.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r6"><strong>איך אני יכול להציג סמל אישי?</strong></dt>
+					<dd>בתוך לוח הבקרה למשתמש תחת "פרופיל" אתה יכול להוסיף סמל אישי באמצעות אחת מארבע השיטות הבאות: Gravatar, גלריה, תמונה מרוחקת או העלאה. המנהל הראשי של הפורום יכול להחליט לאפשר סמלים אישיים ולבחור את הדרך שבה ניתן לבחור סמלים אישיים. אם אתה לא מצליח להשתמש בסמל אישי, צור קשר עם מנהל ראשי.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r7"><strong>מהו הדירוג שלי וכיצד אני משנה אותו?</strong></dt>
+					<dd>דירוגים, אשר מופיעים תחת שם המשתמש שלך, מציינים את מספר ההודעות אשר שלחת או מזהים משתמשים מסוימים, למשל מנהלים או מנהלים ראשיים. כעיקרון, אינך יכול לשנות את הנוסח של כל אחד מדירוגי המערכת באופן ישיר מפני שהם נקבעים על־ידי המנהל הראשי של המערכת. אנא אל תפגע במערכת על־ידי שליחת הודעות מיותרות רק כדי הגדיל את הדירוג שלך. רוב המערכות לא יאפשרו זאת והמנהל או המנהל הראשי יקטין את מונה ההודעות שלך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f1r8"><strong>כאשר אני לוחץ על קישור הדואר האלקטרוני של משתמש הוא מבקש ממני להתחבר?</strong></dt>
+					<dd>רק משתמשים רשומים יכולים לשלוח לחברי הפורום הודעות לדואר האלקטרוני באמצעות טופס השליחה במערכת, וזאת עם מנהלי המערכת מאפשרים עזר זה. זה מונע משליחת הודעות ספאם והודעות היכולות לפגוע במשתמשי המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">מערכת השליחה</h2>
+							<dl class="faq">
+					<dt id="f2r0"><strong>איך אני יוצר נושא חדש או מפרסם תגובה?</strong></dt>
+					<dd>כדי לפרסם נושא חדש בפורום, לחץ על "נושא חדש". כדי להגיב לנושא, לחץ על "פרסם תגובה". ייתכן שתצטרך להירשם לפני שתוכל לשלוח הודעה.רשימת ההרשאות שלך בכל פורום זמינה בתחתית מסכי פורום ונושא. לדוגמא: אתה יכול לשלוח נושאים חדשים, אתה יכול לצרף קבצים להודעות, וכן הלאה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r1"><strong>כיצד אני עורך או מוחק הודעה?</strong></dt>
+					<dd>אם אינך מנהל או מנהל ראשי של המערכת, תוכל לערוך או למחוק את ההודעות שלך בלבד. אתה יכול לערוך הודעה על־ידי לחיצה על כפתור העריכה להודעה המיוחסת, לפעמים לזמן מוגבל בלבד לאחר שההודעה נשלחה. אם מישהו כבר הגיב להודעה, תמצא תוספת קטנה של טקסט המוצג מתחת להודעה כאשר אתה חוזר לנושא אשר רושם את מספר הפעמים שערכת אותה יחד עם התאריך והשעה. טקסט זה יופיע רק אם נשלחה להודעה תגובה. הוא לא יופיע אם מנהל או מנהל ראשי ערך את ההודעה, אך הם יכולים להשאיר הערה אשר מסבירה מדוע הם ערכו את ההודעה לפי ראות עיניהם. שים לב שמשתמשים רגילים לא יכולים למחוק הודעה לאחר שקיבלה תגובה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r2"><strong>כיצד אני מוסיף חתימה להודעות שלי?</strong></dt>
+					<dd>כדי להוסיף חתימה להודעה אתה חייב קודם ליצור אחת דרך לוח הבקרה למשתמש שלך. לאחר שנוצרה, אתה יכול לסמן את התיבה <em>צרף חתימה</em> בטופס השליחה כדי להוסיף את החתימה שלך. אתה יכול גם להוסיף חתימה כברירת מחדל לכל ההודעות שלך על־ידי בחירת האפשרות המתאימה בלוח הבקרה למשתמש. אם תעשה כך, תוכל עדיין למנוע מהחתימה להתווסף להודעות מסוימות על־ידי ביטול הסימון לתיבת הוספת החתימה בטופס השליחה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r3"><strong>כיצד אני יוצר סקר?</strong></dt>
+					<dd>בזמן שליחת נושא חדש או עריכת ההודעה הראשונה של הנושא, לחץ על התווית “יצירת סקר” תחת טופס השליחה הראשי. אם אתה לא יכול לראות אותה, אין לך את ההרשאות המתאימות ליצירת סקרים. הזן כותרת ולפחות שתי אפשרויות להצבעה בשדות המתאימים וודא שכל אפשרות בשורה נפרדת בתיבת הטקסט. אתה יכול גם לקבוע את מספר האפשרויות אשר משתמשים יכולים לבחור במשך ההצבעה תחת “אפשרויות לכל משתמש”, זמן הגבלה לסקר בימים (0 לצמיתות) ולבסוף האפשרות אשר מאפשרת למשתמשים לשנות את ההצבעות שלהם.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r4"><strong>מדוע אני לא יכול להוסיף אפשרויות נוספות לסקר?</strong></dt>
+					<dd>גבול האפשרויות בסקר נקבע ע"י שיקול דעתו של מנהל המערכת. אם אתה חושב שכמות האפשרויות לא מספיקה לך, פנה למנהל המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r5"><strong>כיצד אני ערוך או מוחק סקר?</strong></dt>
+					<dd>כמו בהודעות, רק השולח המקורי, מנהל או מנהל ראשי יכולים לערוך סקרים. כדי לערוך סקר, לחץ כדי לערוך את ההודעה הראשונה בנושא. היא תמיד מכילה את הסקר הנקבע לנושא. אם אף אחד לא הצביע, ניתן למחוק את הסקר או לשנות כל אחת מהאפשרויות שלו. עם זאת, אם משתמשים כבר הצביעו בסקר, רק מנהלים או מנהלים ראשיים יכולים לערוך או למחוק אותו. כך נמנע מאפשרויות הסקר להשתנות באמצע תקופת הסקר.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r6"><strong>מדוע איני יכול להיכנס לפורום?</strong></dt>
+					<dd>חלק מהפורומים מוגבלים לקבוצות משתמשים מסוימות. בכדי לצפות, לקרוא, לשלוח או לערוך אתה צריך גישות מסוימות, פנה למנהל המערכת בשביל לקבלם.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r7"><strong>מדוע אני לא יכול לצרף קבצים?</strong></dt>
+					<dd>הרשאות צירוף קבצים נקבעות בכל פורום, לכל קבוצה, או לכל משתמש בפרט. המנהל הראשי של המערכת יכול לא לאפשר צירוף קבצים לפורום המסוים בו אתה שולח, או יתכן שרק קבוצות מסוימות יכולות לצרף קבצים. צור קשר עם המנהל הראשי של המערכת אם אינך בטוח מדוע אינך יכול לצרף קבצים.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r8"><strong>מדוע קיבלתי אזהרה?</strong></dt>
+					<dd>כל מנהל ראשי של מערכת קובע את חוקי האתר שלו. אם עברת על חוק, יתכן שקיבלת אזהרה. שים לב כי זוהי החלטת המנהל הראשי של המערכת, וקבוצת phpBB לא יכולה לעשות דבר עם האזהרות באתר הנתון. צור קשר עם המנהל הראשי של המערכת אם אינך בטוח מדוע קיבלת אזהרה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r9"><strong>כיצד ניתן לדווח למנהל על הודעות?</strong></dt>
+					<dd>אם מנהל המערכת מאפשר זאת, אתה תראה כפתור דיווח הודעות ליד כפתור השליחת הודעה. על ידי לחיצה על הכפתור תעבור לפעולות הדיווח על הודעה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r10"><strong>מהו כפתור ה“שמור” בשליחת הנושא?</strong></dt>
+					<dd>אפשרות זאת מאפשרת לך לשמור הודעות שנכתבו לשליחה מאוחרת, תוכל להגיע אליהם שנית לאחר השמירה ע"י ביקור בלוח הבקרה למשתמש.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r11"><strong>מדוע הודעותיי צריכות לקבל אישור?</strong></dt>
+					<dd>המנהל הראשי של המערכת יכול להחליט שההודעות בפורום בו אתה מנסה לכתוב נדרשות להיבדק לפני הצגתן. יתכן גם שהמנהל הראשי הכניס אותך לקבוצה של משתמשים אשר ההודעות שלהם צריכות להיבדק טרם הצגתן. אנא צור קשר על המנהל הראשי של המערכת למידע נוסף.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f2r12"><strong>כיצד אני יכול להקפיץ את הודעתי?</strong></dt>
+					<dd>על־ידי לחיצה על הקישור “הקפץ נושא” כאשר אתה צופה בו, אתה יכול “להקפיץ” את הנושא לראש הפורום בעמוד הראשון. עם זאת, אם אינך רואה את הקישור, הקפצת הנושא יכולה להיות כבויה או הזמן המוקצב בין הקפצות עדיין לא הסתיים. ניתן גם להקפיץ את הנושא בפשטות על־ידי שליחת תגובה אליו, אך וודא שאתה מציית לחוקי המערכת כאשר אתה עושה כך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg1">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">עיצוב טקסט וסוגי נושאים</h2>
+							<dl class="faq">
+					<dt id="f3r0"><strong>מה זה BBCode?</strong></dt>
+					<dd>BBCode הוא צורה מיוחדת של HTML, המציע שליטה נהדרת בעיצוב בחלקים מסוימים בהודעה. השימוש ב־BBCode נקבע על־ידי המנהל הראשי, אבל ניתן גם לכבות אותו בכל הודעה בפרט מטופס השליחה. BBCode עצמו דומה במבנה ל־HTML, אך התגים תחמים בסוגריים המרובעים [ ו־] במקום ב־&lt; ו־&gt;. למידע נוסף על BBCode ראה את המדריך אליו ניתן לגשת מעמוד השליחה.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r1"><strong>האם אני יכול להשתמש ב־HTML?</strong></dt>
+					<dd>לא. אין אפשרות לשלוח HTML במערכת זו והוא יוצג בהודעות בתור HTML. רוב עיצובי הטקסט אשר ניתן לבצע ב־HTML ניתן גם לבצע בעזרת BBCode במקום.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r2"><strong>מה הם סמיילים?</strong></dt>
+					<dd>סמיילים, או הבעות, הם תמונות קטנות אשר ניתן להשתמש בהם כדי להביע הרגשה בעזרת קוד קצר, למשל :) מציין שמח, בעוד :( מסמן עצוב. את הרשימה המלאה של ההבעות ניתן לראות בטופס השליחה. נסה לא להגזים בסמיילים, מפני שהם יכולים להפוך את ההודעה ללא קריאה ומנהל יכול להוציא אותם או להסיר את ההודעה בשלמותה. המנהל הראשי של המערכת יכול גם לקבוע הגבלה למספר הסמיילים אשר תוכל להוסיף להודעות.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r3"><strong>האם אני יכול לפרסם תמונות?</strong></dt>
+					<dd>כן, ניתן להציג תמונות בהודעות שלך. אם המנהל הראשי מאפשר צירוף קבצים, תוכל גם להעלות את התמונה למערכת. אחרת, אתה חייב לקשר לתמונה המאוחסנת בשרת רחוק הנגיש לכולם, למשל http://www.example.com/my-picture.gif. אינך יכול לקשר לתמונות המאוחסנות על המחשב האישי שלך (אלא אם כן הוא שרת הנגיש לכולם) ולא תמונות המאוחסנות מאחורי מנגנוני אימות, למשל תיבות הדואר של hotmail או yahoo, אתרים המוגנים בססמה, וכד'. כדי להציג את התמונה בעזרת התג [img] של BBCode.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r4"><strong>מה הן הכרזות גלובליות?</strong></dt>
+					<dd>הכרזות גלובליות מכילות מידע חשוב ואתה צריך לקרוא אותן בכל שעה אפשרית. הן יופיעו בראש של כל פורום ובלוח הבקרה למשתמש שלך. הרשאות הכרזה גלובלית נקבעות על־ידי המנהל הראשי של המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r5"><strong>מה הן הכרזות?</strong></dt>
+					<dd>הכרזות בדרך כלל מכילות מידע חשוב לפורום בו אתה כרגע קורא וצריך לקרוא אותן מתי שניתן. ההכרזות מופיעות בראש של כל עמוד בפורום בו הן נשלחו. כמו בהכרזות הגלובליות, הרשאות הכרזה נקבעות על־ידי המנהל הראשי של המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r6"><strong>מה הם נושאים דביקים?</strong></dt>
+					<dd>נושאים דביקים מופיעים בפורום מתחת להכרזות ורק בעמוד הראשון. הם בדרך כלל חשובים כך שאתה אמור לקרוא אותם בכל שעה נתונה. כמו בהכרזות ובהכרזות הגלובליות, הרשאות נושא דביק נקבעות על־ידי המנהל הראשי של המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r7"><strong>מה הם נושאים נעולים?</strong></dt>
+					<dd>נושאים נעולים הם נושאים אשר המשתמשים אינם יכולים להגיב אליהם יותר וכל סקר אשר הם עלולים להכיל יסתיים אוטומטית. הנושאים יכולים להיות נעולים מסיבות רבות ונקבעו כך על־ידי מנהל הפורום או המנהל הראשי של המערכת. תוכל גם לנעול את הנושאים שלך לפי ההרשאות אשר נקבעו על־ידי המנהל הראשי של המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f3r8"><strong>מה הם אייקונים לנושא?</strong></dt>
+					<dd>אייקונים לנושא הם תמונות בבחירת הכותב הנקבעות להודעות כדי לרמוז על תוכנן. האפשרות להשתמש באייקונים לנושא תלויה בהרשאות אשר נקבעו על־ידי המנהל הראשי של המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">רמות משתמשים וקבוצות</h2>
+							<dl class="faq">
+					<dt id="f4r0"><strong>מה הם מנהלים ראשיים?</strong></dt>
+					<dd>מנהלים ראשיים הם משתמשים אשר נקבעו עם הרמה הגבוהה ביותר של שליטה בכל המערכת. משתמשים אלו יכולים לשלוט בכל חלקי המערכת, כולל הגדרת הרשאות, חסימת משתמשים, יצירת קבוצות משתמשים או מנהלים, וכד', תלויים תחת מייסד המערכת ובהרשאות אשר הוא נתן להם. הם יכולים גם להיות בעלי הרשאות ניהול מלאות בכל הפורומים, לפי ההגדרות אשר נקבעו על־ידי מייסד המערכת.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r1"><strong>מה הם מנהלים?</strong></dt>
+					<dd>מנהלים הם משתמשים (או קבוצות של משתמשים) אשר מפקחים על הפורומים בכל יום. יש להם את ההרשאות לערוך ולמחוק הודעות ולנעול, לשחרר נעילה, להעביר, למחוק ולפצל נושאים בפורום אותו הם מנהלים. בדרך כלל, מנהלים נקבעו כדי למנוע ממשתמשים מלצאת מהנושא או משליחת הודעות הפוגעות בפורום.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r2"><strong>מה הם קבוצות משתמשים?</strong></dt>
+					<dd>קבוצות משתמשים הם קבוצות של משתמשים אשר מחלקים את הקהילה לחלקים הניתנים לניהול על־ידי המנהלים הראשיים של המערכת. כל משתמש יכול להשתייך לכמה קבוצות ולכל קבוצה יכולות להיקבע ההרשאות שלה. הן מספקות דרך קלה למנהלים ראשיים לשנות הרשאות להרבה משתמשים בפעם אחת, כמו שינוי הרשאות מנהל וקביעת גישות למשתמשים לפורומים פרטיים.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r3"><strong>היכן נמצאות קבוצות המשתמשים וכיצד אני מצטרף לאחת?</strong></dt>
+					<dd>אתה יכול לצפות בכל קבוצות המשתמשים דרך הקישור “קבוצות משתמשים” בלוח הבקרה למשתמש שלך. אם תרצה להצטרף לאחת, המשך על־ידי לחיצה על הכפתור המתאים. לא כל הקבוצות בעלות גישה פתוחה. כמה יכולות לדרוש אישור להצטרפות, כמה יכולות להיות סגורות וכמה יכולות אף להסתיר את חברי הקבוצה. אם הקבוצה פתוחה, אתה יכול להצטרף אליה על־ידי לחיצה על הכפתור המתאים. אם קבוצה דורשת אישור להצטרפות תוכל לבקש להצטרף על־ידי לחיצה על הכפתור המתאים. ראש קבוצת המשתמשים צריך לאשר את בקשתך ויכול לשאול אותך מדוע אתה רוצה להצטרף לקבוצה. אנא אל תטריד ראש קבוצה אם הוא דחה את בקשתך. יכולות להיות לו הסיבות שלו.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r4"><strong>כיצד אני הופך לראש קבוצת משתמשים?</strong></dt>
+					<dd>ראש קבוצת משתמשים נקבע בדרך כלל בעת יצירת הקבוצה על־ידי המנהל הראשי של המערכת. אם אתה מעוניין ביצירת קבוצת משתמשים, אתה צריך ראשית ליצור קשר עם המנהל הראשי. נסה שליחת הודעה פרטית.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r5"><strong>למה קבוצות משתמשים מסוימות מופיעות בצבעים שונים?</strong></dt>
+					<dd>המנהל הראשי של המערכת יכול לקבוע צבע לחברי קבוצת משתמשים מסוימת כדי להפוך את זיהוי חברי הקבוצה לקל יותר.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r6"><strong>מה היא “קבוצת משתמשים כברירת מחדל”?</strong></dt>
+					<dd>אם אתה חבר של יותר מקבוצת משתמשים אחת, ברירת המחדל בשימוש כדי לקבוע איזה צבע קבוצה ודירוג קבוצה יוצגו לך כברירת מחדל. המנהל הראשי של המערכת יכול לאפשר לך הרשאה לשנות את קבוצת המשתמשים כברירת מחדל שלך דרך לוח הבקרה למשתמש שלך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f4r7"><strong>מהו הקישור “הצוות”?</strong></dt>
+					<dd>עמוד זה מספק לך את רשימת הצוות של המערכת, כולל המנהלים הראשיים של המערכת והמנהלים ופרטים אחרים כמו הפורומים שהם מנהלים.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg1">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">הודעות פרטיות</h2>
+							<dl class="faq">
+					<dt id="f5r0"><strong>אני לא יכול לשלוח הודעות פרטיות!</strong></dt>
+					<dd>ישנן שלוש סיבות לכך: אינך רשום ו/או מחובר, המנהל הראשי של המערכת כיבה את ההודעות הפרטיות למערכת כולה, או המנהל הראשי של המערכת מונע ממך משליחת הודעות. צור קשר עם המנהל הראשי של המערכת למידע נוסף.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f5r1"><strong>אני ממשיך לקבל הודעות פרטיות לא רצויות!</strong></dt>
+					<dd>אתה יכול למחוק הודעות פרטיות ממשתמש מסוים, בצורה אוטומטית, באמצעות כללי ההודעות בלוח הבקרה למשתמש (הודעות פרטיות -> כללים, תיקיות והגדרות). אם אתה מקבל הודעות פוגעניות ממשתמש מסוים, דווח על ההודעות למנהלים. יש להם את האפשרות למנוע מהמשתמש לשלוח הודעות פרטיות.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f5r2"><strong>קיבלתי דואר אלקטרוני לא רצוי ממישהו מהפורום הזה!</strong></dt>
+					<dd>אנו מצטערים לשמוע זאת. מאפיין טופס הדואר האלקטרוני של מערכת זו כולל אמצעי אבטחה כדי לנסות ולעקוב אחר משתמשים אשר שולחים הודעות כאלו, כך שתוכל לשלוח הודעת דואר אלקטרוני למנהל הראשי של המערכת עם העתק מלא של הודעה זו. חשוב מאוד לכלול את הכותרות אשר מכילות את פרטי המשתמש ששלח את ההודעה. המנהל הראשי יוכל לפעול אחר כך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">חברים ונודניקים</h2>
+							<dl class="faq">
+					<dt id="f6r0"><strong>מהם רשימת החברים והנודניקים שלי?</strong></dt>
+					<dd>אתה יכול להשתמש ברשימות אלו כדי לסדר את המשתמשים האחרים של המערכת. משתמשים המתווספים לרשימת החברים שלך ירשמו בלוח הבקרה למשתמש שלך לגישה מהירה כדי לראות את מצב החיבור שלהם ולשלוח להם הודעות פרטיות. לפי תמיכת הערכה, הודעות ממשתמשים אלו יכולות גם להיות מודגשות. אם אתה מוסיף משתמש לרשימת הנודניקים שלך, כל ההודעות אשר הוא שולח יוסתרו כברירת מחדל.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f6r1"><strong>כיצד אני יכול להוסיף / להסיר משתמשים אל/מתוך רשימת החברים או הנודניקים שלי?</strong></dt>
+					<dd>אתה יכול להוסיף משתמשים לרשימה שלך בשתי דרכים. בתוך כל פרופיל משתמש, ישנו קישור להוספת המשתמש לרשימת החברים או הנודניקים שלך. לחלופין, מלוח הבקרה למשתמש שלך, אתה יכול להוסיף ישירות משתמשים על־ידי הזנת שמות המשתמשים שלהם. אתה יכול גם להסיר משתמשים מהרשימה שלך בעזרת אותו עמוד.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg1">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">חיפוש בפורומים</h2>
+							<dl class="faq">
+					<dt id="f7r0"><strong>כיצד אני יכול לחפש בפורום או בפורומים?</strong></dt>
+					<dd>הזן את החיפוש בתיבת החיפוש הנמצאת בעמוד הראשי, בעמודי הפורום או הנושא. ניתן לגשת לחיפוש המתקדם על־ידי לחיצה על הקישור “חיפוש מתקדם” אשר זמין בכל העמודים בפורום. הדרך לגישה לחיפוש תלויה בעיצוב שבשימוש.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f7r1"><strong>מדוע החיפוש שלי לא מחזיר תוצאות?</strong></dt>
+					<dd>החיפוש שלך היה כנראה מעורפל מדי ומכיל הרבה מונחים שכיחים. היה יותר ממוקד והשתמש באפשרויות הסינון שזמינות בחיפוש המתקדם.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f7r2"><strong>מדוע החיפוש שלי מחזיר עמוד ריק!?</strong></dt>
+					<dd>החיפוש שלך החזיק יותר מדי תוצאות אשר השרת יכול לבצע. השתמש ב“חיפוש מתקדם” והגדר יותר את התנאים שבשימוש והפורומים בהם אתה מחפש.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f7r3"><strong>כיצד אני מחפש משתמשים?</strong></dt>
+					<dd>בקר בעמוד “משתמשים” ולחץ על הקישור “מצא משתמש”</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f7r4"><strong>כיצד אני יכול למצוא את ההודעות והנושאים שלי?</strong></dt>
+					<dd>ניתן לאחזר את ההודעות שלך על-ידי לחיצה על הקישור "הצג את ההודעות שלך" בתוך לוח הבקרה למשתמש או על ידי לחיצה על הקישור "חפש את הודעות המשתמש" דרך עמוד הפרופיל שלך או על ידי לחיצה על תפריט "קישורים מהירים" בחלק העליון של כל דף.  כדי לחפש את הנושאים שלך, השתמש בעמוד החיפוש המתקדם ומלא את האפשרויות המתאימות.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">נושאים מועדפים והרשמות לקבלת עדכונים</h2>
+							<dl class="faq">
+					<dt id="f8r0"><strong>מה ההבדל בין מועדפים והרשמות לקבלת עדכונים?</strong></dt>
+					<dd>ב-phpBB 3.0, שמירה למועדפים של נושאים עבדה בדומה למועדפים בדפדפן - לא היית מקבל התראות על עדכונים בנושאים. החל מגרסה 3.1, שמירה למועדפים דומה יותר להרשמה לנושא. תוכל לקבל התראות כאשר הנושא מתעדכן. הרשמה לפורום, לעומת זאת, תעדכן אותך כאשר ישר עדכונים לנושא או פורום במערכת. ניתן לשנות את אפשרויות ההתראות למועדפים והרשמות בלוח הבקרה למשתמש, תחת ״העדפות מערכת״.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f8r1"><strong>כיצד אני יכול להוסיף למועדפים או להירשם לנושאים ספציפיים?</strong></dt>
+					<dd>תוכל להוסיף נושא ספציפי למועדפים או להירשם אליו על ידי לחיצה על הקישור המתאים בתפריט "אפשרויות נושא", הממוקם לנוחותך לצד חלקו העליון והתחתון של דיון בנושא.<br /> תגובה לנושא  כאשר התיבה "הודע לי כאשר תגובה נשלחת" מסומנת גם תרשום אותך לקבל עדכונים מהנושא.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f8r2"><strong>כיצד אני נרשם לפורום מסוים?</strong></dt>
+					<dd>Tכדי להרשם לפורום מסוים, לחץ על הקישור “הרשם לקבלת עדכונים מפורום זה” בתחתית העמוד לאחר הכניסה לפורום.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f8r3"><strong>כיצד אני מסיר את ההרשמות שלי?</strong></dt>
+					<dd>כדי להסיר את ההרשמות שלך, עבור ללוח הבקרה למשתמש שלך ולחץ על הקישורים להרשמות שלך.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg1">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">קבצים מצורפים</h2>
+							<dl class="faq">
+					<dt id="f9r0"><strong>אלו מין קבצים מצורפים ניתנים לצירוף במערכת זו?</strong></dt>
+					<dd>מנהל המערכת רשאי להוסיף ולהוריד אלו סוגי קבצים שברצונו לקבל או לא לקבל למערכת שלו. אם אינך בטוח שניתן להעלות, צור קשר עם אחד ממנהלי המערכת למידע נרחב יותר.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f9r1"><strong>כיצד אני מוצא את כל הקבצים המצורפים שלי?</strong></dt>
+					<dd>בכדי למצוא את רשימת הקבצים המצורפים שהעלאת, עבור ללוח הבקרה למשתמש ובחר באפשרות הקבצים המצורפים.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+	<div class="panel bg2">
+		<div class="inner">
+
+		<div class="content">
+			<h2 class="faq-title">מערכת phpBB</h2>
+							<dl class="faq">
+					<dt id="f10r0"><strong>מי תכנן וכתב את תוכנת הפורומים?</strong></dt>
+					<dd>תוכנה זו (בצורה הלא ערוכה שלה) נוצרה, שוחררה וזכויותיה הם של <a href="https://www.phpbb.com/">קבוצת phpBB</a>. המערכת נבנתה תחת רישיון חופשי וניתנת לעריכה חופשית ומלאה (GNU-2.0). לפרטים נוספים בקרו בעמוד <a href=“http://phpbb.co.il/about/”>אודות המערכת</a>.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f10r1"><strong>מדוע אפשרות כזו או אחרת לא קיימת?</strong></dt>
+					<dd>המערכת נכתבה וקיבלה רישיון על ידי קבוצת phpBB. אם אתה מאמין שיש אפשרות שצריך להוסיף אנא בקר ב<a href="https://www.phpbb.com/ideas/">מרכז ההצעות של phpBB</a>, שם תוכל להצביע להצעות או להציע הצעות חדשות</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f10r2"><strong>למי אני פונה במקרים של חשד לעברה על החוק/ניצול לרעה של המערכת?</strong></dt>
+					<dd>לכל מנהל ראשי אשר נמצא בקבוצה הנקראת “הצוות”. הדף יכול לשמש גם עזר להערותיכם. שים לב שלקבוצת phpBB <strong>אין לחלוטין סמכות שיפוטית</strong> ואינה יכולה בשום דרך לשאת באחריות לגבי איך, איפה או על־ידי מי מערכת זו בשימוש. אל תצור קשר עם קבוצת phpBB בהקשר לכל חומר לא חוקי אשר <strong>לא קשור באופן ישיר</strong> לאתר phpBB.co.il או המערכת phpBB עצמה בפרט. אם תשלח דואר אלקטרוני לקבוצת phpBB <strong>לגבי כל שימוש בצד שלישי</strong> של מערכת זו, צפה לתשובה מצומצמת או לשום תשובה בכלל.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+				<hr class="dashed" />							<dl class="faq">
+					<dt id="f10r3"><strong>איך אני יוצר קשר עם מנהל הפורומים?</strong></dt>
+					<dd>כל המשתמשים של הפורומים יכולים להשתמש בטופס “יצירת קשר”, אם מנהל הפורומים הפעיל אפשרות זו.<br />משתמשים רשומים יכולים לצפות גם בעמוד “הצוות”.</dd>
+				</dl>
+				<a href="#faqlinks" class="top">
+					<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i><span>חזרה למעלה</span>
+				</a>
+									</div>
+
+		</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-right dropdown-button-control" id="jumpbox">
+			<span title="עבור אל" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>עבור אל</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			<div class="pointer"><div class="pointer-inner"></div></div>
+			<ul class="dropdown-contents">
+																				<li><a href="./../../viewforum.php?f=3&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-cat-link"> <span> פורומי מערכת</span></a></li>
+																<li><a href="./../../viewforum.php?f=4&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; הכרזות ועדכונים</span></a></li>
+																<li><a href="./../../viewforum.php?f=12&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום הצעות ורעיונות</span></a></li>
+																<li><a href="./../../viewforum.php?f=22&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8626; &nbsp; רעיונות שהתקבלו</span></a></li>
+																<li><a href="./../../viewforum.php?f=13&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום תמיכה טכנית, משוב ושאלות על הפורום</span></a></li>
+																<li><a href="./../../viewforum.php?f=5&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-cat-link"> <span> אקולוקו</span></a></li>
+																<li><a href="./../../viewforum.php?f=6&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; זכרונות מאקולוקו</span></a></li>
+																<li><a href="./../../viewforum.php?f=7&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; זוכרים אותי?</span></a></li>
+																<li><a href="./../../viewforum.php?f=8&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-cat-link"> <span> כללי</span></a></li>
+																<li><a href="./../../viewforum.php?f=9&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום דיבורים</span></a></li>
+																<li><a href="./../../viewforum.php?f=23&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8626; &nbsp; ברכות יום הולדת</span></a></li>
+																<li><a href="./../../viewforum.php?f=10&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום טכנולוגיה ואפליקציות</span></a></li>
+																<li><a href="./../../viewforum.php?f=11&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום פלאש, עיצובים וגרפיקות</span></a></li>
+																<li><a href="./../../viewforum.php?f=24&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8626; &nbsp; מפעלי חתימות</span></a></li>
+																<li><a href="./../../viewforum.php?f=15&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום הפעלות ומשחקונים</span></a></li>
+																<li><a href="./../../viewforum.php?f=28&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8626; &nbsp; הפעלות הצוות</span></a></li>
+																<li><a href="./../../viewforum.php?f=16&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום סרטים ותוכניות טלוויזיה</span></a></li>
+																<li><a href="./../../viewforum.php?f=17&amp;sid=3ef24fe72af7a3f402dca82f654d228d" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8626; &nbsp; פורום מוזיקה וזמרים</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="./../../index.php?sid=3ef24fe72af7a3f402dca82f654d228d" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>עמוד ראשי</span></a></span>					</li>
+		
+				<li class="rightside">כל הזמנים הם <span title="אסיה/ירושלים">UTC+02:00</span></li>
+							<li class="rightside">
+				<a href="./../../ucp.php?mode=delete_cookies&amp;sid=3ef24fe72af7a3f402dca82f654d228d" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>הסרת כל עוגיות המערכת</span>
+				</a>
+			</li>
+														</ul>
+
+	</div>
+</div>
+
+	<div class="copyright">
+				<p class="footer-row">
+			<span class="footer-copyright">מופעל על ידי <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited</span>
+		</p>
+				<p class="footer-row">
+			<span class="footer-copyright">מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. כל הזכויות שמורות &copy; 2017 - phpBB.co.il.</span>
+		</p>
+						<p class="footer-row">
+			<a class="footer-link" href="./../../ucp.php?mode=privacy&amp;sid=3ef24fe72af7a3f402dca82f654d228d" title="פרטיות" role="menuitem">
+				<span class="footer-link-text">פרטיות</span>
+			</a>
+			|
+			<a class="footer-link" href="./../../ucp.php?mode=terms&amp;sid=3ef24fe72af7a3f402dca82f654d228d" title="תנאי שימוש" role="menuitem">
+				<span class="footer-link-text">תנאי שימוש</span>
+			</a>
+		</p>
+					</div>
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="שגיאת AJAX" data-ajax-error-text="משהו השתבש בזמן עיבוד הבקשה שלך." data-ajax-error-text-abort="המשתמש ביטל את הבקשה." data-ajax-error-text-timeout="הבקשה שלך לקחה יותר מדי זמן; אנא נסה שנית." data-ajax-error-text-parsererror="נראה כי משהו השתבש עם הבקשה והשרת החזיר תשובה לא תקינה.">
+		<div id="darken" class="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="שגיאה" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="./../../cron.php?cron_type=cron.task.autogroups_check&amp;sid=3ef24fe72af7a3f402dca82f654d228d" width="1" height="1" alt="cron" /></div>
+
+<script type="text/javascript" src="./../../assets/javascript/jquery.min.js?assets_version=93"></script>
+<script type="text/javascript" src="./../../assets/javascript/core.js?assets_version=93"></script>
+
+
+<script type="text/javascript">
+var $imgur = {
+	lang: {
+		error: '\u05E9\u05D2\u05D9\u05D0\u05D4',
+		imageTooBig: 'IMGUR_IMAGE_TOO_BIG',
+		noImages: 'IMGUR_NO_IMAGES',
+		uploadProgress: 'IMGUR_UPLOAD_PROGRESS'
+	}
+};
+</script>
+
+<script src="./../../styles/prosilver/template/forum_fn.js?assets_version=93"></script>
+<script src="./../../styles/prosilver/template/ajax.js?assets_version=93"></script>
+<script src="./../../ext/alfredoramos/imgur/styles/all/theme/js/formdata.min.js?assets_version=93"></script>
+<script src="./../../ext/alfredoramos/imgur/styles/all/theme/js/functions.js?assets_version=93"></script>
+<script src="./../../ext/alfredoramos/imgur/styles/all/theme/js/imgur.js?assets_version=93"></script>
+<script src="./../../ext/alfredoramos/simplespoiler/styles/all/theme/js/spoiler.js?assets_version=93"></script>
+
+
+<script type="text/javascript">
+(function($) {
+	'use strict';
+	$(document.body).initSpoilers({
+		lang: {
+			show: '\u05D4\u05E6\u05D2',
+			hide: '\u05D4\u05E1\u05EA\u05E8'
+		}
+	});
+})(jQuery);
+</script>
+<script type="text/javascript">
+    var vglnk = {key: '115991f36a7d08913984f1278191cdc3'};
+    (function(d, t) {
+        var s = d.createElement(t);
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//cdn.viglink.com/api/vglnk.js';
+        var r = d.getElementsByTagName(t)[0];
+            r.parentNode.insertBefore(s, r);
+    }(document, 'script'));
+</script>
+</body>
+</html>

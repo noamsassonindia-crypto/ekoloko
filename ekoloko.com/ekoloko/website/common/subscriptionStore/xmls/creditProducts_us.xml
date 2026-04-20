@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<product id="30013">
+		<title><![CDATA[<font size="17"><b>get 2,400 ekoCoins</b></font><br/><font size="17"></font>]]></title>
+		<productIsActive>1</productIsActive>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="allopass" active="1" />
+		</paymentMethods>
+	</product>
+	<product id="30011">
+		<title><![CDATA[<font size="17"><b>get 4,500 ekoCoins</b></font><br/><font size="17"></font>]]></title>
+		<productIsActive>1</productIsActive>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="allopass" active="1" />
+		</paymentMethods>
+	</product>
+	<product id="30012">
+		<title><![CDATA[<font size="17"><b>get 11,000 ekoCoins</b></font><br/><font size="17"></font>]]></title>
+		<productIsActive>1</productIsActive>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="allopass" active="1" />
+		</paymentMethods>
+	</product>
+</data>

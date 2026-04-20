@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<errors>
+		<userNotActivated>Activer le compte grâce au lien envoyé à l'adresse mail de tes parents</userNotActivated>
+		<unknownError>Erreur inconnue. Essaie de te connecter plus tard</unknownError>
+		<userBanned1>Tu n'as pas respecté les règles de bonne conduite. Tu es exclu(e) pour 24 heures</userBanned1>
+		<userBanned7>Tu n'as pas respecté les règles de bonne conduite. Tu es exclu(e) pour une semaine</userBanned7>
+		<userBannedForever>Tu n'as pas respecté les règles de bonne conduite. Tu es définitivement exclu(e)</userBannedForever>
+		<badLoginDetails>Mot de passe ou pseudo incorrect</badLoginDetails>
+		<enterUsername>Si tu n'es pas encore inscrit(e), clique sur "Inscription" et créer ton personnage ekoloko MAINTENANT, c'est gratuit!</enterUsername>
+		<badUserName>Pseudo incorrect</badUserName>
+		<enterPassword>Remplis la case mot de passe</enterPassword>
+		<badUserPassword>Mot de passe incorrect</badUserPassword>
+		<errorSendingPass>Problème d'envoi du mot de passe. Stp essaie plus tard</errorSendingPass>
+		<passwordSent>Votre mot de passe a été envoyé à votre adresse mail</passwordSent>
+		<badCaptcha>Le code de validation que tu as tapé est incorrect</badCaptcha>		
+				
+	</errors>
+</data>

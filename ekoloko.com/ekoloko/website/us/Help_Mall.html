@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+function passHrefParam(link) {
+	location.href = addUrlParam("hideNavigation", link);
+}
+
+var menuSwf = "subPage_menu?page=4&language=us"//+getParameter('language');
+menuSwf = addUrlParam("hideNavigation", menuSwf); 
+var sideMenuSwf = "sideMenu_help?page=5&language=us"//+getParameter('language');
+sideMenuSwf = addUrlParam("hideNavigation", sideMenuSwf); 
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function openQuestions(id) {
+	var div = document.getElementById(id)
+	if(div.style.display == "block") {
+		div.style.display = "none"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_open.png";
+	} else {
+		div.style.display = "block"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_close.png";
+	}
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '410',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:2px">
+                <div style="float:right">
+                <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','150','height','150','src','../common/images/ekoCoin-badge','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','wmode','transparent','movie','../common/images/ekoCoin-badge' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="150" height="150">
+                  <param name="movie" value="../common/images/ekoCoin-badge.swf">
+                  <param name="quality" value="high">
+                  <param name="wmode" value="transparent">
+                  <embed src="../common/images/ekoCoin-badge.swf" width="150" height="150" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="transparent"></embed>
+                </object>
+</noscript></div>
+				<p><span class="Title">The ekoloko Mall</span>
+                  <br>
+                  <br>
+                  <ul>
+                   <li><a href="#a1" class="faqQuestions">What is the ‘ekoloko Mall’?</a></li>
+			       <li><a href="#a2" class="faqQuestions">What are ekoCoins <img src="../common/images/eko-coins-icon.png" border="0" align="absmiddle"> and where can I get them?</a></li>
+			       <li><a href="#a3" class="faqQuestions">How many ekoCoins do I get for a dollar?</a></li>
+			       <li><a href="#a4" class="faqQuestions">How can I know how many ekoCoins I have?</a></li>
+                   <li><a href="#a5" class="faqQuestions">What does every button in the Mall do?</a></li>
+                   <li><a href="#a6" class="faqQuestions">Will I be able to try on items before I buy them?</a></li>
+                   <li><a href="#a7" class="faqQuestions">Where can I find purchased items?</a></li>
+                   <li><a href="#a8" class="faqQuestions">How do I protect the rare items I purchase?</a></li>
+                   <li><a href="#a9" class="faqQuestions">How do I purchase a Pioneer Membership?</a></li>
+                  </ul>  
+   	       <br>
+<p align="center"><img src="../common/images/parents_about_1.jpg" width="520" height="150" class="images"><br>
+          		 </p>
+					 
+				  <p><span class="FAQTitle"><a name="a1"></a>What is the ‘ekoloko Mall’?</span><br>
+                    <span class="BodyText">The ekoloko Mall is a virtual shopping center. Purchases are made here using ekoCoins. Dozens of rare and special items for your Eko and your moon house can be found here.<br> 
+                    A branch of Massiamara’s Potion Shop can also be found here.<br>
+<br>
+You can enter the mall by logging in to ekoloko, and then clicking the ekoloko Mall button that appears on the top right side of your screen. Sometimes the button looks like this: <img src="../common/images/mallIcon1.png" align="absmiddle">  and sometimes it looks like this: <img src="../common/images/mallIcon2.png" align="absmiddle">. Don’t worry, it’s the same button!					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+					<p><span class="FAQTitle"><a name="a2"></a>What are ekoCoins <img src="../common/images/eko-coins-icon.png" align="absmiddle"> and where can I get them?</span><br>
+                    <span class="BodyText">ekoCoins are the currency with which you can shop in the ekoloko Mall. You can buy ekoCoins online in the ekoloko Mall.  <br>
+					<br>
+					On occasion, you may be rewarded with ekoCoins for a special activity, or you may be given ekoCoins to help you solve a particular quest.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a3"></a>How many ekoCoins do I get for a dollar?</span><br>
+                    <span class="BodyText">The more ekoCoins you buy, the more you get for your dollar.<br>
+                    <br>
+                    You can currently choose from 3 packages of ekoCoins:<br>
+                    <strong>2,400 coins for $3</strong> (at an exchange rate of 800  coins per dollar).<br>
+                    <strong>4,500 coins for $5</strong> (at an exchange rate of 900 coins per dollar).<br>
+                    <strong>11,000 coins for $10</strong> (at an exchange rate of 1100  coins per dollar).<br>
+                    <br>
+                    You can purchase ekoCoins in the Pioneer Shop and in the ekoloko Mall. And now – you can also pay for them through your mobile phone bill!					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                     <p><span class="FAQTitle"><a name="a4"></a>How can I know how many ekoCoins I have?</span><br>
+                    <span class="BodyText">On the lower left side of the ekoloko Mall screen you’ll find the “My Account” tag. Right below it you’ll be able to see how many ekoCoins you have.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a5"></a>What does every button in the Mall do?</span><br>
+                    <span class="BodyText">Here are the ekoloko Mall buttons – (starting at the lower left side and going clockwise): <br>
+					<table width="100%" border="0">
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-button_en.jpg"></td>
+                        <td>ekoCoins – Purchase Eko Coins so you can purchase items in the different shops in the Mall.</td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-pioneer.jpg" width="48" height="48"></td>
+                        <td><p>Pioneer Shop –   Here you can find the different membership packages for the ekoloko Pioneers -   The Best in all Worlds.</p></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-nedirim.jpg" width="63" height="48"></td>
+                        <td><p>The RareItes   Shop – Here you can find rare clothes and accessories.</p></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-packages.jpg" width="58" height="48"></td>
+                        <td><p>The Special   Collections Shop – Here you can buy “Total Looks” designed by   Blade.</p></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-house.jpg" width="58" height="48"></td>
+                        <td><p>The Moon House   Shop – Buy furniture, appliances and other furnishings for your moon   house.</p></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-storage.jpg" width="58" height="48"></td>
+                        <td><p>The Storage   Place – Upgrade your storage space!</p></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-potions.jpg" width="48" height="48"></td>
+                        <td><p>Potions Store  –   Here you can purchase special potions mixed by Massiamara herself and make all   the Ekos around you crazy with the magic spells! </p></td>
+                      </tr>
+                       <tr>
+                        <td align="center"><img src="../common/images/ekocoins-btn-time.jpg" width="60" height="48"></td>
+                        <td><p>Extra Rare   Offers – Here you can find extremely rare RareItes. Quantities are limited and   offers are for a short time only, so hurry! </p></td>
+                      </tr>
+                    </table>
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a6"></a>Will I be able to try on items before I buy them?</span><br>
+                    <span class="BodyText">One of the coolest innovations in the ekoloko Mall is being able to try on the clothes and accessories.  Click the ‘Try’ button for the item you are interested in.<br>
+<br>
+Liked the item you tried on? Great! If you take a look, you’ll see that the ‘Try’ button has now changed to ‘Buy’ – click it again now to purchase the item. <br>
+<br>
+Please note: Only Pioneers will be able to try on or purchase items made for Pioneers.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a7"></a>Where can I find my purchased items?</span><br>
+                    <span class="BodyText">The purchased items will appear in your inventory. If you do not have free space in your inventory, a pop-up will message will let you know. If you’re a Pioneer, you’ll be able to use the storage space. If not, you might need to sell or gift some of your items to make room. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a8"></a>How do I protect the rare items I purchase?</span><br>
+                    <span class="BodyText">The best way to protect items, particularly rare items you purchased and items you worked hard to earn through quests, is by keeping your account information personal. Do NOT share your password or make any changes to your account information because someone asked you to, or because someone offered to go into your account to help you with quests or anything else. Your account is YOURS, and your account info is also YOURS and no one else should know it.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                  <p><span class="FAQTitle"><a name="a9"></a>How do I purchase a Pioneer Membership?</span><br>
+                    <span class="BodyText">Everybody knows the ekoloko Pioneers are the best in all worlds!. In order to become a Pioneer and enjoy everything ekoloko has to offer, you’ll need to purchase a Pioneer membership online. <br>
+<br>
+You can find the different membership packages by clicking the link to the <a href="#" onClick="passHrefParam('subscriptionStore.html')" target="_self">Pioneer Store</a> from the Mall, from the top navigation menu, or from the Pioneers leaf in the Log-In screen.<br>
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+					<br>
+                </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+      <span  class="footerText" style="position:relative; left:-26px;"><a href="#" onClick="passHrefParam('Parents_About.html')" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="#" onClick="passHrefParam('Help_Contact.html')" class="footerLinks">Contact Us</a>  |   <a href="#" onClick="passHrefParam('Site_Map.html')" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 Virtual Tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

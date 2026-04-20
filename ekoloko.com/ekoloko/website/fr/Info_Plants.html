@@ -1,0 +1,438 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=0&language=fr"//+getParameter('language');
+var sideMenuSwf = "sideMenu_info?page=1&language=fr"//+getParameter('language');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function changeImage(img1, img2) {
+	document.images[img1].src='../common/images/'+img2+'.jpg';
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '310',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top"> <p><span class="Title">Plantes d'ekoloko</span>
+                 <table width="100%" border="0" cellspacing="20" cellpadding="0" align="center">
+                      <tr>
+                        <td align="center"><a href="#a" class="faqQuestions"><img id="plants_generic" src="../common/images/plants_generic.jpg" border="0" class="images" onMouseOver="changeImage('plants_generic', 'plants_generic_over')" onMouseOut="changeImage('plants_generic','plants_generic')"><br>
+                          Plantes Génériques</a></td>
+                        <td align="center"><a href="#b" class="faqQuestions"><img id="plants_tropic" src="../common/images/plants_tropic.jpg" border="0" class="images" onMouseOver="changeImage('plants_tropic', 'plants_tropic_over')" onMouseOut="changeImage('plants_tropic','plants_tropic')"><br>
+                        Plantes Tropicales</a></td>
+                        <td align="center"><a href="#c" class="faqQuestions"><img id="plants_desert" src="../common/images/plants_desert.jpg" border="0" class="images" onMouseOver="changeImage('plants_desert', 'plants_desert_over')" onMouseOut="changeImage('plants_desert','plants_desert')"><br>
+                        Plantes du Désert</a></td>
+                        <td align="center"><a href="#d" class="faqQuestions"><img id="plants_swamp" src="../common/images/plants_swamp.jpg" border="0" class="images"  onMouseOver="changeImage('plants_swamp', 'plants_swamp_over')" onMouseOut="changeImage('plants_swamp','plants_swamp')"><br>
+                        Plantes de Marais</a></td>
+                    </tr>
+                  </table>
+				
+                
+                  <a name="a"></a><span class="Title">Plantes Génériques</span>
+                  <p align="center"><img src="../common/images/garden_generic.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+	                <td align="center"><a href="#101" class="faqQuestions"><img src="../common/images/garden_plant_potato.png" border="0"><br>
+                    Pomme de terre</a></td>
+                    <td align="center"><a href="#102" class="faqQuestions"><img src="../common/images/garden_plant_wheat.png" border="0"><br>
+                    Blé</a></td>
+                    <td align="center"><a href="#103" class="faqQuestions"><img src="../common/images/garden_plant_corn.png" border="0"><br>
+                    Maïs</a></td>
+                  </tr>
+                  <tr>
+	                <td align="center"><a href="#104" class="faqQuestions"><img src="../common/images/garden_plant_sunflower.png" border="0"><br>
+                    Tournesols</a></td>
+                    <td align="center"><a href="#105" class="faqQuestions"><img src="../common/images/garden_plant_vine.png" border="0"><br>
+                    Vigne</a></td>
+                    <td align="center"><a href="#106" class="faqQuestions"><img src="../common/images/garden_plant_apple.png" border="0"><br>
+                    Pomme</a></td>
+                  </tr>
+                </table>
+                
+                <p><a name="101"></a><img src="../common/images/garden_plant_potato.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Pomme de terre</span><br>
+                    <span class="BodyText">La pomme de terre, ou patate, est un tubercule comestible appartenant à la famille des solanacées.<br><br>
+
+La pomme de terre, originaire d’ Amérique du Sud, est arrivée en Europe vers la fin du 15ème siècle à la suite de la découverte de l’Amérique par les conquistadors espagnols. <br><br>
+Elle est aujourd’hui cultivée dans plus de 150 pays sous pratiquement toutes les latitudes habitées. <br><br>
+
+Ses qualités nutritives et sa facilité de culture font qu’elle est devenue l’un des légumes et féculents les plus consommés.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+				
+                <p><a name="102"></a><img src="../common/images/garden_plant_wheat.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Blé</span><br>
+                    <span class="BodyText">Le « Blé » désigne en fait plusieurs céréales appartenant au genre Triticum. Ce sont des plantes annuelles de la famille des graminées ou Poacées, cultivées dans de très nombreux pays.<br><br>
+Il fait partie des trois grandes céréales avec le maïs et le riz. Les premières cultures de blé apparaissent en Mésopotamie et dans les vallées du Tigre et de l'Euphrate (aujourd'hui l'Irak), dans la région du Croissant fertile, il y a plus de 5000 ans.<br><br>
+Le blé est, dans la civilisation occidentale et au Moyen-Orient, un composant central de l'alimentation humaine. <br>
+<br>
+Le grain de blé est utilisé pour produire du pain, des gâteaux, des biscuits, des céréales pour petit-déjeuner, du couscous, des pâtes et même de l’alcool ou des bio-carburants.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="103"></a><img src="../common/images/garden_plant_corn.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Maïs</span><br>
+                    <span class="BodyText">Le maïs (nom scientifique : Zea mays) est une plante tropicale herbacée annuelle de la famille des Poacées, largement cultivée comme céréale pour ses grains riches en amidon, mais aussi comme plante fourragère.<br><br>
+Cette espèce, originaire d’Amérique, constituait la base de l’alimentation des Aztèques et Mayas avant l'arrivée en Amérique de Christophe Colomb. Elle est aujourd’hui cultivée dans le monde entier et est devenue la première céréale mondiale devant le riz et le blé.<br>
+<br>
+Le maïs mesure généralement 2,5 mètres de haut mais certaines variétés de maïs peuvent atteindre les 7 mètres.<br><br>
+Le maïs a actuellement trois grands type d’utilisations : l’alimentation animale, l’alimentation humaine, et enfin les industries agro-alimentaires, y compris pour la production d’alcool comme bio-carburants.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                   <p><a name="104"></a><img src="../common/images/garden_plant_sunflower.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Tournesols</span><br>
+                    <span class="BodyText">Le tournesol, ou grand soleil, est une grande plante annuelle, appartenant à la famille des Astéracées, dont les fleurs sont groupées en capitules de grandes dimensions. C'est une plante originaire d’Amérique centrale.Elle est aujourd'hui largement répandue dans tous les continents.<br>
+<br>
+Cette plante est très cultivée pour ses graines riches en huile alimentaire de bonne qualité. Le tournesol est, avec le colza et l'olivier, l'une des trois sources principales d'huile alimentaire en Europe.<br>
+<br>
+Le mot « tournesol » est emprunté à l'italien girasole, « qui tourne avec le soleil ». Son nom scientifique est Helianthus annuus.<br>
+<br>
+Le tournesol affectionne des climats chauds et secs, il ne pousse qu'en dessous de la Loire. Peu gourmand en eau, sa racine pivot lui permet de capter l'eau en profondeur, deux à quatre arrosages suffisent pour une année moyenne.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                   <p><a name="105"></a><img src="../common/images/garden_plant_vine.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Vigne</span><br>
+                    <span class="BodyText">Les vignes sont des lianes de la famille des Vitaceae. Ce sont des plantes du genre Vitis largement cultivées pour leur fruit en grappes, le raisin, dont on tire un jus, le moût, qui devient du vin après fermentation.<br>
+<br>
+Ce sont des arbrisseaux grimpants qui s'attachent aux supports par des vrilles. Les fruits mûrs sont des baies de forme et de couleur variables appelés raisins. Ils sont blancs, jaunâtres, violets ou noirs, et presque toujours noirs à l'état sauvage.<br>
+<br>
+Vitis vinifera est une espèce cultivée depuis des temps immémoriaux en Europe, dans l'ouest de l'Asie (Moyen-Orient, Caucase), le nord et l'extrême Sud de l'Afrique. La majorité des cépages est issue de la sous-espèce Vitis vinifera. <br>
+<br>
+Des cépages ont été introduits dans tous les continents et la viticulture a pris de l'importance en Amérique du Nord (Californie), du Sud (Argentine, Chili), en Australie, en Afrique du Sud et en Chine. La viticulture occupe environ 8 millions d'hectares dans le monde et produit près de 300 millions d'hectolitres de vin. Un terrain planté de vigne s'appelle un vignoble.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                   <p><a name="106"></a><img src="../common/images/garden_plant_apple.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Pomme</span><br>
+                    <span class="BodyText">La pomme est le fruit du pommier, arbre fruitier largement cultivé. Les pommiers sont un genre (Nom scientifique : Malus) de la famille des Rosacées. Ce genre, aux origines asiatiques, comprend une quarantaine d'espèces d'arbres ou d'arbustes dont la plus importante, au plan économique, est le pommier commun (Malus pumila).<br>
+<br>
+L'étude de la culture des pommes constitue une partie de la pomologie, la pomologie englobant tous les fruits à pépins. La pomme est comestible et a un goût sucré ou acidulé selon les variétés. Le mot « pomme » vient du latin pomum qui désigne le mot commun « fruit ».<br>
+<br>
+Généralement, on distingue trois types de pommes alimentaires : les pommes à cidre, les pommes de table ou pommes à couteau et les pommes à cuire qui appartiennent à un des deux premiers types mais supportent bien la cuisson. Ces trois types sont issus de l'espèce Malus pumila qui compte plus de 20 000 variétés à travers le monde. <br>
+<br>
+Plusieurs boissons sont élaborées à base de pommes, en particulier le jus de pomme sans fermentation, sucré et non alcoolisé, et le cidre produit à partir de la fermentation de ce jus.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                   <a name="b"></a><span class="Title">Plantes Tropicales</span>
+                   <p align="center"><img src="../common/images/garden_tropic.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#201" class="faqQuestions"><img src="../common/images/garden_plant_rice.png" border="0"><br>
+                    Riz</a></td>
+                    <td align="center"><a href="#202" class="faqQuestions"><img src="../common/images/garden_plant_banana.png" border="0"><br>
+                    Banane</a></td>
+                    <td align="center"><a href="#203" class="faqQuestions"><img src="../common/images/garden_plant_cacao.png" border="0"><br>
+                    Cacao</a></td>
+                  </tr>
+                </table>
+                
+                <p><a name="201"></a><img src="../common/images/garden_plant_rice.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Riz</span><br>
+                    <span class="BodyText">Le riz est une céréale de la famille des Poacées ou Graminées, cultivée dans les régions tropicales, subtropicales et tempérées chaudes pour son fruit, riche en amidon.<br><br>
+Le riz est un élément fondamental de l'alimentation de nombreuses populations du monde, notamment en Asie, en Afrique et en Amérique du Sud. C'est la première céréale mondiale pour l'alimentation humaine.<br><br>
+Un champ cultivé en riz est nommé rizière. En fonction des cultivateurs, on obtient du riz blanc (Chine, Inde, France), rouge (Madagascar), jaune (Iran), du riz gluant (Chine, Indonésie)… consommé en grains, en pâte, en soupe, ou en dessert (riz au lait) par exemple.<br>
+<br>
+Le riz est une plante de hauteur variable, allant de moins d'un mètre jusqu'à cinq mètres pour les riz flottants.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+				
+                <p><a name="202"></a><img src="../common/images/garden_plant_banana.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Banane</span><br>
+                    <span class="BodyText">La banane est le fruit venant de l’inflorescence du bananier.<br>
+Les bananes constituent un élément essentiel du régime alimentaire de certains pays développés et constituent une nourriture de base pour des millions de personnes sous les tropiques.<br><br>
+Le mot banane est dérivé du portugais, lui-même probablement emprunté au bantou de Guinée et de l’arabe. Elle provient à l’origine des zones tropicales d’Asie du Sud-Est.<br><br>
+Il existe de très nombreuses variétés de bananes, utilisées comme fruit (banane dessert) ou comme légume (banane à cuire). La sélection par l’homme a permis au fil des siècles de créer les variétés consommées de nos jours.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="203"></a><img src="../common/images/garden_plant_cacao.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Cacao</span><br>
+                    <span class="BodyText">Le cacao est la poudre obtenue après torréfaction et broyage de l'amande des fèves de cacao fermentées produites par le cacaoyer.<br>
+                    <br>
+Le cacao était traditionnellement utilisé par les indigènes du Mexique et d'Amérique centrale, notamment les Aztèques et les Mayas (le mot lui-même vient du maya kakaw).<br><br>
+Le cacao est utilisé sous différentes formes en Europe pour tout ce qui contient du chocolat (comme par exemple des boissons ou du chocolat en tablette).<br>
+<br>
+La culture du cacao nécessite un climat humide où les pluies sont abondantes et la terre riche. On trouve actuellement des cacaoyers au pied des Andes entre 200 et 400 mètres d’altitude près des rivières Amazone et Orinoco.
+
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                   <a name="c"></a><span class="Title">Plantes du Désert</span>
+                   <p align="center"><img src="../common/images/garden_desert.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#301" class="faqQuestions"><img src="../common/images/garden_plant_pepper.png" border="0"><br>
+                    Poivron</a></td>
+                    <td align="center"><a href="#302" class="faqQuestions"><img src="../common/images/garden_plant_sabres.png" border="0"><br>
+                    Figue de Barbarie</a></td>
+                    <td align="center"><a href="#303" class="faqQuestions"><img src="../common/images/garden_plant_waterMelon.png" border="0"><br>
+                    La Pastèque</a></td>
+                  </tr>
+                </table>
+				
+                <p><a name="301"></a><img src="../common/images/garden_plant_pepper.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Poivron</span><br>
+                    <span class="BodyText">Le poivron, nom botanique Capsicum annuum, est une plante annuelle de la famille des Solanacées originaire d'Amérique du Sud et centrale, cultivée comme plante potagère pour ses fruits consommés, crus ou cuits, comme légumes. <br><br>
+Cette espèce comporte de nombreuses variétés, soit douces, les poivrons, soit piquantes, les piments. 
+Le poivron est l'ingrédient indispensable d'un certain nombre de plats, dont la ratatouille et la piperade.<br>
+<br>
+Elle est cultivée dans le monde entier depuis qu'elle a été introduite dans l'ancien monde à la fin du XVe siècle.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="302"></a><img src="../common/images/garden_plant_sabres.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Figue de Barbarie</span><br>
+                    <span class="BodyText">La figue de Barbarie ou poire cactus est une baie issue du figuier de Barbarie originaire du Mexique. Sa couleur et sa forme sont très variables selon les variétés et l’époque de formation du fruit.<br><br>
+La figue de barbarie contient de très nombreuses graines. Elle est cultivée à grande échelle notamment au Mexique. Ce fruit est également très populaire dans le pourtour méditerranéen.
+Son goût est très doux, très différent d'après les couleurs. <br><br>
+La difficulté vient de la cueillette et de la découpe de la peau car celle-ci est pourvue de minuscules épines invisibles à l'œil nu mais très agressives et très difficiles à enlever.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="303"></a><img src="../common/images/garden_plant_waterMelon.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">La Pastèque</span><br>
+                    <span class="BodyText">La pastèque ou melon d'eau (Citrullus lanatus) est une plante herbacée à tige rampante de la famille des Cucurbitacées.
+Elle est originaire d'Afrique et est largement cultivée pour ses gros fruits lisses, à chair rouge, jaune, verdâtre ou blanche et à graines noires ou rouges. <br><br>
+Le fruit pèse généralement, à maturité, entre 5 et 20 kg. Il faut distinguer la pastèque comestible plus judicieusement appelée « melon d'eau » de la pastèque à confiture ou « citre », non directement comestible.<br>
+<br>
+Le nom « Pastèque » vient du portugais « Patèque » lui-même originaire de l'arabe « Batekh » (l'aliment des dieux).
+
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  
+                  <a name="d"></a><span class="Title">Plantes de Marais</span>
+                  <p align="center"><img src="../common/images/garden_swamp.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#401" class="faqQuestions"><img src="../common/images/garden_plant_mushroom.png" border="0"><br>
+                    Champignons</a></td>
+                    <td align="center"><a href="#402" class="faqQuestions"><img src="../common/images/garden_plant_bamboo.png" border="0"><br>
+                    Bambou</a></td>
+                    <td align="center"><a href="#403" class="faqQuestions"><img src="../common/images/garden_plant_sugar.png" border="0"><br>
+                    Canne à Sucre</a></td>
+                  </tr>
+                </table>
+				
+                <p><a name="401"></a><img src="../common/images/garden_plant_mushroom.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Champignons</span><br>
+                    <span class="BodyText">Les champignons ne sont pas des plantes est ont besoin de conditions différentes pour se développer. 
+Les champignons doivent extraire de leur environnement des composés organiques déjà constitués. Ils doivent « s'alimenter » comme le font les animaux.<br><br>
+Ils le font soit en décomposant de la matière morte (ils sont alors saprophytes), soit au détriment d'organismes vivants (ils sont alors parasites), soit en s'associant avec un organisme chlorophyllien (ils sont alors symbiotiques)<br><br>
+La plupart des champignons n'ont pas d'intérêt culinaire ou sont toxiques, mais certaines espèces comestibles sont très recherchées pour leur saveur.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="402"></a><img src="../common/images/garden_plant_bamboo.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Bambou</span><br>
+                    <span class="BodyText">Les bambous sont des plantes monocotylédones appartenant à la famille des Poaceae. Ils constituent la sous-famille des Bambusoideae qui compte environ 80 genres et plus de 1200 espèces. 
+<br><br>
+Les bambous sont présents naturellement sur tous les continents à l'exception de l'Europe (bien que certaines espèces puissent y pousser) et de l'Antarctique, et se sont adaptés à de nombreux climats (tropicaux, sub-tropicaux, et tempérés). 
+<br><br>
+Ils sont d’une grande importance économique et culturelle dans les pays d’Asie de l’est et du sud est où ils sont utilisés pour la construction, la nourriture et encore d’autres matières premières.<br>
+<br>
+Le bambou est la plante qui pousse le plus vite au monde avec un maximum de 60 cm par jour.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>   
+                  
+                  <p><a name="403"></a><img src="../common/images/garden_plant_sugar.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Canne à Sucre</span><br>
+                    <span class="BodyText">La canne à sucre est une grande graminée herbacée à port de roseau, d'une hauteur allant de 2,5 à 6 mètres. Les tiges, d'un diamètre de 1,5 à 6 cm, sont pleines. <br>
+
+Les cannes à sucre sont cultivées pour leurs tiges, dont on extrait du sucre. Elles sont les premières plantes cultivées au plan mondial avec près d’un quart de la masse totale produite en agriculture dans le monde.<br>
+<br>
+
+Elles furent jusqu'au début du XIXe siècle la seule source importante de sucre et représentent toujours actuellement 65 à 70 % de la production de sucre.<br><br>
+
+Le résidu liquide de la fabrication du sucre, encore très sucré, noirâtre et visqueux, est la mélasse. Cette dernière peut servir à faire du rhum industriel, de l'alcool pur ou de l’éthanol, et même du biocarburant (très répandu au Brésil).
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                  </p>
+                 
+                 </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">Société</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Conditions d'utilisation</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">Protection des données</a>  |  <a href="Help_Contact.html" class="footerLinks">Contactez nous</a>  |   <a href="Site_Map.html" class="footerLinks">Plan du site</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2010 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

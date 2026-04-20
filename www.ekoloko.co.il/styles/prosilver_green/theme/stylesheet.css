@@ -1,0 +1,64 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			prosilver (the default phpBB 3.3.x style)
+	Based on style:
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+@import url("normalize.css?hash=48eb3f89");
+@import url("base.css?hash=7c5543be");
+@import url("utilities.css?hash=d8f72c42");
+@import url("common.css?hash=843d5d5f");
+@import url("links.css?hash=18286e16");
+@import url("content.css?hash=d0e24377");
+@import url("buttons.css?hash=56f0d25f");
+@import url("cp.css?hash=50d868ab");
+@import url("forms.css?hash=9016b55c");
+@import url("icons.css?hash=64da33ce");
+@import url("colours.css?hash=fcb2f289");
+@import url("responsive.css?hash=c9d32cba");
+
+/* cover */
+.headerbar {
+    background: url(/styles/prosilver_green/theme/images/cover_background.png?v=2);
+    height: 174px;
+}
+
+@media only screen and (max-width: 600px) {
+	.headerbar {
+		background: url(/styles/prosilver_green/theme/images/cover_background_mobile.png?v=2);
+		height: 135px;
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+/* alert */
+.alert-message {
+    background: url(/assets/ekoloko/alert_message_background.png);
+    width: 530px;
+    height: 335px;
+    margin: auto;
+}
+.alert-message .large-text {
+    font-size: 37px;
+    text-align: center;
+    padding-top: 131px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px #000;
+}
+
+@media only screen and (max-width: 600px) {
+	.alert-message {
+		width: 355px;
+		height: 223px;
+		background-size: 100%;
+	}
+	.alert-message .large-text {
+		padding-top: 86px;
+	}
+}

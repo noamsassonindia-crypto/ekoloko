@@ -1,0 +1,396 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=0&language=en"//+getParameter('language');
+var sideMenuSwf = "sideMenu_info?page=1&language=en"//+getParameter('language');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function changeImage(img1, img2) {
+	document.images[img1].src='../common/images/'+img2+'.jpg';
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '260',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top"> <p><span class="Title">ekoloko plants</span>
+                  <table width="100%" border="0" cellspacing="20" cellpadding="0" align="center">
+                      <tr>
+                        <td align="center"><a href="#a" class="faqQuestions"><img id="plants_generic" src="../common/images/plants_generic.jpg" border="0" class="images" onMouseOver="changeImage('plants_generic', 'plants_generic_over')" onMouseOut="changeImage('plants_generic','plants_generic')"><br>
+                          Generic Plants</a></td>
+                        <td align="center"><a href="#b" class="faqQuestions"><img id="plants_tropic" src="../common/images/plants_tropic.jpg" border="0" class="images" onMouseOver="changeImage('plants_tropic', 'plants_tropic_over')" onMouseOut="changeImage('plants_tropic','plants_tropic')"><br>
+                        Tropical Plants</a></td>
+                        <td align="center"><a href="#c" class="faqQuestions"><img id="plants_desert" src="../common/images/plants_desert.jpg" border="0" class="images" onMouseOver="changeImage('plants_desert', 'plants_desert_over')" onMouseOut="changeImage('plants_desert','plants_desert')"><br>
+                        Desert Plants</a></td>
+                        <td align="center"><a href="#d" class="faqQuestions"><img id="plants_swamp" src="../common/images/plants_swamp.jpg" border="0" class="images"  onMouseOver="changeImage('plants_swamp', 'plants_swamp_over')" onMouseOut="changeImage('plants_swamp','plants_swamp')"><br>
+                        Swamp Plants</a></td>
+                    </tr>
+                  </table>
+				
+                
+                  <a name="a"></a><span class="Title">Generic Plants</span>
+                  <p align="center"><img src="../common/images/garden_generic.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                  	<td align="center"><a href="#101" class="faqQuestions"><img src="../common/images/garden_plant_potato.png" border="0"><br>
+                    Potato</a></td>
+                    <td align="center"><a href="#102" class="faqQuestions"><img src="../common/images/garden_plant_wheat.png" border="0"><br>
+                    Wheat</a></td>
+                    <td align="center"><a href="#103" class="faqQuestions"><img src="../common/images/garden_plant_corn.png" border="0"><br>
+                    Corn</a></td>
+                  </tr>
+                  <tr>
+                  	<td align="center"><a href="#104" class="faqQuestions"><img src="../common/images/garden_plant_sunflower.png" border="0"><br>
+                    Sunflower</a></td>
+                    <td align="center"><a href="#105" class="faqQuestions"><img src="../common/images/garden_plant_vine.png" border="0"><br>
+                    Vitis (grapevines)</a></td>
+                    <td align="center"><a href="#106" class="faqQuestions"><img src="../common/images/garden_plant_apple.png" border="0"><br>
+                    Apple</a></td>
+                  </tr>
+                </table>
+                
+                <p><a name="101"></a><img src="../common/images/garden_plant_potato.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Potato</span><br>
+                    <span class="BodyText">The potato is a starchy, tuberous crop from the Solanaceae family (also known as the nightshades). The word potato may refer to the plant itself as well as the edible tuber. Despite being first introduced outside the Andes region four centuries ago, today potatoes have become an integral part of much of the world's cuisine and are the world's fourth-largest food crop, following rice, wheat, and corn. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+				
+                <p><a name="102"></a><img src="../common/images/garden_plant_wheat.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Wheat</span><br>
+                    <span class="BodyText">Wheat is a grass, originally from the Fertile Crescent region of the Near East, but now grown worldwide. It is the third most produced cereal after corn and rice. Globally, wheat is the leading source of vegetable protein in human food, having higher protein content than corn or rice, the other major cereals.<br><br>
+Wheat was a key factor enabling the emergence of city-based societies at the start of civilization because it was one of the first crops that could be easily grown on a large scale. Wheat grain is used to make flour for breads, biscuits, cookies, cakes, breakfast cereal, pasta, noodles, couscous and for fermentation to make beer, other alcoholic beverages, or bio fuel. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="103"></a><img src="../common/images/garden_plant_corn.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Corn</span><br>
+                    <span class="BodyText">Corn: also known as Maize, is a grass domesticated by native American cultures in prehistoric times. The Aztecs and Mayans cultivated it in numerous varieties throughout central and southern Mexico, to cook or grind. Later the crop spread through much of the Americas. After European contact with the Americas in the late 15th and early 16th centuries, explorers and traders carried corn back to Europe and introduced it to other countries through trade. Corn spread to the rest of the world due to its popularity and ability to grow in diverse climates and it is now is the most widely grown crop in the world.<br><br>
+ While some corn varieties grow up to 7 meters (23 ft) tall, most commercially grown corn has been bred for a standardized height of 2.5 meters (8.2 ft). Sweet corn is usually shorter than field-corn varieties.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="104"></a><img src="../common/images/garden_plant_sunflower.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Sunflower</span><br>
+                    <span class="BodyText">Sunflowers are annual plants that possess a large inflorescence (flowering head). The sunflower is native to the Central Americas. The evidence thus far is that it was first domesticated in Mexico, by at least 2600 BC. <br>
+<br>
+Sun flowers have a type of phototropic response called heliotropism (sun turning); the leaves and flower heads of young sunflowers follow the sun and their orientation therefore changes from east to west during the day. <br>
+<br>
+To grow well, sunflowers need full sun. They grow best in fertile, moist, well-drained soil with a lot of mulch. <br>
+
+Today it is grown widely around the globe and is used mainly for oil. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="105"></a><img src="../common/images/garden_plant_vine.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Vitis (grapevines)</span><br>
+                    <span class="BodyText">Vitis (grapevines) is a genus of about 60 species of vining plants in the flowering plant family Vitaceae. The genus is made up of species predominantly from the Northern hemisphere. It is economically important as the source of grapes, both for direct consumption of the fruit and for fermentation to produce wine. The study and cultivation of grapevines is called viticulture.<br>
+<br>
+Vitis is distinguished from other genera of Vitaceae by having petals which remain joined at the tip and detach from the base to fall together as a calyptra or 'cap'.<br>
+<br>
+The fruit is a berry, normally produced with four or less per flower by way of aborted embryos, ovoid in shape and juicy.<br>
+<br>
+Most Vitis species are found in the temperate regions of the Northern Hemisphere in North America and Asia with a few in the tropics. The wine grape Vitis vinifera originated in southern Europe and southwestern Asia. The species occur in widely different geographical areas and show a great diversity of form.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                   <p><a name="106"></a><img src="../common/images/garden_plant_apple.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Apple</span><br>
+                    <span class="BodyText">The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family (Rosaceae) and is a perennial. It is one of the most widely cultivated tree fruits, and the most widely known of the many members of genus Malus that are used by humans.<br>
+<br>
+The tree originated in Western Asia, where its wild ancestor is still found today. There are more than 7,500 known cultivars of apples, resulting in a range of desired characteristics. <br>
+<br>
+At least 55 million tones of apples were grown worldwide in 2005. China produced about 35% of this total. The United States is the second-leading producer, with more than 7.5% of world production. Iran is third, followed by Turkey, Russia, Italy and India.<br>
+<br>
+The apple forms a tree that is small and deciduous, reaching 3 to 12 meters tall, with a broad, often densely twiggy crown. The leaves are alternately arranged simple ovals 5 to 12 cm long and 3–6 centimeters broad with an acute tip, serrated margin and a slightly downy underside. Blossoms are produced in spring simultaneously with the budding of the leaves. The flowers are white with a pink tinge that gradually fades. The fruit matures in autumn.
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                   <a name="b"></a><span class="Title">Tropical Plants</span>
+                   <p align="center"><img src="../common/images/garden_tropic.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#201" class="faqQuestions"><img src="../common/images/garden_plant_rice.png" border="0"><br>
+                    Rice</a></td>
+                    <td align="center"><a href="#202" class="faqQuestions"><img src="../common/images/garden_plant_banana.png" border="0"><br>
+                    Banana</a></td>
+                    <td align="center"><a href="#203" class="faqQuestions"><img src="../common/images/garden_plant_cacao.png" border="0"><br>
+                    Cacao</a></td>
+                  </tr>
+                </table>
+                
+                <p><a name="201"></a><img src="../common/images/garden_plant_rice.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Rice</span><br>
+                    <span class="BodyText">Rice is the seed of the monocot plant Oryza sativa. As a cereal grain, it is the most important staple food for a large part of the world's human population, especially in East, South, Southeast Asia, the Middle East, Latin America, and the West Indies. It is the grain with the second-highest worldwide production, after maize (corn).[1]<br><br>
+Since a large portion of maize crops are grown for purposes other than human consumption, rice is the most important grain with regard to human nutrition and caloric intake, providing more than one fifth of the calories consumed worldwide by the human species.<br><br>
+The rice plant can grow to 1–1.8 m (3.3–5.9 ft) tall, occasionally more depending on the variety and soil fertility.<br>
+Rice can be grown practically anywhere, even on a steep hill or mountain.<br>
+The traditional method for growing rice is flooding the fields while, or after, setting the young seedlings. Flooding, however, is not mandatory for the growing of rice.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+				
+                <p><a name="202"></a><img src="../common/images/garden_plant_banana.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Banana</span><br>
+                    <span class="BodyText">Banana is the common name for herbaceous plants of the genus Musa and for the fruit they produce. Bananas come in a variety of sizes and colors when ripe, including yellow, purple, and red. In popular culture and commerce, "banana" usually refers to soft, sweet "dessert" bananas. By contrast, Musa cultivars with firmer, starchier fruit are called plantains. <br><br>
+They are native to tropical Southeast Asia.  Today, they are grown throughout the tropics.] They are grown in at least 107 countries, primarily for their fruit, and to a lesser extent to make fiber and as ornamental plants.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+        
+                  <p><a name="203"></a><img src="../common/images/garden_plant_cacao.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Cacao</span><br>
+                    <span class="BodyText">Cacao tree is a small (4–8 m or 15–26 ft tall)evergreen tree  native to the deep tropical region of the Americas. Its seeds are used to make cocoa powder and chocolate. The tree is today found growing wild in the low foothills of the Andes at elevations of around 200–400 m (650–1300 ft) in the Amazon and Orinoco river basins. It requires a humid climate with regular rainfall and good soil. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                   <a name="c"></a><span class="Title">Desert Plants</span>
+                   <p align="center"><img src="../common/images/garden_desert.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#301" class="faqQuestions"><img src="../common/images/garden_plant_pepper.png" border="0"><br>
+                    Bell pepper</a></td>
+                    <td align="center"><a href="#302" class="faqQuestions"><img src="../common/images/garden_plant_sabres.png" border="0"><br>
+                    Prickly pear</a></td>
+                    <td align="center"><a href="#303" class="faqQuestions"><img src="../common/images/garden_plant_waterMelon.png" border="0"><br>
+                    Watermelon</a></td>
+                  </tr>
+                </table>
+				
+                <p><a name="301"></a><img src="../common/images/garden_plant_pepper.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Bell pepper</span><br>
+                    <span class="BodyText">Bell pepper or sweet pepper produce fruits in different colors, including red, yellow and orange. The fruit is also frequently consumed in its unripe form, when it is still green. Bell peppers are sometimes grouped with less pungent pepper varieties as "sweet peppers".<br><br>
+                    Peppers are native to Mexico, Central America and northern South America. Pepper seeds were later carried to Spain in 1493 and from there spread to other European, African and Asian countries. Today, Mexico remains one of the major pepper producers in the world.
+                   </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="302"></a><img src="../common/images/garden_plant_sabres.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Prickly pear</span><br>
+                    <span class="BodyText"> Prickly pear typically grows with flat, rounded branches that are armed with two kinds of spines; large, smooth, fixed spines and small, hair like spines that easily penetrate skin and detach from the plant. Many types of prickly pears grow into dense, tangled structures.<br><br>
+Like all true cactus species, prickly pears are native only to the Western hemisphere; however, they have been introduced to other parts of the globe. Prickly pear species are found in abundance in Mexico, especially in the central and western regions.<br>
+The fruit of prickly pears, commonly called cactus fruit, cactus figs or Indian fig  is edible, although it has to be peeled carefully to remove the small spines on the outer skin before consumption.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="303"></a><img src="../common/images/garden_plant_waterMelon.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Watermelon</span><br>
+                    <span class="BodyText">Watermelon can be both the fruit and the plant of a vine-like plant originally from southern Africa, and is one of the most common types of melon..  The watermelon fruit, has a smooth exterior skin and a juicy, sweet interior flesh (usually pink, but sometimes orange, yellow, red and sometimes green if not ripe).
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  
+                  <a name="d"></a><span class="Title">Swamp Plants</span>
+                  <p align="center"><img src="../common/images/garden_swamp.jpg" class="images"></p>
+                <table width="100%" border="0" cellspacing="20" cellpadding="0">
+                  <tr>
+                    <td align="center"><a href="#401" class="faqQuestions"><img src="../common/images/garden_plant_mushroom.png" border="0"><br>
+                    Mushrooms</a></td>
+                    <td align="center"><a href="#402" class="faqQuestions"><img src="../common/images/garden_plant_bamboo.png" border="0"><br>
+                    Giant bamboos</a></td>
+                    <td align="center"><a href="#403" class="faqQuestions"><img src="../common/images/garden_plant_sugar.png" border="0"><br>
+                    Sugarcane</a></td>
+                  </tr>
+                </table>
+				
+                <p><a name="401"></a><img src="../common/images/garden_plant_mushroom.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Mushrooms</span><br>
+                    <span class="BodyText">Mushrooms are not plants, and require different conditions for optimal growth. Plants develop through photosynthesis, a process that converts atmospheric carbon dioxide into carbohydrates, especially cellulose. While sunlight provides an energy source for plants, mushrooms derive all of their energy and growth materials from their growth medium, through biochemical decomposition processes. This does not mean that light is an unnecessary requirement, since some Mushrooms use light as a signal for fruiting. However, all the materials for growth must already be present in the growth medium. (earth, or wood for example)  Mushrooms grow well at relative humidity levels of around 95-100%, and substrate moisture levels of 50 to 75%.<br><br>
+Instead of seeds, mushrooms reproduce sexually during underground growth, and asexually through spores. <br>
+Some mushrooms are edible while others are poisonous. You should never ever eat mushrooms until you make sure that it is <strong>NOT</strong> poisonous. 
+
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="402"></a><img src="../common/images/garden_plant_bamboo.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Giant bamboos</span><br>
+                    <span class="BodyText">Giant bamboos are the largest members of the grass family.<br>
+Bamboo trees are also the fastest growing trees in the world.[2]<br>
+ They are capable of growing 60 cm (24 in.) or more per day. Bamboos are of notable economic and cultural significance in East Asia and South East Asia, being used for building materials, as a food source, and as a versatile raw product.
+
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>    
+                  
+                  <p><a name="403"></a><img src="../common/images/garden_plant_sugar.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Sugarcane</span><br>
+                    <span class="BodyText">Sugarcane is a tall grass Native to warm temperate to tropical regions of Asia, they have stout, jointed, fibrous stalks that are rich in sugar, and measure two to six meters (six to nineteen feet) tall. <br><br>
+Today, sugarcane is grown in over 110 countries. In 2008 an estimated 1,743 million metric tons were produced worldwide, with about 50 percent of production occurring in Brazil and India.[1]<br><br>
+Sugar cane products include table sugar, Falernum, molasses, rum, cachaça (the national spirit of Brazil), and ethanol. The bagasse that remains after sugar cane crushing may be burned to provide heat and electricity. It may also, because of its high cellulose content, serve as raw material for paper, cardboard, and eating utensils that, because they are by-products, may be branded as "environmentally friendly".
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                                
+                 </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="Site_Map.html" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

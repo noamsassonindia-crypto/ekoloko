@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+function passHrefParam(link) {
+	location.href = addUrlParam("hideNavigation", link);
+}
+
+var menuSwf = "subPage_menu?page=0&language=us"//+getParameter('language');
+menuSwf = addUrlParam("hideNavigation", menuSwf); 
+var sideMenuSwf = "sideMenu_info?page=3&language=us"//+getParameter('language');
+sideMenuSwf = addUrlParam("hideNavigation", sideMenuSwf); 
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function changeImage(img1, img2) {
+	document.images[img1].src='../common/images/'+img2+'.jpg';
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '260',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:17px;"> <p><span class="Title">Birds</span>
+                   <div style="height:200px; overflow:auto; padding:10px;" class="BodyText">
+                   <span class="FAQTitle">General information:</span><br>
+					<br>
+                    There are about 10,000 known species of birds worldwide. Their size varies, ranging from 7 cm at Hummingbirds and 2.5 meters in the ostrich. The main feature of the entire class is the feathers that cover their bodies. Besides, birds are Bipedal (walk on two legs), hot blooded, and they lay eggs with a hard shell. More features are a toothless beak, incubation of eggs, rapid metabolism and a light and strong skeleton.
+<br>
+<br>
+<span class="FAQTitle">Wings & Flying:</span><br>
+<br>
+Front limbs of birds are called Wings. Their bones are hollow so as not to burden the weight. Although most birds are characterized by their ability to fly, there are species that do not fly at all. Some species, (like Penguins, for example), use their wings to swim in water and can no longer fly, and there are species that during evolution have become so large (like Ostriches and Emus), due to the weight of their bodies, could no longer rise from the ground and their wings became useless.<br>
+<br>
+<span class="FAQTitle">Food:</span><br>
+<br>
+Bird food varies and changes among the various bird groups (the food of the pigeon is significantly different from the hawk’s, eagle’s or seagull’s). Different birds eat different foods such as fruit, nectar of flowers, seeds, insects, fish, rodents, reptiles, and even other birds.<br>
+<br>
+<span class="FAQTitle">Activity:</span><br>
+<br>
+Most birds are active by day, but few species are nocturnal (active by night), such as the owl. <br>
+<br>
+<span class="FAQTitle">Migration:</span><br>
+<br>
+Some species undergo vast distances over oceans and continents during migratory seasons (like the stork, for example), On the other side, there are other species which do not move from the place in which they were born. Other species of birds spend most of their lives in flight over the oceans without stopping.<br>
+<br>
+<span class="FAQTitle">Mating and reproduction:</span><br>
+<br>
+In most birds males have more fancy feathers and colors, bigger body structure and a more notable behavior. The reason for that is that males need to impress the females during mating season. During mating the males and females are attaching their genitalia (gutter) to each other. The male puts his sperm into the female and fertilizes the eggs produced by the female ovaries.<br>
+<br>
+<span class="FAQTitle">Incubation:</span><br>
+<br>
+All birds, without exception lay eggs. Most birds (except for one group of Australian birds) incubate the eggs to pass their body temperature on to the fetus, a process essential for their development. Many birds Incubation is divided between the two sexes. In large non-flying birds, like ostriches and emus, males incubate the eggs almost alone. Their bigger Weight and mass of feathers give them a relative advantage over females incubation.<br>
+<br>
+The incubation period varies from species to species, between 10 and 30 days for medium and small birds to 60-80 days with large birds.<br>
+<br>
+In some cases, the birds' body heat is enough to heat the entire egg. So many birds flip the eggs twice a day. After the eggs hatch the parents provide food and protection to the offsprings.<br>
+<br>
+Some species leave the nest very early on in life. These species’ offerings develop primary feathers known as "fluff." Other species are more dependent on their parents, are left blind and without feathers for a while. Most offsprings stay in the nest until the full development of the flight organs. Some species of birds share raising their young with other birds. (Well-known example of this is the cuckoo, which lays her eggs in other birds' nests).<br>
+<br>
+<span class="FAQTitle">Hatching:</span><br>
+<br>
+All chicks have a special tooth that helps them hatch from the egg without any help from their parents.                   </div>
+    <br>
+                  
+                   <div style="height:500px; overflow:auto; padding:10px;">
+                   
+                   <p><a name="210" id="210"></a><a name="211" id="211"></a><img src="../common/images/animals-penguin.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Penguins</span><br>
+                    <span class="BodyText">Penguins are a group of aquatic, flightless birds living almost exclusively in the southern hemisphere, especially in Antarctica. Highly adapted for life in the water, their wings have become flippers, they can stay underwater for long periods of time ( up to 18 minutes for the Emperor Penguin)  penguins have counter shaded dark and white plumage, that is, they have black backs and wings with white fronts. A predator looking up from below (such as an orca or a leopard seal) has difficulty distinguishing between a white penguin belly and the reflective water surface. The dark plumage on their backs camouflages them from above. Most penguins feed on krill, fish, squid, and other forms of sea life caught while swimming underwater. They spend about half of their life on land and half in the oceans.<br>
+<br>
+Although all penguin species are native to the southern hemisphere, they are not found only in cold climates. In fact, only a few species of penguin live so far south. Several species are found in the temperate zone, and one species, the Galápagos Penguin, lives near the equator.<br>
+<br>
+The largest living species is the Emperor Penguin : adults average about 1.1 m (3 ft 7 in) tall and weigh 35 kg (75 lb) or more. The smallest penguin species is the Little Blue Penguin also known as the Fairy Penguin, which stands around 40 cm tall (16 in) and weighs 1 kg (2.2 lb). <br>
+<br>
+Penguins form monogamous pairs (The male and the female are sexually loyal to each other) for a breeding season. Most penguins lay two eggs in a clutch, although the two largest species, the Emperor and the King Penguins, lay only one. With the exception of the Emperor Penguin, all penguins share the incubation duties. These incubation shifts can last days and even weeks as one member of the pair feeds at sea.
+
+                    </span>
+                    <br><br>
+                  </p>
+                  
+                  <p><a name="220" id="220"></a><a name="221" id="221"></a><img src="../common/images/animals-dodo.png" border="0" style="float:left; margin:7px"><span class="FAQTitle">Dodo</span><br>
+                    <span class="BodyText">The dodo (Raphus cucullatus) was a flightless bird endemic to the Indian Ocean island of Mauritius. Related to pigeons and doves, it stood about a meter (3 feet) tall, weighing about 20 kilograms (44 lb), living on fruit, and nesting on the ground.<br>
+<br>
+The dodo has been extinct since the mid-to-late 17th century. It is commonly used as the archetype of an extinct species because its extinction occurred during recorded human history and was directly attributable to human activity.<br>
+<br>
+As with many animals that have evolved in isolation from significant predators, the dodo was entirely fearless of people, and this, in combination with its flightlessness, made it easy prey for humans. However, journals are full of reports regarding the bad taste and tough meat of the dodo, while other local species such as the Red Rail were praised for their taste. When humans first arrived on Mauritius, they also brought with them other animals that had not existed on the island before, including dogs, pigs, cats, rats, and Crab-eating Macaques, which plundered the dodo nests, while humans destroyed the forests where the birds made their homes; currently, the impact these animals—especially the pigs and macaques—had on the dodo population is considered to have been more severe than that of hunting. The 2005 expedition's finds are apparently of animals killed by a flash flood; such mass mortalities would have further jeopardized a species already in danger of becoming extinct.
+                    </span>
+                    <br><br>
+                  </p>
+				
+               
+                  </div>         
+                 </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+      <span  class="footerText" style="position:relative; left:-26px;"><a href="#" onClick="passHrefParam('Parents_About.html')" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="#" onClick="passHrefParam('Help_Contact.html')" class="footerLinks">Contact Us</a>  |   <a href="#" onClick="passHrefParam('Site_Map.html')" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

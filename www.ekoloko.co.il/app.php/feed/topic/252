@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="he">
+	<link rel="self" type="application/atom+xml" href="https://ekoloko.co.il/app.php/feed/topic/252" />
+
+	<title>אקולוקו - Ekoloko</title>
+	<subtitle>פורום אקולוקו הרישמי</subtitle>
+	<link href="https://ekoloko.co.il/index.php" />
+	<updated>2019-07-02T21:09:23+03:00</updated>
+
+	<author><name><![CDATA[אקולוקו - Ekoloko]]></name></author>
+	<id>https://ekoloko.co.il/app.php/feed/topic/252</id>
+
+		<entry>
+		<author><name><![CDATA[Magnetic]]></name></author>
+		<updated>2019-07-02T21:09:23+03:00</updated>
+
+		<published>2019-07-02T21:09:23+03:00</published>
+		<id>https://ekoloko.co.il/viewtopic.php?t=252&amp;p=715#p715</id>
+		<link href="https://ekoloko.co.il/viewtopic.php?t=252&amp;p=715#p715"/>
+		<title type="html"><![CDATA[Magnetic|Graffiti|MAOR0602]]></title>
+
+		
+		<content type="html" xml:base="https://ekoloko.co.il/viewtopic.php?t=252&amp;p=715#p715"><![CDATA[
+לא ברור למה.. אבל אם מישהו זוכר אז היי<p>סטטיסטיקות: נשלח על ידי <a href="https://ekoloko.co.il/memberlist.php?mode=viewprofile&amp;u=631">Magnetic</a> — 02 יולי 2019, 21:09</p><hr />
+]]></content>
+	</entry>
+	</feed>

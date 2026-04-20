@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-gb">
+	<head>
+		<meta charset="utf-8" />
+
+		<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.buy.nameshift.com/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.buy.nameshift.com/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.buy.nameshift.com/favicon-16x16.png" />
+		<link rel="manifest" href="https://cdn.buy.nameshift.com/site.webmanifest" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/entry/start.yIqfIqI2.js">
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/chunks/Cx74VKMX.js">
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/chunks/ZjLEi92r.js">
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/entry/app.BgUnzdOA.js">
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/chunks/C1FmrZbK.js">
+		<link rel="modulepreload" href="https://cdn.buy.nameshift.com/_app/immutable/chunks/Dy-VeBL-.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="font-body font-light">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_12owvu9 = {
+						base: "",
+						assets: "https://cdn.buy.nameshift.com"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("https://cdn.buy.nameshift.com/_app/immutable/entry/start.yIqfIqI2.js"),
+						import("https://cdn.buy.nameshift.com/_app/immutable/entry/app.BgUnzdOA.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

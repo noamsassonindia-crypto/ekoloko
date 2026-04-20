@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="he">
+	<link rel="self" type="application/atom+xml" href="https://ekoloko.co.il/app.php/feed/topic/62" />
+
+	<title>אקולוקו - Ekoloko</title>
+	<subtitle>פורום אקולוקו הרישמי</subtitle>
+	<link href="https://ekoloko.co.il/index.php" />
+	<updated>2018-09-19T00:38:47+03:00</updated>
+
+	<author><name><![CDATA[אקולוקו - Ekoloko]]></name></author>
+	<id>https://ekoloko.co.il/app.php/feed/topic/62</id>
+
+		<entry>
+		<author><name><![CDATA[Mikaliano]]></name></author>
+		<updated>2018-09-19T00:38:47+03:00</updated>
+
+		<published>2018-09-19T00:38:47+03:00</published>
+		<id>https://ekoloko.co.il/viewtopic.php?t=62&amp;p=224#p224</id>
+		<link href="https://ekoloko.co.il/viewtopic.php?t=62&amp;p=224#p224"/>
+		<title type="html"><![CDATA[Re: רצים אחסון? דומיין? VANGUS  הוא הפתרון בשבילכם!]]></title>
+
+		
+		<content type="html" xml:base="https://ekoloko.co.il/viewtopic.php?t=62&amp;p=224#p224"><![CDATA[
+זה האחסון הכי זול שראיתי בחיים שלי<p>סטטיסטיקות: נשלח על ידי <a href="https://ekoloko.co.il/memberlist.php?mode=viewprofile&amp;u=97">Mikaliano</a> — 19 ספטמבר 2018, 00:38</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[raz1001]]></name></author>
+		<updated>2018-09-09T09:57:47+03:00</updated>
+
+		<published>2018-09-09T09:57:47+03:00</published>
+		<id>https://ekoloko.co.il/viewtopic.php?t=62&amp;p=177#p177</id>
+		<link href="https://ekoloko.co.il/viewtopic.php?t=62&amp;p=177#p177"/>
+		<title type="html"><![CDATA[רצים אחסון? דומיין? VANGUS  הוא הפתרון בשבילכם!]]></title>
+
+		
+		<content type="html" xml:base="https://ekoloko.co.il/viewtopic.php?t=62&amp;p=177#p177"><![CDATA[
+<div style="text-align:center"><strong class="text-strong"><span style="color:#000080">אנשים אשר מתעסקים עם אתרים, פורומים ובלוגים צריכים מקום אחסון לאתר שלהם<br>VANGUS מציגה את הפתרון המושלם בשביל כך<br><br>VANGUS היא חברה אשר מבוססת על השרתים של Google Cloud<br>והיא מציעה חבילות אחסון במחיר זול נוח ונגיש לכל אחד<br>החל מ 6 ש"ח לחודש!<br><img src="https://i.imgur.com/nvBf3C9.png" class="postimage" alt="תמונה"><br><br>בנוסף למחירים הזולים ל VANGUS יש תמיכה טכנית 24/7 אשר תענה על כל שאלה<br>ותעזור לכם במקרה הצורך עם האתר שלכם!<br><br><br><span style="font-size:150%;line-height:116%"><a href="https://my.vangus.co.il/aff.php?aff=33" class="postlink">לחצו כאן לכניסה אל VANGUS </a></span><br></span></strong></div><p>סטטיסטיקות: נשלח על ידי <a href="https://ekoloko.co.il/memberlist.php?mode=viewprofile&amp;u=2">raz1001</a> — 09 ספטמבר 2018, 09:57</p><hr />
+]]></content>
+	</entry>
+	</feed>

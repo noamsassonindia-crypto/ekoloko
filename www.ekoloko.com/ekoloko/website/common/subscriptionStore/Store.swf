@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wayback Machine</title>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script>
+  addEventListener("DOMContentLoaded", () => {
+    const ruffle = RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    player.config = {
+      "autoplay": "on",
+      "unmuteOverlay": "hidden",
+      "splashScreen": true,
+      "openUrlMode": "deny",
+      "polyfills": false,
+      "showSwfDownload": true
+    };
+    player.style.width = "100%";
+    player.style.height = "100%";
+    player.style.display = "block";
+    document.body.appendChild(player);
+    player.load("http://web.archive.org/web/20120103130121oe_/http://play.ekoloko.com/ekoloko/website/common/subscriptionStore/Store.swf?language=iw\u0026username=undefined");
+  });
+</script>
+</head>
+<body style="margin:0;height:100vh;">
+</body>
+</html>

@@ -1,0 +1,581 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+function passHrefParam(link) {
+	location.href = addUrlParam("hideNavigation", link);
+}
+
+var menuSwf = "subPage_menu?page=4&language=us"//+getParameter('language');
+menuSwf = addUrlParam("hideNavigation", menuSwf); 
+var sideMenuSwf = "sideMenu_help?page=3&language=us"//+getParameter('language');
+sideMenuSwf = addUrlParam("hideNavigation", sideMenuSwf); 
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+
+//	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function openQuestions(id) {
+	var div = document.getElementById(id)
+	if(div.style.display == "block") {
+		div.style.display = "none"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_open.png";
+	} else {
+		div.style.display = "block"
+		document.getElementById('img'+id).src =  "../common/images/faq_arrow_close.png";
+	}
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="820" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '410',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>
+                </td>
+                <td align="left" valign="top" style="padding-top:17px;">
+				<p><span class="Title">More FAQs</span>
+                  <br>
+                  <br>
+                  <p><span class="FAQTitle"><a onClick="openQuestions('qa')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqa"> Adopting a cub</a></span>
+                  <div id="qa" style="display:none;">
+                  <ul>
+                   <li><a href="#a1" class="faqQuestions">Do I have to be a Pioneer in order to adopt a cub?</a></li>
+			       <li><a href="#a2" class="faqQuestions">Where and how do I adopt a cub?</a></li>
+			       <li><a href="#a3" class="faqQuestions">How do I take care of my cub?</a></li>
+			       <li><a href="#a4" class="faqQuestions">Will I get to keep my cub forever?</a></li>
+                   <li><a href="#a5" class="faqQuestions">My cub has disappeared. What happened?</a></li>
+	               <li><a href="#a6" class="faqQuestions">Can I give back my cub and get a new one?</a></li>
+                   <li><a href="#a7" class="faqQuestions">Why can’t I adopt a big cub?</a></li>
+                  </ul>
+                  </div></p>
+                   <p><span class="FAQTitle"><a onClick="openQuestions('qb')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqb"> ekoloko Moon</a></span>
+                  <div id="qb" style="display:none;">
+                  <ul>
+                   <li><a href="#b1" class="faqQuestions">What are the ekoloko moons?</a></li>
+			       <li><a href="#b2" class="faqQuestions">How do I get to my own ekoloko moon?</a></li>
+			       <li><a href="#b3" class="faqQuestions">Can anyone become an owner of an ekoloko moon?</a></li>
+			       <li><a href="#b4" class="faqQuestions">What's on my moon?</a></li>
+                   <li><a href="#b5" class="faqQuestions">What can I do here? </a></li>
+                  </ul>
+                  </div></p>
+                   <p><span class="FAQTitle"><a onClick="openQuestions('qc')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqc"> ekoloko Moon Homes</a></span>
+                  <div id="qc" style="display:none;">
+                  <ul>
+                   <li><a href="#c1" class="faqQuestions">How can I get more stuff for my moon house?</a></li>
+			       <li><a href="#c2" class="faqQuestions">How do I sell stuff I don’t want in my house anymore?</a></li>
+			       <li><a href="#c3" class="faqQuestions">Can I re-arrange my house?</a></li>
+			       <li><a href="#c4" class="faqQuestions">What is the Solar Energy Station, and what does it do?</a></li>
+                   <li><a href="#c5" class="faqQuestions">How do I upgrade my Solar Energy Station?</a></li>
+                   <li><a href="#c6" class="faqQuestions">Can I visit other moons?</a></li>
+                   <li><a href="#c7" class="faqQuestions">Can I upgrade my house?</a></li>
+                   <li><a href="#c8" class="faqQuestions">Can I move to a new moon?</a></li>
+                   <li><a href="#c9" class="faqQuestions">Can I prevent others from entering my moon?</a></li>
+                   <li><a href="#c10" class="faqQuestions">What is the sign which is located near my moon home?</a></li>
+                  </ul>
+                  </div></p>
+                  <p><span class="FAQTitle"><a onClick="openQuestions('qd')" style="cursor:pointer"><img src="../common/images/faq_arrow_open.png" id="imgqd"> ekoloko Moon Farms</a></span>
+                  <div id="qd" style="display:none;">
+                  <ul>
+                   <li><a href="#d1" class="faqQuestions">What are the ekoloko Moon Farms?</a></li>
+			       <li><a href="#d2" class="faqQuestions">Can I grow all the plants on every moon?</a></li>
+			       <li><a href="#d3" class="faqQuestions">How do I operate my Moon Farm?</a></li>
+			       <li><a href="#d4" class="faqQuestions">The fields on my moon farm have different colors. What does every color mean?</a></li>
+                   <li><a href="#d5" class="faqQuestions">What do “GARDENER LEVEL” <img src="../common/images/garden_level_icon.png" width="35" height="35" align="absmiddle"> and GARDENER POINTS mean?</a></li>
+                   <li><a href="#d6" class="faqQuestions">How do I get more plots of land ready for planting?</a></li>
+                   <li><a href="#d7" class="faqQuestions">What happens if I don’t water my garden?</a></li>
+                   <li><a href="#d8" class="faqQuestions">What happens to my water pump, my solar station and my gardener level when I move to a new moon?</a></li>
+                  </ul>
+                  </div></p>
+
+          		 <br><p align="center"><img src="../common/images/parents_about_1.jpg" width="520" height="150" class="images"><br>
+          		 </p>
+                 
+                 <br><span class="Title">Adopting a cub</span><br>
+					 
+				  <p><span class="FAQTitle"><a name="a1"></a>Do I have to be a Pioneer in order to adopt a cub?</span><br>
+                    <span class="BodyText">All Ekos will be allowed to adopt a cub during the first ten days after registering to the site. If you do not adopt a cub during those ten days, you will need to get a Pioneer membership if you want to adopt a cub at a later time. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+					
+					<p><span class="FAQTitle"><a name="a2"></a>Where and how do I adopt a cub?</span><br>
+                    <span class="BodyText">In order to adopt a cub, you need to click the rhino that appears on Charles T. Pot or on Dr. Gezuntheitt's screens. For small cub (first time) adoption, you can also click the Cub button at the bottom of your screen. 
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a3"></a>How do I take care of my cub?</span><br>
+                    <span class="BodyText">When you adopt a cub, you are responsible for taking care of it: Giving it food, making sure it’s clean, and providing it with entertainment by playing games with it. Your cub will let you know what it needs at a particular moment through icons above its head. Click the <strong>Cub button</strong> <img src="../common/images/animalIcon.png" align="absmiddle"> on the left side of the chat bar, to take care of your cub's needs.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                    
+                     <p><span class="FAQTitle"><a name="a4"></a>Will I get to keep my cub forever?</span><br>
+                    <span class="BodyText">Sorry, but no. You only get to take care of cubs until they are ready to be freed back into the wild. There is some good news though: Once you've taken care of a small cub, you will be able to advance and take care of a bigger animal cub. And each cub you care for will get you a small parting gift to help you remember it.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a5"></a>My cub has disappeared. What happened?</span><br>
+                  <span class="BodyText">There are 3 possible reasons for your cub to disappear: 
+                    <ol class="BodyText">
+                    	<li>It has grown big enough to be released into the wild. If this is the case, you will receive a balloon as a present from your cub.</li>
+                        <li>You've accidentally pressed the cub's "Home" button on your Cub menu. This means you’ve sent your cub to rest at home. Your cub will reappear once you press the same button again.</li>
+                        <li>If you had adopted a special cub as part of your Pioneer membership and your membership period has ended. If this is the case, your cub will wait for you until you renew your membership.</li>
+                    </ol>
+                  </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a6"></a>Can I give back my cub and get a new one?</span><br>
+                    <span class="BodyText">No. Every cub needs care and once you've taken on this responsibility, we expect you to complete the task.               
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="a7"></a>Why can’t I adopt a bigger cub?</span><br>
+                    <span class="BodyText">You need to climb the caretaker ladder gradually. First take care of a small cub, then move on to a medium-sized one, and then once you've done that you'll qualify to take care of a large cub. 
+           </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <br>
+                  <span class="Title">Moon Homes & Farms</span><br><br>
+
+                  <span class="Title">General</span><br>
+                  
+                  <p><span class="FAQTitle"><a name="b1"></a>What are the ekoloko moons?</span><br>
+                    <span class="BodyText">ekoloko is a unique planet. Much like Earth and Hetra, a single large moon orbits it (Ekoluna), but, like Saturn, it also has a belt made out of thousands of miniature moons. Dizzie Greenleaf and 3Top built a small water pump, a solar energy system and a plastic oxygen dome on each and every moon. Adam Greenleaf decided to allow brave Pioneers to build their houses on these moons, and produce oxygen and food for the entire ekoloko population. There are several types of moons in ekoloko: <br><br> 
+                     <img src="../common/images/planet-jungle.png" width="70" height="72" align="absmiddle"><b>Tropical Moon</b><br>
+                    The Tropical moon’s climate is extremely hot and humid. This climate supports many types of plants.<br><Br>
+                    
+                    <img src="../common/images/planet-desert.png" width="70" height="72" align="absmiddle"><b>Desert Moon</b><br>
+                   The Desert Moon has magnificent views and a very dry climate. The days are very hot and the nights are cold. It is pretty complicated to grow plants on a desert moon, but if you are patient and persistent you may succeed. The crop of the desert moon is rare and very valuable. <br><br>
+                    
+                    <img src="../common/images/planet-mud.png" width="70" height="72" align="absmiddle"><b>Swamp Moon</b><br>
+                    The Swamp Moon is foggier and more mysterious than other moons. The climate is comfortable yet extremely wet. There is no shortage in water but one should watch his step while exploring the swamps. Rare plants and mushrooms grow on the swamp moon.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b2"></a>How do I get to my own ekoloko moon?</span><br>
+                    <span class="BodyText">To get to your moon, click the Moon House <img src="../common/images/moon-icon.png" align="absmiddle"> button to the left of your Chat Bar. This will transport you to your moon.                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b3"></a>Can anyone become an owner of an ekoloko moon?</span><br>
+                    <span class="BodyText">The mission of populating the new moons of ekoloko was awarded to all Ekos.  
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="b4"></a>What's on my moon?</span><br>
+                    <span class="BodyText">Every moon in ekoloko has been equipped with a basic tent, a water pump, a see-through plastic dome to keep the oxygen in, and a solar energy station. In the near future you will be able to develop your own garden and grow plants that will supply food and oxygen for the entire ekoloko population.                 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="b5"></a>What can I do here?</span><br>
+                    <span class="BodyText">Adam Greenleaf's grand plan was to allow brave Pioneers to populate and research new moons, where they could develop fields that would produce food and oxygen for the ekoloko population. As a first step you can build and decorate your house where you can entertain your Eko friends, start planting your garden and learn more about your own private moon.
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <span class="Title">ekoloko Moon Homes</span><br>
+                  
+                   <p><span class="FAQTitle"><a name="c1"></a>How can I get more stuff for my moon house?</span><br>
+                    <span class="BodyText">Your moon house comes equipped with very basic items. You may buy additional items for your home by clicking this button. <img src="../common/images/home_btn1.png" width="142" height="25" align="absmiddle"><br>
+<br>
+Across the top of your screen you will see a selection of icons. The icons on the left represent the different categories of items you can choose from to furnish your house. The icons on the right represent different structural options, such as wall coverings, floor types, roof types, etc.<br>
+<br>
+All furnishings you purchase will be added to your inventory of items, and can be used or stored as you like. If you choose to change a structural item, such as the type of floor or roof you have, each new item will replace the one you previously had.<br>
+<br>
+To purchase furnishings, choose from the different categories that appear across the top left side of your screen (furniture, electronics, rugs, etc.) and then select the item that you would like from the store. To purchase the item, click and drag it to your home (chairs, windows, etc.) and approve the purchase. <br>
+<br>
+To purchase a new roof or floor, click the one you’d like to have – it will automatically replace the one you had previously so you can see how it will look, and if you like the change, approve the purchase.<br>
+<br>
+Some of the items are restricted to Pioneers or to certain Levels, Generations, or energy sources. You can see what the restrictions are in the small viewer that will appear in the center.<br>
+<br>
+When you are finished decorating click.                </span>
+                    <img src="../common/images/home_btn2.png" width="142" height="25" align="absmiddle"><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c2"></a>How do I sell stuff I don’t want in my house anymore?</span><br>
+                    <span class="BodyText">In order to sell house items you don’t want anymore, click <img src="../common/images/home_btn1.png" align="absmiddle">,  and drag the item you wish to sell from the house or from your storage back to the top menu. Confirm the sale, then exit the design mode by clicking                </span>
+                    <img src="../common/images/home_btn2.png" width="142" height="25" align="absmiddle"><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c3"></a>Can I re-arrange my house?</span><br>
+                  <span class="BodyText">In order to re-arrange items in your moon house click <img src="../common/images/home_btn1.png" align="absmiddle"> . Select an item and drag it to its new location. Furnishings can be placed on the floor, the walls or the ceiling.<br>
+You may drag items around the house and place them on spots that are lit up with a green light.</span>
+<div align="center"><img src="../common/images/moon_item_can_place.jpg" width="168" height="104" border="1" align="absmiddle" style="border-color:#009900"></div>
+<span class="BodyText">A red light means that the spot is either too small or not appropriate for this item.</span>
+ <div align="center"><img src="../common/images/moon_item_cannot_place.jpg" width="168" height="104" border="1" align="absmiddle" style="border-color:#009900"></div>
+<span class="BodyText"> To flip an item, click the item and then click the arrow icon. <img src="../common/images/moon_item_rotate.png" align="absmiddle"> <br>
+If you want to add an item you have in storage, simply click and drag it to the spot you want in your home.<br>
+<br>
+In order to save the new arrangement and exit this mode click.                </span>
+                    <img src="../common/images/home_btn2.png" width="142" height="25" align="absmiddle"><br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c4"></a>What is the Solar Energy Station, and what does it do?</span><br>
+                    <span class="BodyText">Every moon on the ekolokian moon belt is equipped with a Solar Energy Station that produces electricity. Stations that are at a higher level can provide more electricity and allow you to use more electronic appliances in your house. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="c5"></a>How do I upgrade my Solar Energy Station?</span><br>
+                    <span class="BodyText"><img src="../common/images/garden_power_en.jpg" style="float:left; padding-right:10px"> Click the station. A window will open that will show you the amount of Kokos you need for the upgrade, and how long it will take. Once the upgrade is complete, you will be able to add many more electronic devices to your home. Some of the electronic appliances move when you click or roll over them with your mouse (the lights, the fan, etc.) and make your house more lively. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="c6"></a>Can I visit other moons?</span><br>
+                    <span class="BodyText">Absolutely! In order to visit other Ekos’ moons, click the Eko then click <img src="../common/images/otherPlayer_moon.png" align="absmiddle"> on his personal menu. If the moon isn’t locked (like it appears in the icon) you’ll be teleported there immediately. It is not possible to visit moons that have been locked.<br>
+<br>
+It is also possible to visit another Eko’s moon while they are there.<br>
+You may have sometimes noticed Ekos with balloons over their head showing the moon home icon, like this:<br>
+<img src="../common/images/otherPlayer_moon_avatar.jpg" width="101" height="173"><br>
+This means this user is in his moon home. If the balloon were purple, this would mean this Eko was visiting another user’s moon home. By clicking this user’s balloon, you can also be transported to his moon home, provided it isn’t locked.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c7"></a>Can I upgrade my house?</span><br>
+                    <span class="BodyText">In order to upgrade your moon house you need to be a moon Captain for at least 15 days. After this minimal period has passed you’ll be able to upgrade your house using this button <img src="../common/images/upgrade_house_icon.jpg" align="absmiddle"> on the top menu. Please note that once you move to an upgraded home all of your items will be moved to storage and you will need to design your house from scratch.               
+                     </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c8"></a>Can I move to a new moon?</span><br>
+                    <span class="BodyText">As part of this special mission, Adam Greenleaf has requested that Ekos will remain on their moon for at least 30 days before they move to a different moon. At the end of this period you may click the Moon Home button <img src="../common/images/change_planet_icon.png" align="absmiddle"> and select a new moon. Please note, once you move to a new moon your furnishings will move to storage and you will enter a basic tent in your new moon.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c9"></a>Can I prevent others from entering my moon?</span><br>
+                    <span class="BodyText">You may lock your moon by clicking <img src="../common/images/house_locked.png" align="absmiddle">.<br>
+Please note, once you lock your moon no other Eko will be able to visit and all the other Ekos that were on your moon already will be teleported back to ekoloko.<br>
+ To unlock your moon, click the lock button (now it looks like this <img src="../common/images/house_unlocked.png" align="absmiddle">) again.               </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                  <p><span class="FAQTitle"><a name="c10"></a>What is the sign which is located near my moon home?</span><br>
+                    <span class="BodyText">The sign located near your home represents your Captain's Log. Clicking it will allow your visitors to learn your moon's name, the name of the Captain (yours) and your adventures on the day of the visit. If you want to know who owns a moon house you are visiting, just click this sign when entering their moon.
+             </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  		
+                     <br><span class="Title">ekoloko Moon Farms</span><br>
+                   
+					  <p><span class="FAQTitle"><a name="d1"></a>What are the ekoloko Moon Farms?</span><br>
+                    <span class="BodyText">Ekos have the right to participate in a special adventure and populate one of the ekoloko moons, where they get to build their home and grow crops on their Moon Farm. The crops can be given to ekoloko residents to complete quests, for friendly trades with other Ekos, and in the future may even be exchanged in one of the ekoloko shops. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="d2"></a>Can I grow all the plants on every moon?</span><br>
+                    <span class="BodyText">No. Some plants can be grown on every moon such as potatoes and corn. Other plants can be grown only on a specific moon type.                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="d3"></a>How do I operate my Moon Farm?</span><br>
+                    <span class="BodyText"><img src="../common/images/garden_stage_plant.jpg" class="images" style="float:left; margin:7px;"><br><strong>Planting:</strong><br>
+                   To begin with, you will have 3 fields you can plant. Click one of your fields. If it is available for planting you will enter the seed shop. Note your gardening level! It has a direct impact on the plants you are able to grow. 
+ <br>
+                    <br><br><br>
+                    
+                    <img src="../common/images/garden_stage_water.jpg" class="images" style="float:left; margin:7px;"><strong>Watering:</strong><br>
+                    Your plant will grow as long as it has enough water. After clicking to plant your seeds, you will then need to click each field again to water it. <br>
+                    Move your mouse above a field that has been planted. An info window will open with two major gauges:<br>
+<img src="../common/images/garden_meters_en.jpg" class="images" style="float:left; margin-right:7px; margin-top:5px"><br>
+ 1. The time required for this plant to be ready for harvest<br>
+ 2. How long each watering session will last. If the growing time is longer than the time the water will last, remember to return and water the field again.<br>
+                    <br>
+                    
+                    <img src="../common/images/garden_stage_harvest.jpg" class="images" style="float:left; margin:7px;"><br><strong>Harvesting the Crops:</strong><br>
+                    Sparkling stars will indicate to you that your plants have reached their final size. If you want to harvest them, click them to pick the crops. The crops will appear in a specific tab in your inventory. Please note! Your gardening level will impact the amount of crops you will get. 
+  <br><br><br>
+                    
+                    <img src="../common/images/garden_stage_fail.jpg" class="images" style="float:left; margin:7px;"><br><strong>Withering:</strong><br>
+                    Plants that aren’t watered will stop growing. If they remain without water for too long they will wither and die.  However, plants that have reached their full size will not wither. If you don’t want to harvest a crop, you can leave them planted, once they have reached their full size. This will allow you to maintain beautiful farms. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+
+				 <p><span class="FAQTitle"><a name="d4"></a>The fields on my moon farm have different colors. What does every color mean?</span><br>
+                    <span class="BodyText"><img src="../common/images/garden_ground_nothing.jpg" class="images" style="float:left; margin:7px;"><br>A field that is not yet ready to be planted.<br><br><br>
+                    
+                    <img src="../common/images/garden_ground_new.jpg" class="images" style="float:left; margin:7px;"><br>A field that is ready to be planted. Click it to enter the seed store. <br><br><br>
+                    
+                    <img src="../common/images/garden_ground_water.jpg" class="images" style="float:left; margin:7px;">A field that has been recently watered. Move the mouse over it to see how much “WATER TIME” (that allows the plant to grow) you have left. <img src="../common/images/garden_waterLevel.jpg" alt="" align="absmiddle" class="images" style="margin-left:5px"><br><br>
+                    
+                    <img src="../common/images/garden_ground_nowater.jpg" class="images" style="float:left; margin:7px;"><br>This is a field that has not been watered in a while. Click it to see how much time your plant needs to fully develop and water it. <br><br>
+                    
+                    <img src="../common/images/garden_ground_dry.jpg" class="images" style="float:left; margin:7px;"><br>This is a dry field in desperate need of watering. You should water it if you don’t want your plants to wither and die.	
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                     <p><span class="FAQTitle"><a name="d5"></a>What do “GARDENER LEVEL” <img src="../common/images/garden_level_icon.png" align="absmiddle"> and GARDENER POINTS mean?</span><br>
+                    <span class="BodyText">The more plants you grow the better gardeners you become and the higher you move up the Gardener Level ladder. Once you reach higher gardening levels you’ll get more crops out of your fields, you’ll have a bigger selection of plants you can grow and you’ll be able to complete harder and more rewarding quests. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="d6"></a>How do I get more fields ready for planting?</span><br>
+                    <span class="BodyText"><img src="../common/images/garden_pump_en.jpg" alt="" align="absmiddle" class="images" style="float:left; margin:7px"><br>
+                    <br>
+                    The number of fields available for planting is related to the amount of water you have available to water your fields. To upgrade your water pump, click it and you will open a window that will tell you how much it costs to upgrade your pump and how much time it will take. Once you complete the upgrade you will be able to water a larger number of fields. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="d7"></a>What happens if I don’t water my garden?</span><br>
+                    <span class="BodyText">If you do not water your garden while your plants are still growing, they will wither and die. If they are fully grown they will stay alive and you can harvest them or keep them to decorate your farm.
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                   <p><span class="FAQTitle"><a name="d8"></a>What happens to my Water Pump, My Solar Station and my Gardener Level when I move to a new moon?</span><br>
+                    <span class="BodyText">If you decide to move to a new moon you will keep the same gardener level but your water pump and solar station will remain at your original moon and you will receive new basic ones on your new moon that you will need to upgrade. 
+                </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Back To Top.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" width="540" height="3" class="images"><br></p>
+                  
+                </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="#" onClick="passHrefParam('Parents_About.html')" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="#" onClick="passHrefParam('Help_Contact.html')" class="footerLinks">Contact Us</a>  |   <a href="#" onClick="passHrefParam('Site_Map.html')" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2012 Virtual Tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

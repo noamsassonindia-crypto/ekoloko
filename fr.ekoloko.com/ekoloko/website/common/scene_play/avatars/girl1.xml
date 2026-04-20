@@ -1,0 +1,13 @@
+﻿<avatar name="zorbab" level="23">
+  <items>
+    <item type="16" name="MAKEUP" ordinal="2"/>
+    <item type="1" name="HAIR" ordinal="11207"/>
+    <item type="2" name="EYES" ordinal="2"/>
+    <item type="4" name="SHIRT" ordinal="88818"/>
+    <item type="6" name="PANTS" ordinal="10113"/>
+    <item type="8" name="GLASSES" ordinal="10905"/>
+    <item type="9" name="EARRINGS" ordinal="10510"/>
+    <item type="13" name="HAT" ordinal="50705"/>
+    <item type="15" name="SKINTONE" ordinal="3"/>
+  </items>
+</avatar>

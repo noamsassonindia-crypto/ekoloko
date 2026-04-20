@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="he">
+	<link rel="self" type="application/atom+xml" href="https://ekoloko.co.il/app.php/feed/topic/254" />
+
+	<title>אקולוקו - Ekoloko</title>
+	<subtitle>פורום אקולוקו הרישמי</subtitle>
+	<link href="https://ekoloko.co.il/index.php" />
+	<updated>2019-07-06T09:24:08+03:00</updated>
+
+	<author><name><![CDATA[אקולוקו - Ekoloko]]></name></author>
+	<id>https://ekoloko.co.il/app.php/feed/topic/254</id>
+
+		<entry>
+		<author><name><![CDATA[EkoIoko]]></name></author>
+		<updated>2019-07-06T09:24:08+03:00</updated>
+
+		<published>2019-07-06T09:24:08+03:00</published>
+		<id>https://ekoloko.co.il/viewtopic.php?t=254&amp;p=719#p719</id>
+		<link href="https://ekoloko.co.il/viewtopic.php?t=254&amp;p=719#p719"/>
+		<title type="html"><![CDATA[מה המצב ? כמה שאלות לבעלים.]]></title>
+
+		
+		<content type="html" xml:base="https://ekoloko.co.il/viewtopic.php?t=254&amp;p=719#p719"><![CDATA[
+נחמד מה שהרשמתם פה (: <br><br>אני בעל עסק ואני מומחה בשיווק והפצה, בניית אתרים ובין היתר עובד בהפקות של אירועים בארץ.<br>אני בדרך כלל עושה פרויקטים בעשרות אלפי שקלים לעסקים קטנים עד גדולים, כרגע הבנתי שאתם רוצים להחזיר את אקולוקו.<br><br>במידה וזה נכון צרו איתי קשר ואני אוכל לתרום לכם בחינם עד כמה שאוכל מתוך רצון לתרום לקהילה. <br><br>רק יש לי כמה שאלות, אתם קשורים איך שהוא לגל וגיא שהיו פעם מנהלים את החברה וירטואל ווינס?<br>מבחינה משפטית איך אתם מצליחים לבצע את כל זה בלי לקבל תביעה? אני רק רוצה להבין שמה שהולך פה זה חוקי.<p>סטטיסטיקות: נשלח על ידי <a href="https://ekoloko.co.il/memberlist.php?mode=viewprofile&amp;u=645">EkoIoko</a> — 06 יולי 2019, 09:24</p><hr />
+]]></content>
+	</entry>
+	</feed>

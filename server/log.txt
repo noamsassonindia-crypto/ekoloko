@@ -1,0 +1,2186 @@
+david@david-MS-7D22:~/Desktop/smartfox/newserver$ node s.js
+node:internal/modules/cjs/loader:1137
+  throw err;
+  ^
+
+Error: Cannot find module './protocol'
+Require stack:
+- /home/david/Desktop/smartfox/newserver/extension_bypass.js
+- /home/david/Desktop/smartfox/newserver/s.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/david/Desktop/smartfox/newserver/extension_bypass.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/david/Desktop/smartfox/newserver/extension_bypass.js',
+    '/home/david/Desktop/smartfox/newserver/s.js'
+  ]
+}
+
+Node.js v18.19.1
+david@david-MS-7D22:~/Desktop/smartfox/newserver$ node s.js
+[2025-09-24 18:33:32.943] [INFO] [MAIN] Starting SmartFoxServer Pro 1.6.6 Node.js implementation
+[2025-09-24 18:33:32.945] [INFO] [SERVER] Initializing SmartFoxServer Pro 1.6.6
+[2025-09-24 18:33:32.945] [DEBUG] [SERVER] Core data structures initialized
+   ┌─ Detailed Information:
+   ├─ initialUserId: 1
+   └─ initialRoomId: 1000
+[2025-09-24 18:33:32.945] [INFO] [DB] Initializing database connection
+[2025-09-24 18:33:32.946] [DEBUG] [DB] Creating PostgreSQL client
+   ┌─ Detailed Information:
+   ├─ host: localhost
+   ├─ user: postgres
+   ├─ database: vtweens_game
+   ├─ password: 
+   └─ port: 5432
+[2025-09-24 18:33:32.947] [DEBUG] [DB] Connecting to database...
+[2025-09-24 18:33:32.950] [INFO] [SERVER] Initializing default rooms
+[2025-09-24 18:33:32.950] [INFO] [SERVER] No rooms found in database, attempting to load rooms from files
+[2025-09-24 18:33:32.951] [INFO] [SERVER] Loaded 50 rooms from /home/david/Desktop/smartfox/ekoloko-both-master/ekoloko/world_rooms
+[2025-09-24 18:33:32.951] [PERF] [PERFORMANCE] INIT_DEFAULT_ROOMS completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:32.952] [INFO] [SERVER] Starting socket server
+[2025-09-24 18:33:32.956] [INFO] [SERVER] Starting performance monitoring
+[2025-09-24 18:33:32.956] [PERF] [PERFORMANCE] SERVER_INIT completed
+   ┌─ Detailed Information:
+   ├─ duration: 11ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+1MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:32.956] [INFO] [SERVER] SmartFoxServer Pro 1.6.6 Node.js implementation started successfully
+[2025-09-24 18:33:32.956] [INFO] [SERVER] Socket server listening on port 9339
+[2025-09-24 18:33:32.956] [INFO] [SERVER] HTTP server listening on port 8080
+[2025-09-24 18:33:32.956] [INFO] [SERVER] Debug mode enabled - Level: DEBUG
+[2025-09-24 18:33:32.957] [INFO] [MAIN] 🚀 SmartFoxServer Pro 1.6.6 Node.js implementation is running!
+[2025-09-24 18:33:32.957] [INFO] [MAIN] 📡 Socket server ready for Flash clients
+[2025-09-24 18:33:32.957] [INFO] [MAIN] 🌐 HTTP server ready for polling connections
+[2025-09-24 18:33:32.957] [INFO] [MAIN] 🔧 Debug logging enabled with comprehensive monitoring
+[2025-09-24 18:33:32.957] [INFO] [MAIN] ⏹️  Use Ctrl+C to stop the server
+[2025-09-24 18:33:32.958] [INFO] [SERVER] Socket server listening on port 9339
+[2025-09-24 18:33:32.962] [INFO] [DB] Successfully connected to PostgreSQL database
+[2025-09-24 18:33:32.964] [DEBUG] [DB] Database connection test successful
+   ┌─ Detailed Information:
+   ├─ currentTime:
+   │  "2025-09-24T18:33:32.963Z"
+   └─ postgresVersion: PostgreSQL 16.10
+[2025-09-24 18:33:32.964] [INFO] [DB] Loading rooms from database
+[2025-09-24 18:33:32.966] [DEBUG] [DB] Found 51 rooms in database
+[2025-09-24 18:33:32.966] [INFO] [DB] Successfully loaded 51 rooms from database
+[2025-09-24 18:33:32.966] [PERF] [PERFORMANCE] LOAD_ROOMS completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "63MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:32.966] [PERF] [PERFORMANCE] DB_INIT completed
+   ┌─ Detailed Information:
+   ├─ duration: 20ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "63MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+3MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.079] [DEBUG] [STATE_TRACKER] Connection state transition
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ transition:
+   │  {
+   │    "from": "NONE",
+   │    "to": "CONNECTING",
+   │    "timestamp": 1758738831079,
+   │    "context": {
+   │      "remoteAddress": "::ffff:127.0.0.1",
+   │      "remotePort": 55420,
+   │      "timestamp": 1758738831079
+   │    },
+   │    "duration": 0
+   │  }
+   ├─ aiAnalysis:
+   │  {
+   │    "isExpectedTransition": true,
+   │    "transitionSpeed": "FAST",
+   │    "potentialIssues": [],
+   │    "recommendations": []
+   │  }
+   └─ troubleshooting:
+      []
+[2025-09-24 18:33:51.080] [SOCKET] [NETWORK] New socket connection established
+   ┌─ Detailed Information:
+   ├─ remoteAddress: ::ffff:127.0.0.1
+   ├─ remotePort: 55420
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ totalConnections: 1
+   └─ currentConnections: 1
+[2025-09-24 18:33:51.089] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   ├─ dataLength: 23
+   ├─ currentBufferSize: 0
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:51.089] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ totalBufferSize: 23
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:51.089] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 22
+   ├─ messagePreview: <policy-file-request/>
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:51.089] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 1
+[2025-09-24 18:33:51.090] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 22
+   ├─ messageStart: <policy-file-request/>
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:51.090] [DEBUG] [SECURITY] Flash crossdomain policy requested
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   └─ messageType: CROSSDOMAIN_POLICY_REQUEST
+[2025-09-24 18:33:51.090] [INFO] [SECURITY] Sending Flash crossdomain policy
+[2025-09-24 18:33:51.090] [DEBUG] [SECURITY] Crossdomain policy sent, message handling complete
+   ┌─ Detailed Information:
+   └─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+[2025-09-24 18:33:51.090] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   └─ messageNumber: 1
+[2025-09-24 18:33:51.090] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55420_1758738831079 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.090] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ user: NOT_LOGGED_IN
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 1
+[2025-09-24 18:33:51.091] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55420_1758738831079 completed
+   ┌─ Detailed Information:
+   ├─ duration: 3ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.100] [DEBUG] [STATE_TRACKER] Connection state transition
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ transition:
+   │  {
+   │    "from": "CONNECTING",
+   │    "to": "DISCONNECTED",
+   │    "timestamp": 1758738831100,
+   │    "context": {
+   │      "duration": 20,
+   │      "reason": "SOCKET_CLOSED"
+   │    },
+   │    "duration": 21
+   │  }
+   ├─ aiAnalysis:
+   │  {
+   │    "isExpectedTransition": false,
+   │    "transitionSpeed": "FAST",
+   │    "potentialIssues": [
+   │      "UNEXPECTED_STATE_TRANSITION"
+   │    ],
+   │    "recommendations": [
+   │      "Check if client is following correct protocol flow"
+   │    ]
+   │  }
+   └─ troubleshooting:
+      []
+[2025-09-24 18:33:51.100] [SOCKET] [NETWORK] Socket connection closed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55420_1758738831079
+   ├─ duration: 20ms
+   └─ currentConnections: 0
+[2025-09-24 18:33:51.100] [INFO] [USER] Socket disconnected before login
+[2025-09-24 18:33:51.100] [DEBUG] [STATE_TRACKER] Connection state transition
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ transition:
+   │  {
+   │    "from": "NONE",
+   │    "to": "CONNECTING",
+   │    "timestamp": 1758738831100,
+   │    "context": {
+   │      "remoteAddress": "::ffff:127.0.0.1",
+   │      "remotePort": 55428,
+   │      "timestamp": 1758738831100
+   │    },
+   │    "duration": 0
+   │  }
+   ├─ aiAnalysis:
+   │  {
+   │    "isExpectedTransition": true,
+   │    "transitionSpeed": "FAST",
+   │    "potentialIssues": [],
+   │    "recommendations": []
+   │  }
+   └─ troubleshooting:
+      []
+[2025-09-24 18:33:51.101] [SOCKET] [NETWORK] New socket connection established
+   ┌─ Detailed Information:
+   ├─ remoteAddress: ::ffff:127.0.0.1
+   ├─ remotePort: 55428
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ totalConnections: 2
+   └─ currentConnections: 1
+[2025-09-24 18:33:51.212] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ dataLength: 117
+   ├─ currentBufferSize: 0
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:51.212] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ totalBufferSize: 117
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:51.213] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 116
+   ├─ messagePreview: <msg t="sys"><body r="-1" action="zInfo">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23...
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:51.213] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 2
+[2025-09-24 18:33:51.213] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 116
+   ├─ messageStart: <msg t="sys"><body r="-1" action="zInfo">1,2,3,4,5
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:51.213] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:51.213] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   └─ xmlPreview: <msg t="sys"><body r="-1" action="zInfo">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24</body></msg>
+[2025-09-24 18:33:51.215] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t="sys"><body r="-1" action="zInfo">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24</body></msg>
+   ├─ messageType: sys
+   ├─ action: zInfo
+   ├─ roomId: -1
+   ├─ messageLength: 116
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ timestamp: 2025-09-24T18:33:51.215Z
+   ├─ msgAttributes: t="sys"
+   └─ bodyAttributes: r="-1" action="zInfo"
+[2025-09-24 18:33:51.216] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ action: zInfo
+   ├─ roomId: -1
+   ├─ contentLength: 62
+   ├─ contentPreview: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+   └─ timestamp: 2025-09-24T18:33:51.216Z
+[2025-09-24 18:33:51.216] [DEBUG] [ZONE] Zone info requested
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ channels:
+   │  [
+   │    "1",
+   │    "2",
+   │    "3",
+   │    "4",
+   │    "5",
+   │    "6",
+   │    "7",
+   │    "8",
+   │    "9",
+   │    "10",
+   │    "11",
+   │    "12",
+   │    "13",
+   │    "14",
+   │    "15",
+   │    "16",
+   │    "17",
+   │    "18",
+   │    "19",
+   │    "20",
+   │    "21",
+   │    "22",
+   │    "23",
+   │    "24"
+   │  ]
+   └─ channelCount: 24
+[2025-09-24 18:33:51.217] [DEBUG] [ZONE] Sending zone info response
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ response: <zInfo>1,1,3,0,1,1,3,0,0,1,0,1,0,0,1,1,0,3,0,0,2,0,0,0</zInfo>
+   ├─ counts:
+   │  [
+   │    1,
+   │    1,
+   │    3,
+   │    0,
+   │    1,
+   │    1,
+   │    3,
+   │    0,
+   │    0,
+   │    1,
+   │    0,
+   │    1,
+   │    0,
+   │    0,
+   │    1,
+   │    1,
+   │    0,
+   │    3,
+   │    0,
+   │    0,
+   │    2,
+   │    0,
+   │    0,
+   │    0
+   │  ]
+   └─ channels:
+      [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ]
+[2025-09-24 18:33:51.217] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <zInfo>1,1,3,0,1,1,3,0,0,1,0,1,0,0,1,1,0,3,0,0,2,0,0,0</zInfo>
+   ├─ messageType: UNKNOWN
+   ├─ action: UNKNOWN
+   ├─ roomId: none
+   ├─ messageLength: 62
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   └─ timestamp: 2025-09-24T18:33:51.217Z
+[2025-09-24 18:33:51.217] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55428_1758738831100 completed
+   ┌─ Detailed Information:
+   ├─ duration: 3ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.217] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:51.217] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:51.217] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   └─ messageNumber: 1
+[2025-09-24 18:33:51.218] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55428_1758738831100 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.218] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ user: NOT_LOGGED_IN
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 2
+[2025-09-24 18:33:51.218] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55428_1758738831100 completed
+   ┌─ Detailed Information:
+   ├─ duration: 6ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+1MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:51.223] [DEBUG] [STATE_TRACKER] Connection state transition
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ transition:
+   │  {
+   │    "from": "CONNECTING",
+   │    "to": "DISCONNECTED",
+   │    "timestamp": 1758738831223,
+   │    "context": {
+   │      "duration": 122,
+   │      "reason": "SOCKET_CLOSED"
+   │    },
+   │    "duration": 123
+   │  }
+   ├─ aiAnalysis:
+   │  {
+   │    "isExpectedTransition": false,
+   │    "transitionSpeed": "FAST",
+   │    "potentialIssues": [
+   │      "UNEXPECTED_STATE_TRANSITION"
+   │    ],
+   │    "recommendations": [
+   │      "Check if client is following correct protocol flow"
+   │    ]
+   │  }
+   └─ troubleshooting:
+      []
+[2025-09-24 18:33:51.224] [SOCKET] [NETWORK] Socket connection closed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55428_1758738831100
+   ├─ duration: 123ms
+   └─ currentConnections: 0
+[2025-09-24 18:33:51.224] [INFO] [USER] Socket disconnected before login
+[2025-09-24 18:33:53.013] [DEBUG] [STATE_TRACKER] Connection state transition
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ transition:
+   │  {
+   │    "from": "NONE",
+   │    "to": "CONNECTING",
+   │    "timestamp": 1758738833013,
+   │    "context": {
+   │      "remoteAddress": "::ffff:127.0.0.1",
+   │      "remotePort": 55432,
+   │      "timestamp": 1758738833013
+   │    },
+   │    "duration": 0
+   │  }
+   ├─ aiAnalysis:
+   │  {
+   │    "isExpectedTransition": true,
+   │    "transitionSpeed": "FAST",
+   │    "potentialIssues": [],
+   │    "recommendations": []
+   │  }
+   └─ troubleshooting:
+      []
+[2025-09-24 18:33:53.014] [SOCKET] [NETWORK] New socket connection established
+   ┌─ Detailed Information:
+   ├─ remoteAddress: ::ffff:127.0.0.1
+   ├─ remotePort: 55432
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalConnections: 3
+   └─ currentConnections: 1
+[2025-09-24 18:33:53.019] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ dataLength: 70
+   ├─ currentBufferSize: 0
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:53.019] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 70
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.019] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 69
+   ├─ messagePreview: <msg t='sys'><body action='verChk' r='0'><ver v='156' /></body></msg>
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:53.020] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 3
+[2025-09-24 18:33:53.020] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 69
+   ├─ messageStart: <msg t='sys'><body action='verChk' r='0'><ver v='1
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:53.020] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:53.020] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ xmlPreview: <msg t='sys'><body action='verChk' r='0'><ver v='156' /></body></msg>
+[2025-09-24 18:33:53.020] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='verChk' r='0'><ver v='156' /></body></msg>
+   ├─ messageType: sys
+   ├─ action: verChk
+   ├─ roomId: 0
+   ├─ messageLength: 69
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.020Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='verChk' r='0'
+   └─ specialType: VERSION_CHECK
+[2025-09-24 18:33:53.020] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ action: verChk
+   ├─ roomId: 0
+   ├─ contentLength: 15
+   ├─ contentPreview: <ver v='156' />
+   └─ timestamp: 2025-09-24T18:33:53.020Z
+[2025-09-24 18:33:53.021] [DEBUG] [VERSION] Starting version check process
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ contentLength: 15
+   ├─ contentPreview: <ver v='156' />
+   └─ socketState:
+      {
+        "authenticated": false,
+        "hasRandomKey": false,
+        "hasUser": false
+      }
+[2025-09-24 18:33:53.021] [DEBUG] [VERSION] Version regex matching result
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ hasMatch: true
+   ├─ fullContent: <ver v='156' />
+   └─ regexPattern: /<ver v='(\d+)' \/>/
+[2025-09-24 18:33:53.021] [DEBUG] [VERSION] Client version extracted successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ clientVersion: 156
+   ├─ expectedVersion: 156
+   ├─ versionNumeric: 156
+   └─ isValidFormat: true
+[2025-09-24 18:33:53.021] [INFO] [VERSION] Client version validation successful - sending API OK
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ clientVersion: 156
+   └─ action: SEND_API_OK
+[2025-09-24 18:33:53.021] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='apiOK' r='0'></body></msg>
+   ├─ messageType: sys
+   ├─ action: apiOK
+   ├─ roomId: 0
+   ├─ messageLength: 53
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.021Z
+   ├─ msgAttributes: t='sys'
+   └─ bodyAttributes: action='apiOK' r='0'
+[2025-09-24 18:33:53.022] [INFO] [VERSION] Version check completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ clientVersion: 156
+   ├─ result: ACCEPTED
+   └─ nextStep: Client should request random key or proceed to login
+[2025-09-24 18:33:53.022] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.022] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.022] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:53.022] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ messageNumber: 1
+[2025-09-24 18:33:53.022] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.022] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 3
+[2025-09-24 18:33:53.023] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "-1MB",
+          "heapUsed": "-1MB"
+        }
+      }
+[2025-09-24 18:33:53.034] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ dataLength: 54
+   ├─ currentBufferSize: 0
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:53.035] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 54
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.035] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 53
+   ├─ messagePreview: <msg t='sys'><body action='rndK' r='-1'></body></msg>
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:53.035] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 4
+[2025-09-24 18:33:53.035] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 53
+   ├─ messageStart: <msg t='sys'><body action='rndK' r='-1'></body></m
+   ├─ authenticated: false
+   └─ hasRandomKey: false
+[2025-09-24 18:33:53.035] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:53.035] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ xmlPreview: <msg t='sys'><body action='rndK' r='-1'></body></msg>
+[2025-09-24 18:33:53.036] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='rndK' r='-1'></body></msg>
+   ├─ messageType: sys
+   ├─ action: rndK
+   ├─ roomId: -1
+   ├─ messageLength: 53
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.036Z
+   ├─ msgAttributes: t='sys'
+   └─ bodyAttributes: action='rndK' r='-1'
+[2025-09-24 18:33:53.036] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ action: rndK
+   ├─ roomId: -1
+   ├─ contentLength: 0
+   ├─ contentPreview: none
+   └─ timestamp: 2025-09-24T18:33:53.036Z
+[2025-09-24 18:33:53.036] [DEBUG] [AUTH] Generated random key for client
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ keyLength: 6
+[2025-09-24 18:33:53.036] [INFO] [XML_SYSTEM_RANDOM_KEY] SYSTEM_RANDOM_KEY XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ SENDING_RANDOM_KEY_XML
+   ├─ messageType: UNKNOWN
+   ├─ action: UNKNOWN
+   ├─ roomId: none
+   ├─ messageLength: 22
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ timestamp: 2025-09-24T18:33:53.036Z
+[2025-09-24 18:33:53.037] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='rndK' r='0'><k>441515</k></body></msg>
+   ├─ messageType: sys
+   ├─ action: rndK
+   ├─ roomId: 0
+   ├─ messageLength: 65
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.037Z
+   ├─ msgAttributes: t='sys'
+   └─ bodyAttributes: action='rndK' r='0'
+[2025-09-24 18:33:53.037] [DEBUG] [AUTH] Random key sent - client can now login
+   ┌─ Detailed Information:
+   └─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+[2025-09-24 18:33:53.037] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.037] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.037] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:53.037] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ messageNumber: 1
+[2025-09-24 18:33:53.037] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.038] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 4
+[2025-09-24 18:33:53.038] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.051] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ dataLength: 171
+   ├─ currentBufferSize: 0
+   ├─ authenticated: false
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.051] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 171
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.051] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 170
+   ├─ messagePreview: <msg t='sys'><body action='login' r='0'><login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![...
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:53.051] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 5
+[2025-09-24 18:33:53.051] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageLength: 170
+   ├─ messageStart: <msg t='sys'><body action='login' r='0'><login z='
+   ├─ authenticated: false
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.052] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:53.052] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ xmlPreview: <msg t='sys'><body action='login' r='0'><login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![CDATA[ce4631142b00021497292335890d6cc0]]></pword><
+[2025-09-24 18:33:53.052] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='login' r='0'><login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![CDATA[ce4631142b00021497292335890d6cc0]]></pword></login></body></msg>
+   ├─ messageType: sys
+   ├─ action: login
+   ├─ roomId: 0
+   ├─ messageLength: 170
+   ├─ user: NOT_LOGGED_IN
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.052Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='login' r='0'
+   ├─ cdataLength: 12
+   ├─ cdataPreview: PrivateJoker
+   └─ specialType: LOGIN_REQUEST
+[2025-09-24 18:33:53.052] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ action: login
+   ├─ roomId: 0
+   ├─ contentLength: 117
+   ├─ contentPreview: <login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![CDATA[ce4631142b00021497292335890d6cc0]]></pword></login>
+   └─ timestamp: 2025-09-24T18:33:53.052Z
+[2025-09-24 18:33:53.053] [INFO] [AUTH] LOGIN PROCESS STARTED
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.053Z
+   ├─ step: INITIALIZATION
+   ├─ socketState:
+   │  {
+   │    "authenticated": false,
+   │    "hasRandomKey": true,
+   │    "randomKeyLength": 6,
+   │    "hasUser": false,
+   │    "remoteAddress": "::ffff:127.0.0.1"
+   │  }
+   └─ requestDetails:
+      {
+        "contentLength": 117,
+        "contentPreview": "<login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![CDATA[ce4631142b00021497292335890d6cc0]]"
+      }
+[2025-09-24 18:33:53.053] [DEBUG] [AUTH] Processing login request - detailed analysis
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ hasRandomKey: true
+   ├─ randomKeyLength: 6
+   ├─ contentLength: 117
+   ├─ timestamp: 2025-09-24T18:33:53.053Z
+   └─ serverStats:
+      {
+        "totalConnections": 3,
+        "currentConnections": 1,
+        "totalMessages": 5
+      }
+[2025-09-24 18:33:53.053] [DEBUG] [AUTH] Validating random key requirement
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ step: RANDOM_KEY_VALIDATION
+   ├─ hasRandomKey: true
+   └─ randomKey: [PRESENT]
+[2025-09-24 18:33:53.053] [DEBUG] [AUTH] Random key validation passed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ step: RANDOM_KEY_VALIDATION
+   ├─ result: PASSED
+   └─ randomKeyLength: 6
+[2025-09-24 18:33:53.053] [DEBUG] [AUTH] Starting XML parsing for login credentials
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ step: XML_PARSING
+   ├─ contentLength: 117
+   └─ hasContent: true
+[2025-09-24 18:33:53.053] [DEBUG] [AUTH] XML regex matching result
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ step: XML_PARSING
+   ├─ hasMatch: true
+   ├─ regexUsed: /<login z='([^']*)'><nick><!\[CDATA\[([^\]]*)\]\]><\/nick><pword><!\[CDATA\[([^\]]*)\]\]><\/pword><\/login>/
+   └─ fullContent: <login z='2'><nick><![CDATA[PrivateJoker]]></nick><pword><![CDATA[ce4631142b00021497292335890d6cc0]]></pword></login>
+[2025-09-24 18:33:53.054] [DEBUG] [AUTH] Login credentials extracted successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ step: CREDENTIAL_EXTRACTION
+   ├─ result: SUCCESS
+   ├─ zone: 2
+   ├─ username: PrivateJoker
+   ├─ hashedPasswordLength: 32
+   ├─ hashedPasswordFormat: MD5_HASH
+   └─ credentialsValid: true
+[2025-09-24 18:33:53.054] [INFO] [AUTH] Login attempt details
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ username: PrivateJoker
+   ├─ zone: 2
+   ├─ hashedPasswordLength: 32
+   ├─ randomKey: 441515
+   ├─ clientIP: ::ffff:127.0.0.1
+   └─ timestamp: 2025-09-24T18:33:53.054Z
+[2025-09-24 18:33:53.054] [INFO] [AUTH] Authenticating user
+   ┌─ Detailed Information:
+   ├─ username: PrivateJoker
+   ├─ hasRandomKey: true
+   ├─ hasHashedPassword: true
+   └─ dbAvailable: true
+[2025-09-24 18:33:53.055] [DB] [DATABASE] Executing authentication query
+   ┌─ Detailed Information:
+   └─ username: PrivateJoker
+[2025-09-24 18:33:53.056] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.056] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: NOT_LOGGED_IN
+[2025-09-24 18:33:53.056] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:53.056] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   └─ messageNumber: 1
+[2025-09-24 18:33:53.056] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 5ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.056] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: NOT_LOGGED_IN
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 5
+[2025-09-24 18:33:53.056] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 5ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.058] [INFO] [AUTH] User found in database
+   ┌─ Detailed Information:
+   ├─ username: PrivateJoker
+   ├─ accountId: 4
+   ├─ playerId: 4
+   ├─ isActivated: true
+   ├─ isPremium: true
+   └─ isMod: false
+[2025-09-24 18:33:53.059] [INFO] [AUTH] Authentication successful
+   ┌─ Detailed Information:
+   ├─ username: PrivateJoker
+   ├─ accountId: 4
+   ├─ playerId: 4
+   ├─ level: 50
+   ├─ gold: 10000
+   ├─ isPremium: true
+   └─ isMod: true
+[2025-09-24 18:33:53.059] [PERF] [PERFORMANCE] AUTH_PrivateJoker completed
+   ┌─ Detailed Information:
+   ├─ duration: 5ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.066] [INFO] [LOGIN] Sending login OK response
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ userId: 1
+   ├─ userName: PrivateJoker
+   └─ isModerator: true
+[2025-09-24 18:33:53.066] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='logOK' r='0'><login id='1' mod='1' n='PrivateJoker' /></body></msg>
+   ├─ messageType: sys
+   ├─ action: logOK
+   ├─ roomId: 0
+   ├─ messageLength: 94
+   ├─ user: PrivateJoker
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.066Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='logOK' r='0'
+   └─ specialType: LOGIN_REQUEST
+[2025-09-24 18:33:53.066] [DEBUG] [LOGIN] Login OK sent - client will now request room list
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:53.067] [DEBUG] [LOGIN_EXT] Auto-sending S_LOGIN_OK extension data
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ version: 9.1
+   └─ hasPaid: 1
+[2025-09-24 18:33:53.215] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 59
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.215] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 59
+   └─ user: PrivateJoker
+[2025-09-24 18:33:53.215] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 58
+   ├─ messagePreview: <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:53.215] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 6
+[2025-09-24 18:33:53.215] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 58
+   ├─ messageStart: <msg t='sys'><body action='getRmList' r='-1'></bod
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.215] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:53.216] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ xmlPreview: <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+[2025-09-24 18:33:53.216] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+   ├─ messageType: sys
+   ├─ action: getRmList
+   ├─ roomId: -1
+   ├─ messageLength: 58
+   ├─ user: PrivateJoker
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.216Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='getRmList' r='-1'
+   └─ specialType: ROOM_LIST_REQUEST
+[2025-09-24 18:33:53.216] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ action: getRmList
+   ├─ roomId: -1
+   ├─ contentLength: 0
+   ├─ contentPreview: none
+   └─ timestamp: 2025-09-24T18:33:53.216Z
+[2025-09-24 18:33:53.216] [INFO] [ROOM] Sending room list to user PrivateJoker
+[2025-09-24 18:33:53.216] [DEBUG] [ROOM] Sending room list
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ totalRooms: 51
+[2025-09-24 18:33:53.217] [DEBUG] [ROOM] Room list sent
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ xmlLength: 6445
+[2025-09-24 18:33:53.217] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='rmList' r='0'><rmList><rm id='801' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[801]]></n><vars></vars></rm><rm id='802' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[802]]></n><vars></vars></rm><rm id='830' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[830]]></n><vars></vars></rm><rm id='501' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[501]]></n><vars></vars></rm><rm id='503' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[503]]></n><vars></vars></rm><rm id='504' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[504]]></n><vars></vars></rm><rm id='701' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[701]]></n><vars></vars></rm><rm id='702' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[702]]></n><vars></vars></rm><rm id='101' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[101]]></n><vars></vars></rm><rm id='102' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[102]]></n><vars></vars></rm><rm id='103' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[103]]></n><vars></vars></rm><rm id='104' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[104]]></n><vars></vars></rm><rm id='105' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[105]]></n><vars></vars></rm><rm id='106' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[106]]></n><vars></vars></rm><rm id='107' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[107]]></n><vars></vars></rm><rm id='108' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[108]]></n><vars></vars></rm><rm id='109' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[109]]></n><vars></vars></rm><rm id='110' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[110]]></n><vars></vars></rm><rm id='111' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[111]]></n><vars></vars></rm><rm id='112' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[112]]></n><vars></vars></rm><rm id='113' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[113]]></n><vars></vars></rm><rm id='114' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[114]]></n><vars></vars></rm><rm id='115' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[115]]></n><vars></vars></rm><rm id='117' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[117]]></n><vars></vars></rm><rm id='876' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[876]]></n><vars></vars></rm><rm id='301' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[301]]></n><vars></vars></rm><rm id='302' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[302]]></n><vars></vars></rm><rm id='303' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[303]]></n><vars></vars></rm><rm id='304' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[304]]></n><vars></vars></rm><rm id='305' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[305]]></n><vars></vars></rm><rm id='307' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[307]]></n><vars></vars></rm><rm id='316' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[316]]></n><vars></vars></rm><rm id='317' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[317]]></n><vars></vars></rm><rm id='318' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[318]]></n><vars></vars></rm><rm id='603' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[603]]></n><vars></vars></rm><rm id='201' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[201]]></n><vars></vars></rm><rm id='202' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[202]]></n><vars></vars></rm><rm id='203' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[203]]></n><vars></vars></rm><rm id='204' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[204]]></n><vars></vars></rm><rm id='205' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[205]]></n><vars></vars></rm><rm id='206' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[206]]></n><vars></vars></rm><rm id='207' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[207]]></n><vars></vars></rm><rm id='208' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[208]]></n><vars></vars></rm><rm id='209' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[209]]></n><vars></vars></rm><rm id='210' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[210]]></n><vars></vars></rm><rm id='211' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[211]]></n><vars></vars></rm><rm id='212' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[212]]></n><vars></vars></rm><rm id='214' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[214]]></n><vars></vars></rm><rm id='216' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[216]]></n><vars></vars></rm><rm id='217' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[217]]></n><vars></vars></rm><rm id='9025' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[9025]]></n><vars></vars></rm></rmList></body></msg>
+   ├─ messageType: sys
+   ├─ action: rmList
+   ├─ roomId: 0
+   ├─ messageLength: 6499
+   ├─ user: PrivateJoker
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:53.217Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='rmList' r='0'
+   ├─ cdataLength: 3
+   ├─ cdataPreview: 801
+   └─ userVariablesCount: 0
+[2025-09-24 18:33:53.217] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.217] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:53.217] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:53.217] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:53.217] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.217] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 6
+[2025-09-24 18:33:53.218] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 3ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.245] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 49
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.245] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 49
+   └─ user: PrivateJoker
+[2025-09-24 18:33:53.245] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messagePreview: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:53.245] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 7
+[2025-09-24 18:33:53.246] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messageStart: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:53.246] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   ├─ firstChar: {
+   └─ firstCharCode: 123
+[2025-09-24 18:33:53.246] [DEBUG] [MESSAGE] Processing JSON message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ jsonPreview: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+[2025-09-24 18:33:53.247] [INFO] [EXTENSION] EXTENSION PROCESSING STARTED
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ step: INITIALIZATION
+   ├─ extensionDetails:
+   │  {
+   │    "name": "95",
+   │    "numericId": "95",
+   │    "roomId": -1,
+   │    "messageType": "json"
+   │  }
+   ├─ parameters:
+   │  {
+   │    "type": "object",
+   │    "isObject": true,
+   │    "isArray": false,
+   │    "paramCount": 2,
+   │    "preview": "{\"21\":\"95\",\"command\":\"95\"}"
+   │  }
+   ├─ serverStats:
+   │  {
+   │    "totalExtensionsProcessed": 1,
+   │    "currentConnections": 1
+   │  }
+   └─ socketState:
+      {
+        "authenticated": true,
+        "hasUser": true,
+        "currentRoom": null
+      }
+[BYPASS] Extension 95 called by PrivateJoker
+[BYPASS] Sending critical cards static data
+Error parsing JSON message: ReferenceError: PROTOCOL is not defined
+    at ExtensionBypass.handleCardsStaticData (/home/david/Desktop/smartfox/newserver/extension_bypass.js:317:14)
+    at ExtensionBypass.handleExtension (/home/david/Desktop/smartfox/newserver/extension_bypass.js:80:29)
+    at SmartFoxServer.processExtension (/home/david/Desktop/smartfox/newserver/s.js:2395:29)
+    at SmartFoxServer.handleExtensionMessageJson (/home/david/Desktop/smartfox/newserver/s.js:2350:14)
+    at SmartFoxServer.handleJsonMessage (/home/david/Desktop/smartfox/newserver/s.js:2142:22)
+    at SmartFoxServer.handleMessage (/home/david/Desktop/smartfox/newserver/s.js:2009:22)
+    at SmartFoxServer.handleSocketData (/home/david/Desktop/smartfox/newserver/s.js:1910:30)
+    at Socket.<anonymous> (/home/david/Desktop/smartfox/newserver/s.js:1798:22)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+[2025-09-24 18:33:53.250] [PERF] [PERFORMANCE] JSON_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.251] [DEBUG] [MESSAGE] JSON message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:53.251] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   └─ processingSuccessful: true
+[2025-09-24 18:33:53.251] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:53.251] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 6ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:53.251] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 7
+[2025-09-24 18:33:53.251] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 6ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.179] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 49
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.179] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 49
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.179] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messagePreview: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:54.180] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 8
+[2025-09-24 18:33:54.180] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messageStart: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.180] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   ├─ firstChar: {
+   └─ firstCharCode: 123
+[2025-09-24 18:33:54.180] [DEBUG] [MESSAGE] Processing JSON message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ jsonPreview: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+[2025-09-24 18:33:54.180] [INFO] [EXTENSION] EXTENSION PROCESSING STARTED
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ step: INITIALIZATION
+   ├─ extensionDetails:
+   │  {
+   │    "name": "68",
+   │    "numericId": "68",
+   │    "roomId": -1,
+   │    "messageType": "json"
+   │  }
+   ├─ parameters:
+   │  {
+   │    "type": "object",
+   │    "isObject": true,
+   │    "isArray": false,
+   │    "paramCount": 2,
+   │    "preview": "{\"21\":\"68\",\"command\":\"68\"}"
+   │  }
+   ├─ serverStats:
+   │  {
+   │    "totalExtensionsProcessed": 2,
+   │    "currentConnections": 1
+   │  }
+   └─ socketState:
+      {
+        "authenticated": true,
+        "hasUser": true,
+        "currentRoom": null
+      }
+[BYPASS] Extension 68 called by PrivateJoker
+Error parsing JSON message: ReferenceError: PROTOCOL is not defined
+    at ExtensionBypass.handleHouseStaticData (/home/david/Desktop/smartfox/newserver/extension_bypass.js:262:14)
+    at ExtensionBypass.handleExtension (/home/david/Desktop/smartfox/newserver/extension_bypass.js:55:29)
+    at SmartFoxServer.processExtension (/home/david/Desktop/smartfox/newserver/s.js:2395:29)
+    at SmartFoxServer.handleExtensionMessageJson (/home/david/Desktop/smartfox/newserver/s.js:2350:14)
+    at SmartFoxServer.handleJsonMessage (/home/david/Desktop/smartfox/newserver/s.js:2142:22)
+    at SmartFoxServer.handleMessage (/home/david/Desktop/smartfox/newserver/s.js:2009:22)
+    at SmartFoxServer.handleSocketData (/home/david/Desktop/smartfox/newserver/s.js:1910:30)
+    at Socket.<anonymous> (/home/david/Desktop/smartfox/newserver/s.js:1798:22)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+[2025-09-24 18:33:54.181] [PERF] [PERFORMANCE] JSON_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.181] [DEBUG] [MESSAGE] JSON message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.181] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   └─ processingSuccessful: true
+[2025-09-24 18:33:54.181] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:54.181] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.181] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 8
+[2025-09-24 18:33:54.181] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.360] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 59
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.360] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 59
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.360] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 58
+   ├─ messagePreview: <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:54.360] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 9
+[2025-09-24 18:33:54.360] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 58
+   ├─ messageStart: <msg t='sys'><body action='getRmList' r='-1'></bod
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.360] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: XML
+   ├─ firstChar: <
+   └─ firstCharCode: 60
+[2025-09-24 18:33:54.360] [DEBUG] [MESSAGE] Processing XML message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ xmlPreview: <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+[2025-09-24 18:33:54.360] [INFO] [XML_INCOMING] INCOMING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='getRmList' r='-1'></body></msg>
+   ├─ messageType: sys
+   ├─ action: getRmList
+   ├─ roomId: -1
+   ├─ messageLength: 58
+   ├─ user: PrivateJoker
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:54.360Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='getRmList' r='-1'
+   └─ specialType: ROOM_LIST_REQUEST
+[2025-09-24 18:33:54.361] [DEBUG] [SYSTEM] Processing system message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ action: getRmList
+   ├─ roomId: -1
+   ├─ contentLength: 0
+   ├─ contentPreview: none
+   └─ timestamp: 2025-09-24T18:33:54.361Z
+[2025-09-24 18:33:54.361] [INFO] [ROOM] Sending room list to user PrivateJoker
+[2025-09-24 18:33:54.361] [DEBUG] [ROOM] Sending room list
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ totalRooms: 51
+[2025-09-24 18:33:54.361] [DEBUG] [ROOM] Room list sent
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ xmlLength: 6445
+[2025-09-24 18:33:54.361] [INFO] [XML_OUTGOING] OUTGOING XML MESSAGE ANALYSIS
+   ┌─ Detailed Information:
+   │ Full Message Content:
+   │ <msg t='sys'><body action='rmList' r='0'><rmList><rm id='801' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[801]]></n><vars></vars></rm><rm id='802' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[802]]></n><vars></vars></rm><rm id='830' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[830]]></n><vars></vars></rm><rm id='501' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[501]]></n><vars></vars></rm><rm id='503' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[503]]></n><vars></vars></rm><rm id='504' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[504]]></n><vars></vars></rm><rm id='701' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[701]]></n><vars></vars></rm><rm id='702' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[702]]></n><vars></vars></rm><rm id='101' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[101]]></n><vars></vars></rm><rm id='102' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[102]]></n><vars></vars></rm><rm id='103' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[103]]></n><vars></vars></rm><rm id='104' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[104]]></n><vars></vars></rm><rm id='105' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[105]]></n><vars></vars></rm><rm id='106' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[106]]></n><vars></vars></rm><rm id='107' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[107]]></n><vars></vars></rm><rm id='108' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[108]]></n><vars></vars></rm><rm id='109' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[109]]></n><vars></vars></rm><rm id='110' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[110]]></n><vars></vars></rm><rm id='111' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[111]]></n><vars></vars></rm><rm id='112' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[112]]></n><vars></vars></rm><rm id='113' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[113]]></n><vars></vars></rm><rm id='114' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[114]]></n><vars></vars></rm><rm id='115' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[115]]></n><vars></vars></rm><rm id='117' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[117]]></n><vars></vars></rm><rm id='876' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[876]]></n><vars></vars></rm><rm id='301' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[301]]></n><vars></vars></rm><rm id='302' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[302]]></n><vars></vars></rm><rm id='303' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[303]]></n><vars></vars></rm><rm id='304' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[304]]></n><vars></vars></rm><rm id='305' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[305]]></n><vars></vars></rm><rm id='307' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[307]]></n><vars></vars></rm><rm id='316' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[316]]></n><vars></vars></rm><rm id='317' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[317]]></n><vars></vars></rm><rm id='318' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[318]]></n><vars></vars></rm><rm id='603' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[603]]></n><vars></vars></rm><rm id='201' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[201]]></n><vars></vars></rm><rm id='202' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[202]]></n><vars></vars></rm><rm id='203' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[203]]></n><vars></vars></rm><rm id='204' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[204]]></n><vars></vars></rm><rm id='205' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[205]]></n><vars></vars></rm><rm id='206' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[206]]></n><vars></vars></rm><rm id='207' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[207]]></n><vars></vars></rm><rm id='208' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[208]]></n><vars></vars></rm><rm id='209' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[209]]></n><vars></vars></rm><rm id='210' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[210]]></n><vars></vars></rm><rm id='211' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[211]]></n><vars></vars></rm><rm id='212' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[212]]></n><vars></vars></rm><rm id='214' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[214]]></n><vars></vars></rm><rm id='216' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[216]]></n><vars></vars></rm><rm id='217' maxu='50' maxs='10' temp='0' game='0' priv='0' lmb='0' ucnt='0' scnt='0'><n><![CDATA[217]]></n><vars></vars></rm><rm id='9025' maxu='50' maxs='10' temp='0' game='0' priv='1' lmb='0' ucnt='0' scnt='0'><n><![CDATA[9025]]></n><vars></vars></rm></rmList></body></msg>
+   ├─ messageType: sys
+   ├─ action: rmList
+   ├─ roomId: 0
+   ├─ messageLength: 6499
+   ├─ user: PrivateJoker
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ timestamp: 2025-09-24T18:33:54.361Z
+   ├─ msgAttributes: t='sys'
+   ├─ bodyAttributes: action='rmList' r='0'
+   ├─ cdataLength: 3
+   ├─ cdataPreview: 801
+   └─ userVariablesCount: 0
+[2025-09-24 18:33:54.361] [PERF] [PERFORMANCE] XML_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.361] [DEBUG] [MESSAGE] XML message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.361] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: XML
+   └─ processingSuccessful: true
+[2025-09-24 18:33:54.361] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:54.362] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.362] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 9
+[2025-09-24 18:33:54.362] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 3ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "59MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.578] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 49
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.578] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 49
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.578] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messagePreview: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:54.578] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 10
+[2025-09-24 18:33:54.578] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messageStart: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:54.578] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   ├─ firstChar: {
+   └─ firstCharCode: 123
+[2025-09-24 18:33:54.578] [DEBUG] [MESSAGE] Processing JSON message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ jsonPreview: {"t":"xt","b":{"c":"95","x":"95","p":{},"r":-1}}
+[2025-09-24 18:33:54.579] [INFO] [EXTENSION] EXTENSION PROCESSING STARTED
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ step: INITIALIZATION
+   ├─ extensionDetails:
+   │  {
+   │    "name": "95",
+   │    "numericId": "95",
+   │    "roomId": -1,
+   │    "messageType": "json"
+   │  }
+   ├─ parameters:
+   │  {
+   │    "type": "object",
+   │    "isObject": true,
+   │    "isArray": false,
+   │    "paramCount": 2,
+   │    "preview": "{\"21\":\"95\",\"command\":\"95\"}"
+   │  }
+   ├─ serverStats:
+   │  {
+   │    "totalExtensionsProcessed": 3,
+   │    "currentConnections": 1
+   │  }
+   └─ socketState:
+      {
+        "authenticated": true,
+        "hasUser": true,
+        "currentRoom": null
+      }
+[BYPASS] Extension 95 called by PrivateJoker
+[BYPASS] Sending critical cards static data
+Error parsing JSON message: ReferenceError: PROTOCOL is not defined
+    at ExtensionBypass.handleCardsStaticData (/home/david/Desktop/smartfox/newserver/extension_bypass.js:317:14)
+    at ExtensionBypass.handleExtension (/home/david/Desktop/smartfox/newserver/extension_bypass.js:80:29)
+    at SmartFoxServer.processExtension (/home/david/Desktop/smartfox/newserver/s.js:2395:29)
+    at SmartFoxServer.handleExtensionMessageJson (/home/david/Desktop/smartfox/newserver/s.js:2350:14)
+    at SmartFoxServer.handleJsonMessage (/home/david/Desktop/smartfox/newserver/s.js:2142:22)
+    at SmartFoxServer.handleMessage (/home/david/Desktop/smartfox/newserver/s.js:2009:22)
+    at SmartFoxServer.handleSocketData (/home/david/Desktop/smartfox/newserver/s.js:1910:30)
+    at Socket.<anonymous> (/home/david/Desktop/smartfox/newserver/s.js:1798:22)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+[2025-09-24 18:33:54.579] [PERF] [PERFORMANCE] JSON_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.579] [DEBUG] [MESSAGE] JSON message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:54.579] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   └─ processingSuccessful: true
+[2025-09-24 18:33:54.579] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:54.579] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:54.579] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 10
+[2025-09-24 18:33:54.579] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:55.203] [DEBUG] [SOCKET] Incoming socket data received
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ dataLength: 49
+   ├─ currentBufferSize: 0
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:55.204] [DEBUG] [SOCKET] Buffer state after concat
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ totalBufferSize: 49
+   └─ user: PrivateJoker
+[2025-09-24 18:33:55.204] [DEBUG] [SOCKET] Processing message from buffer
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messagePreview: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+   └─ remainingBuffer: 0
+[2025-09-24 18:33:55.204] [DEBUG] [SOCKET] Starting message processing
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageNumber: 1
+   └─ totalMessagesProcessed: 11
+[2025-09-24 18:33:55.204] [DEBUG] [MESSAGE] Starting message handling
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageLength: 48
+   ├─ messageStart: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+   ├─ authenticated: true
+   └─ hasRandomKey: true
+[2025-09-24 18:33:55.204] [DEBUG] [MESSAGE] Message type determined
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   ├─ firstChar: {
+   └─ firstCharCode: 123
+[2025-09-24 18:33:55.204] [DEBUG] [MESSAGE] Processing JSON message
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ jsonPreview: {"t":"xt","b":{"c":"68","x":"68","p":{},"r":-1}}
+[2025-09-24 18:33:55.204] [INFO] [EXTENSION] EXTENSION PROCESSING STARTED
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ step: INITIALIZATION
+   ├─ extensionDetails:
+   │  {
+   │    "name": "68",
+   │    "numericId": "68",
+   │    "roomId": -1,
+   │    "messageType": "json"
+   │  }
+   ├─ parameters:
+   │  {
+   │    "type": "object",
+   │    "isObject": true,
+   │    "isArray": false,
+   │    "paramCount": 2,
+   │    "preview": "{\"21\":\"68\",\"command\":\"68\"}"
+   │  }
+   ├─ serverStats:
+   │  {
+   │    "totalExtensionsProcessed": 4,
+   │    "currentConnections": 1
+   │  }
+   └─ socketState:
+      {
+        "authenticated": true,
+        "hasUser": true,
+        "currentRoom": null
+      }
+[BYPASS] Extension 68 called by PrivateJoker
+Error parsing JSON message: ReferenceError: PROTOCOL is not defined
+    at ExtensionBypass.handleHouseStaticData (/home/david/Desktop/smartfox/newserver/extension_bypass.js:262:14)
+    at ExtensionBypass.handleExtension (/home/david/Desktop/smartfox/newserver/extension_bypass.js:55:29)
+    at SmartFoxServer.processExtension (/home/david/Desktop/smartfox/newserver/s.js:2395:29)
+    at SmartFoxServer.handleExtensionMessageJson (/home/david/Desktop/smartfox/newserver/s.js:2350:14)
+    at SmartFoxServer.handleJsonMessage (/home/david/Desktop/smartfox/newserver/s.js:2142:22)
+    at SmartFoxServer.handleMessage (/home/david/Desktop/smartfox/newserver/s.js:2009:22)
+    at SmartFoxServer.handleSocketData (/home/david/Desktop/smartfox/newserver/s.js:1910:30)
+    at Socket.<anonymous> (/home/david/Desktop/smartfox/newserver/s.js:1798:22)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+[2025-09-24 18:33:55.205] [PERF] [PERFORMANCE] JSON_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 1ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:55.205] [DEBUG] [MESSAGE] JSON message processing completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   └─ user: PrivateJoker
+[2025-09-24 18:33:55.205] [DEBUG] [MESSAGE] Message handling completed
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messageType: JSON
+   └─ processingSuccessful: true
+[2025-09-24 18:33:55.206] [DEBUG] [SOCKET] Message processing completed successfully
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   └─ messageNumber: 1
+[2025-09-24 18:33:55.206] [PERF] [PERFORMANCE] HANDLE_MESSAGE_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 2ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "8MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "+0MB"
+        }
+      }
+[2025-09-24 18:33:55.206] [DEBUG] [SOCKET] Socket data processing complete
+   ┌─ Detailed Information:
+   ├─ connectionId: ::ffff:127.0.0.1:55432_1758738833013
+   ├─ user: PrivateJoker
+   ├─ messagesProcessed: 1
+   ├─ remainingBufferSize: 0
+   └─ totalMessagesProcessed: 11
+[2025-09-24 18:33:55.207] [PERF] [PERFORMANCE] HANDLE_DATA_::ffff:127.0.0.1:55432_1758738833013 completed
+   ┌─ Detailed Information:
+   ├─ duration: 4ms
+   └─ memoryUsage:
+      {
+        "current": {
+          "rss": "60MB",
+          "heapUsed": "7MB"
+        },
+        "diff": {
+          "rss": "+0MB",
+          "heapUsed": "-1MB"
+        }
+      }
+[2025-09-24 18:34:02.966] [PERF] [PERFORMANCE] Server Statistics
+   ┌─ Detailed Information:
+   ├─ uptime: 30s
+   ├─ connections:
+   │  {
+   │    "total": 3,
+   │    "current": 1
+   │  }
+   ├─ users:
+   │  {
+   │    "total": 1,
+   │    "rooms": 51
+   │  }
+   ├─ activity:
+   │  {
+   │    "totalMessages": 11,
+   │    "extensionsProcessed": 4,
+   │    "dbQueries": 2,
+   │    "errors": 0
+   │  }
+   ├─ memory:
+   │  {
+   │    "rss": "59MB",
+   │    "heapUsed": "7MB",
+   │    "heapTotal": "9MB",
+   │    "external": "4MB"
+   │  }
+   └─ database:
+      {
+        "connected": true
+      }
+

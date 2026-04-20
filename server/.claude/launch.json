@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ekoloko",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["s.js"],
+      "port": 8766,
+      "cwd": "C:/Users/sasso/Downloads/best",
+      "env": {
+        "GAME_PATH": "C:\\Users\\sasso\\Downloads\\ekoloko_all_files\\ekoloko_all_files\\play.ekoloko.com\\ekoloko",
+        "HTTP_PORT": "8766",
+        "SOCKET_PORT": "9339"
+      }
+    }
+  ]
+}

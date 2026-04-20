@@ -1,0 +1,16 @@
+{
+  "name": "newserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "s.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node s.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
